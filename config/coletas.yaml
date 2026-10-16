@@ -1,0 +1,53 @@
+# Plano de coleta e orçamento de buscas
+#
+# Cada chamada à API = 1 busca da cota SerpApi (só buscas bem-sucedidas contam;
+# a mesma busca repetida em até 1h vem do cache e não conta).
+
+periodo:
+  inicio: "2026-10-16"   # base para jobs "a cada N dias"
+  fim: "2026-10-24"      # depois desta data nada é coletado
+
+orcamento:
+  reserva_minima: 30     # nunca deixar a conta com menos buscas que isso
+  limite_por_hora: 50    # limite do plano gratuito
+  pausa_entre_buscas_s: 3
+
+parametros_padrao:
+  hl: pt-BR
+  tz: 180                # UTC-3 (Brasília), em minutos
+  date: "now 7-d"
+
+jobs:
+  # 1) Mapa por estado: 1 busca por grupo (5 grupos) = 5/dia
+  - nome: estados
+    tipo: GEO_MAP
+    frequencia_dias: 1
+    geo: BR
+    region: REGION
+    grupos: [G1, G2, G3, G4, CAND]
+
+  # 2) Cidades de SP: mapa por cidade dentro do estado, 1 busca por grupo = 5/dia
+  #    Todas as cidades retornadas são salvas; as de cidades_alvo ganham marcação.
+  - nome: cidades_sp
+    tipo: GEO_MAP
+    frequencia_dias: 1
+    geo: BR-SP
+    region: CITY
+    include_low_search_volume: true
+    grupos: [G1, G2, G3, G4, CAND]
+    cidades_alvo: [Campinas, Ribeirão Preto, Sorocaba, São José dos Campos, São José do Rio Preto]
+
+  # 3) Buscas relacionadas aos candidatos: 1 por candidato = 3/dia
+  - nome: relacionadas_candidatos
+    tipo: RELATED_QUERIES
+    frequencia_dias: 1
+    geo: BR
+    date: "now 1-d"
+    termos: candidatos
+
+  # 4) Buscas relacionadas aos temas: 1 por termo (14) a cada 3 dias
+  - nome: relacionadas_temas
+    tipo: RELATED_QUERIES
+    frequencia_dias: 3
+    geo: BR
+    termos: temas

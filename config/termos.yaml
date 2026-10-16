@@ -1,0 +1,37 @@
+# Termos monitorados no Google Trends
+#
+# Cada grupo vira UMA busca (o Google Trends compara até 5 termos por vez).
+# Todo grupo inclui a âncora, para que os valores de grupos diferentes
+# possam ser comparados entre si (ver docs/metodologia.md).
+
+ancora: "bolsa família"
+
+macrotemas:
+  posto de saúde: Saúde
+  ubs: Saúde
+  mais médicos: Saúde
+  saúde da família: Saúde
+  brasil sorridente: Saúde
+  escola pública: Educação
+  creche: Educação
+  merenda escolar: Educação
+  dinheiro direto na escola: Educação
+  escola em tempo integral: Educação
+  aposentadoria: Aposentadoria e renda
+  inss: Aposentadoria e renda
+  bpc loas: Aposentadoria e renda
+  bolsa família: Aposentadoria e renda
+  lula: Candidatos
+  flávio bolsonaro: Candidatos
+  bolsonaro: Candidatos
+
+# A âncora é adicionada automaticamente a cada grupo (não repita aqui).
+# Máximo de 4 termos por grupo (4 + âncora = 5, limite do Google Trends).
+grupos:
+  G1: [inss, aposentadoria, posto de saúde, creche]
+  G2: [ubs, escola pública, bpc loas, merenda escolar]
+  G3: [mais médicos, saúde da família, escola em tempo integral, dinheiro direto na escola]
+  G4: [brasil sorridente]
+  CAND: [lula, flávio bolsonaro, bolsonaro]
+
+candidatos: [lula, flávio bolsonaro, bolsonaro]

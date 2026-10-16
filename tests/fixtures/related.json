@@ -1,0 +1,5 @@
+{"search_metadata":{"id":"def456","status":"Success"},
+ "related_queries":{
+  "rising":[{"query":"flávio bolsonaro debate","value":"Breakout","extracted_value":5000,"link":"x","serpapi_link":"y"},
+            {"query":"flávio bolsonaro inss","value":"+250%","extracted_value":250,"link":"x","serpapi_link":"y"}],
+  "top":[{"query":"flávio bolsonaro","value":"100","extracted_value":100,"link":"x","serpapi_link":"y"}]}}

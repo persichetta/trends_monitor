@@ -1,0 +1,15 @@
+{"search_metadata":{"id":"abc123","status":"Success"},
+ "search_parameters":{"engine":"google_trends","q":"inss,aposentadoria,posto de saúde,creche,bolsa família","geo":"BR-SP","region":"CITY","api_key":"NAO-DEVE-APARECER"},
+ "compared_breakdown_by_region":[
+  {"geo":"","location":"Campinas","max_value_index":4,"values":[
+    {"query":"inss","value":"30%","extracted_value":30},
+    {"query":"aposentadoria","value":"10%","extracted_value":10},
+    {"query":"posto de saúde","value":"5%","extracted_value":5},
+    {"query":"creche","value":"15%","extracted_value":15},
+    {"query":"bolsa família","value":"40%","extracted_value":40}]},
+  {"geo":"","location":"Guarulhos","max_value_index":4,"values":[
+    {"query":"inss","value":"25%","extracted_value":25},
+    {"query":"aposentadoria","value":"<1%","extracted_value":0},
+    {"query":"posto de saúde","value":"5%","extracted_value":5},
+    {"query":"creche","value":"20%","extracted_value":20},
+    {"query":"bolsa família","value":"50%","extracted_value":50}]}]}
