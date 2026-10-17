@@ -20,6 +20,12 @@ SCHEMA = (
     ("eh_ancora", "BOOL"),
     ("valor", "FLOAT64"),
     ("indice_vs_ancora", "FLOAT64"),
+    ("uf", "STRING"),
+    ("cod_tse", "INT64"),
+    ("recorte", "STRING"),
+    ("segmento", "STRING"),
+    ("porte", "STRING"),
+    ("rank_no_segmento_recorte", "INT64"),
     ("hora_ingestao", "TIMESTAMP"),
 )
 
@@ -76,15 +82,32 @@ def _garantir_tabela(client, config: ConfigBigQuery, schema=SCHEMA):
         "BOOLEAN": "BOOL",
         "INTEGER": "INT64",
     }
-    schema_existente = [
-        (campo.name, aliases.get(campo.field_type.upper(), campo.field_type.upper()))
+    schema_existente = {
+        campo.name: aliases.get(campo.field_type.upper(), campo.field_type.upper())
         for campo in tabela.schema
-    ]
-    schema_esperado = [(nome, tipo) for nome, tipo in schema]
-    if schema_existente != schema_esperado:
+    }
+    schema_esperado = dict(schema)
+    desconhecidos = set(schema_existente) - set(schema_esperado)
+    tipos_incompativeis = {
+        nome: (schema_existente[nome], tipo)
+        for nome, tipo in schema_esperado.items()
+        if nome in schema_existente and schema_existente[nome] != tipo
+    }
+    if desconhecidos or tipos_incompativeis:
         raise ValueError(
-            f"Schema incompatível em {destino}. Esperado {schema_esperado}, recebido {schema_existente}."
+            f"Schema incompatível em {destino}; campos extras={sorted(desconhecidos)}, "
+            f"tipos incompatíveis={tipos_incompativeis}."
         )
+
+    faltantes = [
+        bigquery.SchemaField(nome, tipo, mode="NULLABLE")
+        for nome, tipo in schema
+        if nome not in schema_existente
+    ]
+    if faltantes:
+        tabela.schema = list(tabela.schema) + faltantes
+        tabela = client.update_table(tabela, ["schema"])
+
     particionamento = tabela.time_partitioning
     if particionamento is None or particionamento.field != "data_coleta":
         raise ValueError(f"A tabela {destino} precisa ser particionada por data_coleta.")

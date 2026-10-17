@@ -87,6 +87,62 @@ def test_conversor_aceita_valores_numericos_vazios():
     assert linha["eh_ancora"] is True
 
 
+def test_geo_map_aceita_schema_com_segmentacao_e_booleans_do_coletor_atual():
+    linha = converter_linha(
+        _linha(
+            eh_ancora="true",
+            cidade_alvo="false",
+            uf="SP",
+            cod_tse="71072",
+            recorte="RM São Paulo",
+            segmento="2. Disputa voto a voto",
+            porte="grande (200 mil+)",
+            rank_no_segmento_recorte="1",
+        )
+    )
+    assert linha["eh_ancora"] is True
+    assert linha["cidade_alvo"] == "false"
+    assert linha["cod_tse"] == 71072
+    assert linha["rank_no_segmento_recorte"] == 1
+
+
+def test_geo_map_aceita_csv_antigo_sem_colunas_de_segmentacao(tmp_path):
+    arquivo = tmp_path / "geo_map.csv"
+    campos_antigos = CAMPOS_GEO_MAP[:-6]
+    with arquivo.open("w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=campos_antigos)
+        writer.writeheader()
+        writer.writerow(_linha())
+    lote = ler_lote_pendente(arquivo, tmp_path / "checkpoint.json")
+    assert len(lote.linhas) == 1
+    assert lote.linhas[0]["cod_tse"] is None
+    assert lote.linhas[0]["rank_no_segmento_recorte"] is None
+
+
+def test_checkpoint_nao_reingere_linhas_apos_migracao_do_csv_geo_map(tmp_path):
+    arquivo = tmp_path / "geo_map.csv"
+    checkpoint = tmp_path / "geo_map_checkpoint.json"
+    campos_antigos = CAMPOS_GEO_MAP[:-6]
+    antiga = _linha()
+    with arquivo.open("w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=campos_antigos)
+        writer.writeheader()
+        writer.writerow(antiga)
+    lote_antigo = ler_lote_pendente(arquivo, checkpoint)
+    salvar_checkpoint(checkpoint, lote_antigo)
+
+    migrada = {**antiga, "eh_ancora": "false", "cidade_alvo": "true"}
+    for campo in CAMPOS_GEO_MAP[-6:]:
+        migrada.setdefault(campo, "")
+    with arquivo.open("w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=CAMPOS_GEO_MAP)
+        writer.writeheader()
+        writer.writerow(migrada)
+
+    lote_migrado = ler_lote_pendente(arquivo, checkpoint)
+    assert lote_migrado.linhas == []
+
+
 @pytest.mark.parametrize(
     ("alteracoes", "mensagem"),
     [

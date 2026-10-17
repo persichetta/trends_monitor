@@ -131,9 +131,12 @@ A conta de serviço precisa executar jobs no projeto e criar/editar a tabela no
 dataset. O script cria as tabelas caso não existam, cada uma com seu schema e
 partição diária por `data_coleta`; não executa `MERGE`. GEO_MAP vai para
 `gtrends_monitoramento_cidades` e related queries para
-`gtrends_monitoramento_temas`. Cada linha recebe `hora_ingestao` em UTC. Os
-checkpoints são locais à máquina e devem ser preservados junto dos CSVs para que
-as próximas ingestões continuem do ponto correto.
+`gtrends_monitoramento_temas`. GEO_MAP inclui UF e os atributos de segmentação
+(`cod_tse`, `recorte`, `segmento`, `porte` e `rank_no_segmento_recorte`), além
+dos campos originais; CSVs antigos sem essas colunas também são aceitos. Cada
+linha recebe `hora_ingestao` em UTC. Os checkpoints são locais à máquina e devem
+ser preservados junto dos CSVs para que as próximas ingestões continuem do ponto
+correto.
 
 Antes de cada coleta, o script consulta a conta (de graça) e para se:
 - as buscas restantes ficarem abaixo de `reserva_minima` (padrão 30);

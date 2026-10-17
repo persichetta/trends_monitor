@@ -48,6 +48,8 @@ def ler_lote_csv(
     campos_esperados: tuple[str, ...],
     converter: Callable[[dict[str, str]], dict[str, Any]],
     tipo: str,
+    campos_opcionais: tuple[str, ...] = (),
+    hash_compatibilidade: Callable[[dict[str, str]], dict[str, str]] | None = None,
 ) -> LotePendente:
     """Lê os registros não confirmados, detectando truncamento/reescrita do CSV."""
     if not arquivo.exists() or arquivo.stat().st_size == 0:
@@ -58,9 +60,11 @@ def ler_lote_csv(
         campos = leitor.fieldnames
         if campos is None:
             raise ValueError(f"CSV sem cabeçalho: {arquivo}")
-        if len(campos) != len(set(campos)) or set(campos) != set(campos_esperados):
-            faltantes = sorted(set(campos_esperados) - set(campos))
-            extras = sorted(set(campos) - set(campos_esperados))
+        faltantes_set = set(campos_esperados) - set(campos)
+        extras_set = set(campos) - set(campos_esperados)
+        if len(campos) != len(set(campos)) or not faltantes_set.issubset(campos_opcionais) or extras_set:
+            faltantes = sorted(faltantes_set)
+            extras = sorted(extras_set)
             raise ValueError(f"Cabeçalho inesperado em {arquivo}; faltantes={faltantes}, extras={extras}")
 
         registros: list[dict[str, str]] = []
@@ -74,7 +78,14 @@ def ler_lote_csv(
     geracao = uuid.uuid5(uuid.NAMESPACE_URL, f"{tipo}:{_hash_linhas(registros)}").hex
     if estado is not None:
         quantidade = estado["linhas_lidas"]
-        if quantidade <= len(registros) and _hash_linhas(registros[:quantidade]) == estado["hash_prefixo"]:
+        prefixo = registros[:quantidade]
+        hash_atual = _hash_linhas(prefixo) if quantidade <= len(registros) else ""
+        hash_legado = (
+            _hash_linhas([hash_compatibilidade(linha) for linha in prefixo])
+            if hash_compatibilidade and quantidade <= len(registros)
+            else ""
+        )
+        if quantidade <= len(registros) and estado["hash_prefixo"] in {hash_atual, hash_legado}:
             inicio = quantidade
             geracao = estado["geracao"]
         else:
