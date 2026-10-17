@@ -4,7 +4,7 @@
 
 O Google Trends não devolve volume de buscas. Ele devolve um **índice de 0 a 100** que é relativo a tudo o que entrou na mesma consulta: o maior valor da consulta vira 100 e o resto é proporcional a ele. Duas consultas diferentes **não** podem ser comparadas diretamente.
 
-Como cada consulta aceita no máximo 5 termos e monitoramos 17, os termos foram divididos em grupos, e **todo grupo leva o mesmo termo-âncora: "bolsa família"**. A âncora tem volume alto e estável no Brasil todo, então serve de régua comum:
+Como cada consulta aceita no máximo 5 termos e monitoramos 16, os termos foram divididos em grupos, e **todo grupo leva o mesmo termo-âncora: "bolsa família"**. A âncora tem volume alto e estável no Brasil todo, então serve de régua comum. Ela é referência de comparação, não um tema monitorado:
 
 ```
 indice_vs_ancora = valor do termo / valor de "bolsa família" no mesmo local × 100
@@ -14,20 +14,20 @@ Exemplo: em Campinas, `inss = 30` e `bolsa família = 40` → `indice_vs_ancora 
 
 | Grupo | Termos (+ âncora) |
 |---|---|
-| G1 | inss, aposentadoria, posto de saúde, creche |
-| G2 | ubs, escola pública, bpc loas, merenda escolar |
-| G3 | mais médicos, saúde da família, escola em tempo integral, dinheiro direto na escola |
-| G4 | brasil sorridente |
-| CAND | lula, flávio bolsonaro, bolsonaro |
+| G1 | sus, upa, ubs, posto de saúde |
+| G2 | quem criou o sus, prouni, quem criou prouni, fundeb |
+| G3 | escola pública, bpc loas, cadúnico, aposentadoria 70 anos |
+| G4 | inss |
+| CAND | lula, bolsonaro, flávio bolsonaro |
 
 Os grupos misturam macrotemas de propósito: termos de volume parecido ficam juntos, o que evita que um termo muito grande achate os outros em zero.
 
 ### Macrotemas
 
-- **Saúde:** posto de saúde, ubs, mais médicos, saúde da família, brasil sorridente
-- **Educação:** escola pública, creche, merenda escolar, dinheiro direto na escola, escola em tempo integral
-- **Aposentadoria e renda:** aposentadoria, inss, bpc loas, bolsa família
-- **Candidatos:** lula, flávio bolsonaro, bolsonaro
+- **Saúde:** sus, upa, ubs, posto de saúde, quem criou o sus
+- **Educação:** prouni, quem criou prouni, fundeb, escola pública
+- **Aposentadoria:** bpc loas, cadúnico, aposentadoria 70 anos, inss
+- **Candidatos:** lula, bolsonaro, flávio bolsonaro
 
 ## Recortes geográficos
 
@@ -50,7 +50,7 @@ Os grupos misturam macrotemas de propósito: termos de volume parecido ficam jun
 ## Limitações
 
 - O Trends é uma amostra das buscas do Google, não uma pesquisa de opinião. Mostra **interesse**, não apoio.
-- Termos ambíguos ("creche", "aposentadoria") somam buscas de todo tipo, não só de política.
+- As consultas monitoram interesse pelos termos, não necessariamente interesse político. Buscas por "posto de saúde" ou "aposentadoria 70 anos", por exemplo, também podem refletir necessidades e dúvidas práticas.
 - Para incluir outro estado, adicione o código (ex.: `BR-BA`) em `geos` do job `cidades`. Cada estado custa 5 buscas/dia.
 - Mudar termos ou grupos no meio do período quebra a comparação com os dias anteriores. Se precisar mudar, anote a data.
 
@@ -61,7 +61,7 @@ Os grupos misturam macrotemas de propósito: termos de volume parecido ficam jun
 | Estados | 5 grupos × 8 dias | 40 |
 | Cidades (SP, MG, PR, SC, GO) | 5 grupos × 5 estados × 8 dias | 200 |
 | Relacionadas candidatos | 3 × 8 dias | 24 |
-| Relacionadas temas | 14 × 2 coletas (19 e 22/10) | 28 |
-| **Total** | | **292** |
+| Relacionadas temas | 13 × 2 coletas (19 e 22/10) | 26 |
+| **Total** | | **290** |
 
-Por dia: 33 buscas (47 em 19 e 22/10), abaixo do limite de 50 por hora. O total passa da cota gratuita (250/mês), então é preciso plano pago ou créditos extras para cobrir o período inteiro.
+Por dia: 33 buscas (46 em 19 e 22/10), abaixo do limite de 50 por hora. O total passa da cota gratuita (250/mês), então é preciso plano pago ou créditos extras para cobrir o período inteiro.

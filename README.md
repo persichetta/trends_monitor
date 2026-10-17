@@ -1,8 +1,8 @@
 # serpapi-trends-monitor
 
-Coleta diária de dados do **Google Trends** via [SerpApi](https://serpapi.com/google-trends-api) para o monitoramento de temas (saúde, educação, aposentadoria e renda) e dos candidatos, por **estado** e por **cidade** nos cinco recortes da segmentação (RM São Paulo, interior do PR, interior de SC, Goiás e Minas Gerais).
+Coleta diária de dados do **Google Trends** via [SerpApi](https://serpapi.com/google-trends-api) para o monitoramento de temas (saúde, educação e aposentadoria) e dos candidatos, por **estado** e por **cidade** nos cinco recortes da segmentação (RM São Paulo, interior do PR, interior de SC, Goiás e Minas Gerais).
 
-O plano atual usa **33 buscas por dia (47 nos dias de temas)**, ou **292 buscas de 17/10 a 24/10/2026**. Isso **passa da cota do plano gratuito** da SerpApi (250/mês): para cobrir o período inteiro é preciso um plano pago ou créditos extras. A trava `reserva_minima` (padrão 30) continua ligada e interrompe a coleta se a conta for ficar abaixo disso; para desligar, use `reserva_minima: 0` em `config/coletas.yaml`.
+O plano atual usa **33 buscas por dia (46 nos dias de temas)**, ou **290 buscas de 17/10 a 24/10/2026**. Isso **passa da cota do plano gratuito** da SerpApi (250/mês): para cobrir o período inteiro é preciso um plano pago ou créditos extras. A trava `reserva_minima` (padrão 30) continua ligada e interrompe a coleta se a conta for ficar abaixo disso; para desligar, use `reserva_minima: 0` em `config/coletas.yaml`.
 
 ---
 
@@ -13,9 +13,9 @@ O plano atual usa **33 buscas por dia (47 nos dias de temas)**, ou **292 buscas 
 | `estados` | Interesse por estado (27 UFs) para cada grupo de termos | diária | 5/dia |
 | `cidades` | Interesse por cidade em SP, MG, PR, SC e GO, para os 5 grupos; cada cidade da segmentação recebe recorte, segmento, porte e cod_tse | diária | 25/dia |
 | `relacionadas_candidatos` | Buscas relacionadas (top e em alta) a Lula, Flávio Bolsonaro e Bolsonaro | diária | 3/dia |
-| `relacionadas_temas` | Buscas relacionadas aos 14 termos de tema | a cada 3 dias (16, 19, 22/10) | 14 |
+| `relacionadas_temas` | Buscas relacionadas aos 13 termos de tema | a cada 3 dias (16, 19, 22/10) | 13 |
 
-Termos (17): posto de saúde, ubs, mais médicos, saúde da família, brasil sorridente, escola pública, creche, merenda escolar, dinheiro direto na escola, escola em tempo integral, aposentadoria, inss, bpc loas, bolsa família, lula, flávio bolsonaro, bolsonaro.
+Termos (16): SUS, UPA, UBS, posto de saúde, quem criou o SUS, Prouni, quem criou Prouni, Fundeb, escola pública, BPC LOAS, CadÚnico, aposentadoria 70 anos, INSS, Lula, Bolsonaro, Flávio Bolsonaro. “Bolsa família” é mantida apenas como âncora de comparação.
 
 Detalhes de cada escolha em [`docs/metodologia.md`](docs/metodologia.md).
 

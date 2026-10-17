@@ -23,10 +23,10 @@ def test_plano_respeita_orcamento():
     from coletor.plano import buscas_do_dia, carregar_config
     termos, coletas = carregar_config()
     d0 = dt.date(2026, 10, 16)
-    assert len(buscas_do_dia(d0, termos, coletas)) == 5 + 25 + 3 + 14
+    assert len(buscas_do_dia(d0, termos, coletas)) == 5 + 25 + 3 + 13
     assert len(buscas_do_dia(d0 + dt.timedelta(1), termos, coletas)) == 33
     total = sum(len(buscas_do_dia(d0 + dt.timedelta(i), termos, coletas)) for i in range(9))
-    assert total == 339          # 9 dias x 33 + 3 coletas de temas x 14
+    assert total == 336          # 9 dias x 33 + 3 coletas de temas x 13
     # nenhum dia passa do limite de 50 buscas por hora
     assert max(len(buscas_do_dia(d0 + dt.timedelta(i), termos, coletas)) for i in range(9)) <= 50
     assert buscas_do_dia(dt.date(2026, 10, 25), termos, coletas) == []
@@ -42,6 +42,22 @@ def test_grupos_tem_ancora_e_no_maximo_5():
             assert len(b.termos) == 1
 
 
+def test_config_tem_apenas_os_termos_definidos():
+    from coletor.plano import buscas_do_dia, carregar_config
+    termos, coletas = carregar_config()
+    temas = {
+        "sus", "upa", "ubs", "posto de saúde", "quem criou o sus",
+        "prouni", "quem criou prouni", "fundeb", "escola pública",
+        "bpc loas", "cadúnico", "aposentadoria 70 anos", "inss",
+    }
+    candidatos = {"lula", "bolsonaro", "flávio bolsonaro"}
+    assert set(termos["macrotemas"]) == temas | candidatos
+    assert set(termos["candidatos"]) == candidatos
+    buscas = buscas_do_dia(dt.date(2026, 10, 16), termos, coletas)
+    relacionadas_temas = {b.termos[0] for b in buscas if b.job == "relacionadas_temas"}
+    assert relacionadas_temas == temas
+
+
 def test_parse_geo_map_indice_ancora():
     from coletor.parse import geo_map
     from coletor.plano import buscas_do_dia, carregar_config
@@ -49,12 +65,12 @@ def test_parse_geo_map_indice_ancora():
     from coletor.plano import carregar_segmentacao
     seg = carregar_segmentacao(coletas)
     assert len(seg) == 1794
-    b = [x for x in buscas_do_dia(dt.date(2026, 10, 16), termos, coletas) if x.id == "cidades:BR-SP:G1"][0]
+    b = [x for x in buscas_do_dia(dt.date(2026, 10, 16), termos, coletas) if x.id == "cidades:BR-SP:G4"][0]
     linhas = geo_map(json.loads((FIX / "geo_map.json").read_text()), b, "2026-10-16", termos, segmentacao=seg)
-    assert len(linhas) == 10
+    assert len(linhas) == 4
     camp_inss = [l for l in linhas if l["local"] == "Campinas" and l["termo"] == "inss"][0]
     assert camp_inss["indice_vs_ancora"] == 75.0 and camp_inss["cidade_alvo"] == "true"
-    assert camp_inss["macrotema"] == "Aposentadoria e renda" and camp_inss["segmento"] == ""   # alvo, fora da segmentação
+    assert camp_inss["macrotema"] == "Aposentadoria" and camp_inss["segmento"] == ""   # alvo, fora da segmentação
     gru = [l for l in linhas if l["local"] == "Guarulhos"][0]
     assert gru["cidade_alvo"] == "true" and gru["recorte"] == "RM São Paulo" and gru["uf"] == "SP"
     assert gru["segmento"].startswith("3.") and gru["cod_tse"]
