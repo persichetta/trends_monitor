@@ -32,7 +32,11 @@ Os grupos misturam macrotemas de propósito: termos de volume parecido ficam jun
 ## Recortes geográficos
 
 - **Estados** (`geo=BR`, `region=REGION`): uma linha por UF.
-- **Cidades de SP** (`geo=BR-SP`, `region=CITY`, incluindo locais de baixo volume): todas as cidades que o Google devolver; Campinas, Ribeirão Preto, Sorocaba, São José dos Campos e São José do Rio Preto são marcadas em `cidade_alvo`.
+- **Cidades** (`geo=BR-SP`, `BR-MG`, `BR-PR`, `BR-SC`, `BR-GO`, `region=CITY`, incluindo locais de baixo volume): todas as cidades que o Google devolver em cada estado, para os 5 grupos.
+  - Cada cidade é cruzada com `config/cidades_segmentacao.csv` (1.794 cidades: RM SP, interior PR, interior SC, GO, MG) por UF + nome sem acento. Quando bate, a linha recebe `cod_tse`, `recorte`, `segmento`, `porte` e `rank_no_segmento_recorte`, e `cidade_alvo = true`.
+  - Campinas, Ribeirão Preto, Sorocaba, São José dos Campos e São José do Rio Preto também ficam com `cidade_alvo = true`, sem dados de segmentação.
+  - Cidades que não estão em nenhuma das duas listas ficam com `cidade_alvo = false` (por exemplo, Curitiba e Florianópolis, que estão fora dos recortes de interior).
+  - O Google só devolve cidades com volume mínimo de buscas: boa parte das cidades pequenas da segmentação vai aparecer vazia ou não aparecer.
 - **Buscas relacionadas** (`geo=BR`): Brasil todo. Candidatos com janela de 1 dia (`now 1-d`) para pegar o assunto do dia; temas com 7 dias.
 
 ## Como ler os números
@@ -47,17 +51,17 @@ Os grupos misturam macrotemas de propósito: termos de volume parecido ficam jun
 
 - O Trends é uma amostra das buscas do Google, não uma pesquisa de opinião. Mostra **interesse**, não apoio.
 - Termos ambíguos ("creche", "aposentadoria") somam buscas de todo tipo, não só de política.
-- Cidades fora de SP não entram no plano padrão, por orçamento. Para outro estado, crie um job copiando `cidades_sp` e troque `geo` (ex.: `BR-MG`). Isso custa 5 buscas/dia.
+- Para incluir outro estado, adicione o código (ex.: `BR-BA`) em `geos` do job `cidades`. Cada estado custa 5 buscas/dia.
 - Mudar termos ou grupos no meio do período quebra a comparação com os dias anteriores. Se precisar mudar, anote a data.
 
-## Orçamento padrão (16/10 a 24/10/2026)
+## Orçamento (plano atual)
 
-| Item | Cálculo | Buscas |
+| Item | Cálculo | Buscas de 17/10 a 24/10 |
 |---|---|---|
-| Estados | 5 grupos × 9 dias | 45 |
-| Cidades de SP | 5 grupos × 9 dias | 45 |
-| Relacionadas candidatos | 3 × 9 dias | 27 |
-| Relacionadas temas | 14 × 3 coletas (16, 19, 22/10) | 42 |
-| **Total previsto** | | **159** |
-| Teste inicial | `coletor teste --n 5` | 5 |
-| Sobra para imprevistos | 250 − 164 | 86 |
+| Estados | 5 grupos × 8 dias | 40 |
+| Cidades (SP, MG, PR, SC, GO) | 5 grupos × 5 estados × 8 dias | 200 |
+| Relacionadas candidatos | 3 × 8 dias | 24 |
+| Relacionadas temas | 14 × 2 coletas (19 e 22/10) | 28 |
+| **Total** | | **292** |
+
+Por dia: 33 buscas (47 em 19 e 22/10), abaixo do limite de 50 por hora. O total passa da cota gratuita (250/mês), então é preciso plano pago ou créditos extras para cobrir o período inteiro.

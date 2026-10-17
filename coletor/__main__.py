@@ -19,7 +19,7 @@ from dotenv import load_dotenv
 from . import armazenamento as arm
 from .cliente import ClienteSerpApi, ErroAutenticacao, ErroCota, ErroSerpApi, SemResultados
 from .parse import ARQUIVOS, PARSERS
-from .plano import buscas_do_dia, carregar_config
+from .plano import buscas_do_dia, carregar_config, carregar_segmentacao
 
 FUSO = ZoneInfo("America/Sao_Paulo")
 
@@ -50,17 +50,18 @@ def cmd_plano(args) -> int:
         buscas = [b for b in buscas if b.job == args.somente]
     print(f"{data}: {len(buscas)} buscas")
     for b in buscas:
-        print(f"  {b.id:<40} {b.tipo:<16} geo={b.params['geo']:<6} q={b.params['q']}")
-    ini = dt.date.fromisoformat(coletas["periodo"]["inicio"])
+        print(f"  {b.id:<44} {b.tipo:<16} geo={b.params['geo']:<6} q={b.params['q']}")
     fim = dt.date.fromisoformat(coletas["periodo"]["fim"])
-    total = sum(len(buscas_do_dia(ini + dt.timedelta(d), termos, coletas)) for d in range((fim - ini).days + 1))
-    print(f"Total previsto de {ini} a {fim}: {total} buscas")
+    if data <= fim:
+        total = sum(len(buscas_do_dia(data + dt.timedelta(d), termos, coletas)) for d in range((fim - data).days + 1))
+        print(f"Total previsto de {data} a {fim}: {total} buscas")
     return 0
 
 
 def executar(data: dt.date, somente: str | None = None, limite: int | None = None, forcar: bool = False) -> int:
     termos, coletas = carregar_config()
     orc = coletas["orcamento"]
+    segmentacao = carregar_segmentacao(coletas)
     buscas = buscas_do_dia(data, termos, coletas)
     if somente:
         buscas = [b for b in buscas if b.job == somente]
@@ -94,7 +95,7 @@ def executar(data: dt.date, somente: str | None = None, limite: int | None = Non
         try:
             resp = cli.trends(b.params)
             arm.salvar_bruto(resp, data_s, b.id)
-            linhas = PARSERS[b.tipo](resp, b, data_s, termos)
+            linhas = PARSERS[b.tipo](resp, b, data_s, termos, segmentacao=segmentacao)
             arm.anexar_csv(ARQUIVOS[b.tipo], linhas)
             reg.update(status="ok", linhas=len(linhas),
                        search_id=(resp.get("search_metadata") or {}).get("id", ""))
