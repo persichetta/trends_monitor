@@ -28,7 +28,7 @@
 
 - **"Chave SerpApi inválida (401)"**: confira o secret ou o `.env`, sem espaços nem aspas.
 - **"Limite por hora atingido"**: espere a próxima hora e rode de novo. O que já foi coletado não é refeito.
-- **"A reserva mínima seria atingida"**: a cota está acabando. Avalie desligar `relacionadas_temas` (o job mais caro) em `config/coletas.yaml`.
+- **"A reserva mínima seria atingida"**: a cota está acabando. Opções: contratar mais buscas, baixar `reserva_minima` em `config/coletas.yaml` ou tirar estados de `geos` no job `cidades` (cada estado = 5 buscas/dia).
 - **Workflow não roda no horário**: o agendamento do GitHub pode atrasar até ~1h em horários de pico. Use **Run workflow** para rodar na mão.
 
 ## Mudar o plano sem estourar a cota
@@ -42,6 +42,10 @@ Regras que o próprio script verifica:
 - no máximo 4 termos por grupo (+ âncora);
 - todo termo precisa de um macrotema;
 - grupos usados nos jobs precisam existir.
+
+## Atualizar a segmentação
+
+Para mudar quais cidades recebem segmento, substitua `config/cidades_segmentacao.csv` mantendo as colunas `cod_tse, uf, municipio, municipio_norm, recorte, segmento, porte, rank_no_segmento_recorte`. O cruzamento é feito por `uf` + `municipio` (sem acento), então a grafia precisa ser a oficial do TSE/IBGE.
 
 ## Depois de 24/10
 

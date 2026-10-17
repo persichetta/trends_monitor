@@ -1,16 +1,23 @@
-# Plano de coleta e orçamento de buscas
+# Plano de coleta
 #
 # Cada chamada à API = 1 busca da cota SerpApi (só buscas bem-sucedidas contam;
 # a mesma busca repetida em até 1h vem do cache e não conta).
+#
+# Agendamento: um job roda no dia D se (D - inicio - deslocamento) for múltiplo
+# de frequencia_dias. Os jobs rodam na ordem abaixo.
 
 periodo:
-  inicio: "2026-10-16"   # base para jobs "a cada N dias"
+  inicio: "2026-10-16"   # base para frequencia_dias / deslocamento
   fim: "2026-10-24"      # depois desta data nada é coletado
 
 orcamento:
-  reserva_minima: 30     # nunca deixar a conta com menos buscas que isso
+  reserva_minima: 30     # trava de segurança: para se a conta for ficar abaixo disso (0 = desliga)
   limite_por_hora: 50    # limite do plano gratuito
   pausa_entre_buscas_s: 3
+
+# Lista de cidades da segmentação (RM SP, interior PR, interior SC, GO, MG).
+# Cada linha de cidade coletada recebe cod_tse, recorte, segmento, porte e rank.
+segmentacao: config/cidades_segmentacao.csv
 
 parametros_padrao:
   hl: pt-BR
@@ -18,7 +25,7 @@ parametros_padrao:
   date: "now 7-d"
 
 jobs:
-  # 1) Mapa por estado: 1 busca por grupo (5 grupos) = 5/dia
+  # 1) Mapa por estado: 1 busca por grupo = 5/dia
   - nome: estados
     tipo: GEO_MAP
     frequencia_dias: 1
@@ -26,12 +33,11 @@ jobs:
     region: REGION
     grupos: [G1, G2, G3, G4, CAND]
 
-  # 2) Cidades de SP: mapa por cidade dentro do estado, 1 busca por grupo = 5/dia
-  #    Todas as cidades retornadas são salvas; as de cidades_alvo ganham marcação.
-  - nome: cidades_sp
+  # 2) Mapa por cidade nos 5 estados da segmentação: 5 grupos x 5 estados = 25/dia
+  - nome: cidades
     tipo: GEO_MAP
     frequencia_dias: 1
-    geo: BR-SP
+    geos: [BR-SP, BR-MG, BR-PR, BR-SC, BR-GO]
     region: CITY
     include_low_search_volume: true
     grupos: [G1, G2, G3, G4, CAND]
@@ -45,7 +51,7 @@ jobs:
     date: "now 1-d"
     termos: candidatos
 
-  # 4) Buscas relacionadas aos temas: 1 por termo (14) a cada 3 dias
+  # 4) Buscas relacionadas aos 14 termos de tema = 14 a cada 3 dias (16, 19, 22/10)
   - nome: relacionadas_temas
     tipo: RELATED_QUERIES
     frequencia_dias: 3

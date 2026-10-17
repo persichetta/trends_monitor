@@ -1,14 +1,11 @@
 """Converte as respostas da SerpApi em linhas de tabela (formato longo)."""
 from __future__ import annotations
 
-import unicodedata
 from typing import Any
 
-from .plano import Busca
+from .plano import Busca, normalizar as _norm
 
-
-def _norm(s: str) -> str:
-    return unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower().strip()
+CAMPOS_SEG = ["cod_tse", "recorte", "segmento", "porte", "rank_no_segmento_recorte"]
 
 
 def _num(v: Any) -> float | None:
@@ -20,11 +17,21 @@ def _num(v: Any) -> float | None:
         return None
 
 
-def geo_map(resp: dict, busca: Busca, data_coleta: str, termos_cfg: dict) -> list[dict]:
-    """GEO_MAP: uma linha por (local, termo). Aceita resposta com 1 ou vários termos."""
+def geo_map(resp: dict, busca: Busca, data_coleta: str, termos_cfg: dict,
+            segmentacao: dict | None = None, **_) -> list[dict]:
+    """GEO_MAP: uma linha por (local, termo). Aceita resposta com 1 ou vários termos.
+
+    Em buscas por cidade, cada linha recebe os dados da segmentação (cod_tse, recorte,
+    segmento, porte, rank) quando a cidade está na lista; cidade_alvo = true nesses casos
+    e também para as cidades listadas em cidades_alvo do job.
+    """
     ancora = termos_cfg["ancora"]
     macro = termos_cfg["macrotemas"]
+    segmentacao = segmentacao or {}
     alvo = {_norm(c) for c in busca.meta.get("cidades_alvo", [])}
+    geo = busca.params.get("geo") or ""
+    uf = geo[3:] if geo.startswith("BR-") else ""
+    por_cidade = busca.params.get("region") == "CITY"
     linhas: list[dict] = []
 
     itens = resp.get("compared_breakdown_by_region")
@@ -35,6 +42,12 @@ def geo_map(resp: dict, busca: Busca, data_coleta: str, termos_cfg: dict) -> lis
         ]
 
     for item in itens:
+        local = item.get("location") or ""
+        seg = segmentacao.get((uf, _norm(local)), {}) if por_cidade else {}
+        if por_cidade:
+            cidade_alvo = "true" if (seg or _norm(local) in alvo) else "false"
+        else:
+            cidade_alvo = ""
         valores = {v.get("query"): _num(v.get("extracted_value")) for v in item.get("values", [])}
         v_ancora = valores.get(ancora)
         for termo, valor in valores.items():
@@ -43,22 +56,24 @@ def geo_map(resp: dict, busca: Busca, data_coleta: str, termos_cfg: dict) -> lis
                 "data_coleta": data_coleta,
                 "job": busca.job,
                 "grupo": busca.grupo,
-                "geo_busca": busca.params.get("geo"),
+                "geo_busca": geo,
                 "resolucao": busca.params.get("region"),
                 "periodo": busca.params.get("date"),
-                "local": item.get("location"),
+                "local": local,
                 "local_codigo": item.get("geo"),
-                "cidade_alvo": "sim" if alvo and _norm(item.get("location", "")) in alvo else ("não" if alvo else ""),
+                "cidade_alvo": cidade_alvo,
                 "termo": termo,
                 "macrotema": macro.get(termo, ""),
-                "eh_ancora": "sim" if termo == ancora else "não",
+                "eh_ancora": "true" if termo == ancora else "false",
                 "valor": valor,
                 "indice_vs_ancora": indice,
+                "uf": uf if por_cidade else (item.get("geo") or "")[3:],
+                **{c: seg.get(c, "") for c in CAMPOS_SEG},
             })
     return linhas
 
 
-def related_queries(resp: dict, busca: Busca, data_coleta: str, termos_cfg: dict) -> list[dict]:
+def related_queries(resp: dict, busca: Busca, data_coleta: str, termos_cfg: dict, **_) -> list[dict]:
     """RELATED_QUERIES: uma linha por consulta relacionada (top e em alta)."""
     rq = resp.get("related_queries") or {}
     termo = busca.termos[0]
@@ -81,7 +96,7 @@ def related_queries(resp: dict, busca: Busca, data_coleta: str, termos_cfg: dict
     return linhas
 
 
-def timeseries(resp: dict, busca: Busca, data_coleta: str, termos_cfg: dict) -> list[dict]:
+def timeseries(resp: dict, busca: Busca, data_coleta: str, termos_cfg: dict, **_) -> list[dict]:
     """TIMESERIES: uma linha por (instante, termo). Não usado no plano padrão."""
     linhas: list[dict] = []
     for ponto in (resp.get("interest_over_time") or {}).get("timeline_data", []):

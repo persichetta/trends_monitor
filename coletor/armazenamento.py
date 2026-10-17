@@ -29,6 +29,27 @@ def salvar_bruto(resp: dict, data_coleta: str, busca_id: str) -> Path:
     return caminho
 
 
+_SIM_NAO = {"sim": "true", "não": "false", "nao": "false"}
+
+
+def _migrar(caminho: Path, campos_novos: list[str]) -> list[str]:
+    """Reescreve um CSV antigo com as colunas novas (vazias) e sim/não -> true/false."""
+    with caminho.open(encoding="utf-8") as f:
+        leitor = csv.DictReader(f)
+        antigos = list(leitor.fieldnames or [])
+        linhas = list(leitor)
+    campos = antigos + [c for c in campos_novos if c not in antigos]
+    for r in linhas:
+        for c in ("eh_ancora", "cidade_alvo"):
+            if c in r:
+                r[c] = _SIM_NAO.get(r[c], r[c])
+    with caminho.open("w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=campos, extrasaction="ignore")
+        w.writeheader()
+        w.writerows(linhas)
+    return campos
+
+
 def anexar_csv(nome: str, linhas: list[dict]) -> None:
     if not linhas:
         return
@@ -38,7 +59,13 @@ def anexar_csv(nome: str, linhas: list[dict]) -> None:
     campos = list(linhas[0].keys())
     if not novo:
         with caminho.open(encoding="utf-8") as f:
-            campos = next(csv.reader(f))
+            existentes = next(csv.reader(f))
+        precisa_migrar = any(c not in existentes for c in campos)
+        if not precisa_migrar and ("eh_ancora" in existentes or "cidade_alvo" in existentes):
+            with caminho.open(encoding="utf-8") as f:
+                precisa_migrar = any(r.get("eh_ancora") in _SIM_NAO or r.get("cidade_alvo") in _SIM_NAO
+                                     for r in csv.DictReader(f))
+        campos = _migrar(caminho, campos) if precisa_migrar else existentes
     with caminho.open("a", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=campos, extrasaction="ignore")
         if novo:

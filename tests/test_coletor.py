@@ -23,10 +23,12 @@ def test_plano_respeita_orcamento():
     from coletor.plano import buscas_do_dia, carregar_config
     termos, coletas = carregar_config()
     d0 = dt.date(2026, 10, 16)
-    assert len(buscas_do_dia(d0, termos, coletas)) == 5 + 5 + 3 + 14
-    assert len(buscas_do_dia(d0 + dt.timedelta(1), termos, coletas)) == 13
+    assert len(buscas_do_dia(d0, termos, coletas)) == 5 + 25 + 3 + 14
+    assert len(buscas_do_dia(d0 + dt.timedelta(1), termos, coletas)) == 33
     total = sum(len(buscas_do_dia(d0 + dt.timedelta(i), termos, coletas)) for i in range(9))
-    assert total == 159          # + 5 de teste = 164, dentro das 250 com reserva
+    assert total == 339          # 9 dias x 33 + 3 coletas de temas x 14
+    # nenhum dia passa do limite de 50 buscas por hora
+    assert max(len(buscas_do_dia(d0 + dt.timedelta(i), termos, coletas)) for i in range(9)) <= 50
     assert buscas_do_dia(dt.date(2026, 10, 25), termos, coletas) == []
 
 
@@ -44,14 +46,19 @@ def test_parse_geo_map_indice_ancora():
     from coletor.parse import geo_map
     from coletor.plano import buscas_do_dia, carregar_config
     termos, coletas = carregar_config()
-    b = [x for x in buscas_do_dia(dt.date(2026, 10, 16), termos, coletas) if x.id == "cidades_sp:G1"][0]
-    linhas = geo_map(json.loads((FIX / "geo_map.json").read_text()), b, "2026-10-16", termos)
+    from coletor.plano import carregar_segmentacao
+    seg = carregar_segmentacao(coletas)
+    assert len(seg) == 1794
+    b = [x for x in buscas_do_dia(dt.date(2026, 10, 16), termos, coletas) if x.id == "cidades:BR-SP:G1"][0]
+    linhas = geo_map(json.loads((FIX / "geo_map.json").read_text()), b, "2026-10-16", termos, segmentacao=seg)
     assert len(linhas) == 10
     camp_inss = [l for l in linhas if l["local"] == "Campinas" and l["termo"] == "inss"][0]
-    assert camp_inss["indice_vs_ancora"] == 75.0 and camp_inss["cidade_alvo"] == "sim"
-    assert camp_inss["macrotema"] == "Aposentadoria e renda"
+    assert camp_inss["indice_vs_ancora"] == 75.0 and camp_inss["cidade_alvo"] == "true"
+    assert camp_inss["macrotema"] == "Aposentadoria e renda" and camp_inss["segmento"] == ""   # alvo, fora da segmentação
     gru = [l for l in linhas if l["local"] == "Guarulhos"][0]
-    assert gru["cidade_alvo"] == "não"
+    assert gru["cidade_alvo"] == "true" and gru["recorte"] == "RM São Paulo" and gru["uf"] == "SP"
+    assert gru["segmento"].startswith("3.") and gru["cod_tse"]
+    assert {l["eh_ancora"] for l in linhas} == {"true", "false"}
 
 
 def test_parse_related():
@@ -83,9 +90,9 @@ def test_executar_idempotente_e_sem_chave(monkeypatch, pasta_dados):
     monkeypatch.setattr(m.time, "sleep", lambda s: None)
     d = dt.date(2026, 10, 17)
     assert m.executar(d) == 0
-    assert falso.chamadas == 13
+    assert falso.chamadas == 33
     assert m.executar(d) == 0          # segunda vez: nada a coletar
-    assert falso.chamadas == 13
+    assert falso.chamadas == 33
     brutos = list((pasta_dados / "bruto" / "2026-10-17").glob("*.json"))
     assert brutos and all("NAO-DEVE-APARECER" not in p.read_text() for p in brutos)
     assert (pasta_dados / "geo_map.csv").exists() and (pasta_dados / "related_queries.csv").exists()
@@ -99,3 +106,15 @@ def test_reserva_minima_interrompe(monkeypatch):
     monkeypatch.setattr(m.time, "sleep", lambda s: None)
     m.executar(dt.date(2026, 10, 17))
     assert falso.chamadas == 3          # 33 restantes, reserva 30
+
+
+def test_migra_csv_antigo(pasta_dados):
+    import csv
+    import coletor.armazenamento as arm
+    antigo = pasta_dados / "geo_map.csv"
+    antigo.write_text("data_coleta,termo,eh_ancora,cidade_alvo,valor\n2026-10-16,inss,não,sim,30\n", encoding="utf-8")
+    arm.anexar_csv("geo_map.csv", [{"data_coleta": "2026-10-17", "termo": "inss", "eh_ancora": "false",
+                                    "cidade_alvo": "true", "valor": 31, "segmento": "2. Disputa voto a voto"}])
+    rows = list(csv.DictReader(antigo.open(encoding="utf-8")))
+    assert rows[0]["eh_ancora"] == "false" and rows[0]["cidade_alvo"] == "true" and rows[0]["segmento"] == ""
+    assert rows[1]["segmento"] == "2. Disputa voto a voto"
