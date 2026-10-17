@@ -34,7 +34,9 @@ def anexar_csv(nome: str, linhas: list[dict]) -> None:
         return
     DADOS.mkdir(parents=True, exist_ok=True)
     caminho = DADOS / nome
-    novo = not caminho.exists()
+    # Um CSV existente, mas zerado (por exemplo, após um reset manual), também
+    # precisa receber o cabeçalho antes das primeiras linhas.
+    novo = not caminho.exists() or caminho.stat().st_size == 0
     campos = list(linhas[0].keys())
     if not novo:
         with caminho.open(encoding="utf-8") as f:
@@ -48,7 +50,7 @@ def anexar_csv(nome: str, linhas: list[dict]) -> None:
 
 def registrar(registro: dict) -> None:
     DADOS.mkdir(parents=True, exist_ok=True)
-    novo = not LOG.exists()
+    novo = not LOG.exists() or LOG.stat().st_size == 0
     with LOG.open("a", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=CAMPOS_LOG, extrasaction="ignore")
         if novo:

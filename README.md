@@ -31,6 +31,15 @@ serpapi-trends-monitor/
 │   ├── plano.py           # lê config/ e monta as buscas do dia
 │   ├── parse.py           # converte as respostas em tabelas
 │   └── armazenamento.py   # grava JSON bruto, CSVs e log
+├── ingestao/
+│   ├── __main__.py         # comando manual de ingestão do GEO_MAP
+│   ├── config.py           # credenciais e destino BigQuery
+│   ├── geo_map.py          # schema/conversão de geo_map.csv
+│   ├── related_queries.py  # schema/conversão de related_queries.csv
+│   ├── csv_cursor.py       # leitura incremental e checkpoints
+│   ├── bigquery.py         # tabela particionada e carga append
+│   ├── servico.py          # serviço de ingestão independente
+│   └── rotina.py           # orquestra coletor seguido da ingestão
 ├── config/
 │   ├── termos.yaml        # termos, macrotemas, grupos e âncora
 │   └── coletas.yaml       # jobs, período, orçamento e parâmetros
@@ -69,6 +78,61 @@ python -m coletor teste --n 5              # roda só as 5 primeiras buscas do d
 python -m coletor executar                 # coleta completa do dia
 python -m coletor executar --somente estados
 ```
+
+### Ingestão manual do GEO_MAP no BigQuery
+
+A execução do coletor e a ingestão são módulos separados, mas há um comando
+manual que os coordena em sequência:
+
+```bash
+python -m ingestao executar
+```
+
+Esse comando coleta a data de hoje, depois ingere as linhas novas de GEO_MAP.
+Para outra data ou para restringir/refazer buscas:
+
+```bash
+python -m ingestao executar --data 2026-10-19
+python -m ingestao executar --somente estados
+python -m ingestao executar --data 2026-10-19 --forcar
+```
+
+O comando combinado carrega GEO_MAP e `related_queries.csv` em tabelas separadas.
+As cargas também podem ser executadas isoladamente:
+
+```bash
+python -m ingestao geo-map
+python -m ingestao related-queries
+```
+
+Também é possível executar o coletor e as ingestões manualmente e em etapas:
+`python -m coletor executar`, seguido de um ou ambos os comandos acima.
+
+O comando de ingestão lê `data/geo_map.csv`, envia apenas as linhas ainda não
+carregadas e registra um checkpoint local em `data/ingestao/`. O checkpoint só
+avança após a confirmação do job no BigQuery. O arquivo CSV acumulado permanece
+intacto; se for truncado ou reescrito, o checkpoint detecta a mudança e reinicia
+a leitura.
+
+Configuração BigQuery no `.env` (se `GOOGLE_APPLICATION_CREDENTIALS` já estiver
+exportada no ambiente, ela tem precedência):
+
+```dotenv
+GOOGLE_APPLICATION_CREDENTIALS=/caminho/absoluto/para/service-account.json
+# Opcional: se omitido, o projeto é obtido das credenciais.
+# BIGQUERY_PROJECT=seu-project-id
+BIGQUERY_DATASET=analise_redes
+BIGQUERY_TABLE=gtrends_monitoramento_cidades
+BIGQUERY_LOCATION=southamerica-east1
+```
+
+A conta de serviço precisa executar jobs no projeto e criar/editar a tabela no
+dataset. O script cria as tabelas caso não existam, cada uma com seu schema e
+partição diária por `data_coleta`; não executa `MERGE`. GEO_MAP vai para
+`gtrends_monitoramento_cidades` e related queries para
+`gtrends_monitoramento_temas`. Cada linha recebe `hora_ingestao` em UTC. Os
+checkpoints são locais à máquina e devem ser preservados junto dos CSVs para que
+as próximas ingestões continuem do ponto correto.
 
 Antes de cada coleta, o script consulta a conta (de graça) e para se:
 - as buscas restantes ficarem abaixo de `reserva_minima` (padrão 30);

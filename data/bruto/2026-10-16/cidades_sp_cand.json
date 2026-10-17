@@ -1,0 +1,6027 @@
+{
+ "search_metadata": {
+  "id": "6ad2b47cd6c08942b23502bc",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/_bslftoUAQBAzpZgAWe1TKS5HxAiUWkORqHRV_1EOQs/6ad2b47cd6c08942b23502bc.json",
+  "markdown_endpoint": "https://serpapi.com/searches/_bslftoUAQBAzpZgAWe1TKS5HxAiUWkORqHRV_1EOQs/6ad2b47cd6c08942b23502bc.md",
+  "created_at": "2026-10-16 23:34:20 UTC",
+  "processed_at": "2026-10-16 23:34:20 UTC",
+  "google_trends_url": "https://trends.google.com/trends/embed/explore/GEO_MAP?hl=pt-BR&tz=180&req=%7B%22comparisonItem%22%3A%5B%7B%22keyword%22%3A%22lula%22%2C%22geo%22%3A%22BR-SP%22%2C%22time%22%3A%22now+7-d%22%7D%2C%7B%22keyword%22%3A%22fl%C3%A1vio+bolsonaro%22%2C%22geo%22%3A%22BR-SP%22%2C%22time%22%3A%22now+7-d%22%7D%2C%7B%22keyword%22%3A%22bolsonaro%22%2C%22geo%22%3A%22BR-SP%22%2C%22time%22%3A%22now+7-d%22%7D%2C%7B%22keyword%22%3A%22bolsa+fam%C3%ADlia%22%2C%22geo%22%3A%22BR-SP%22%2C%22time%22%3A%22now+7-d%22%7D%5D%2C%22category%22%3A0%2C%22property%22%3A%22%22%7D",
+  "raw_html_file": "https://serpapi.com/searches/_bslftoUAQBAzpZgAWe1TKS5HxAiUWkORqHRV_1EOQs/6ad2b47cd6c08942b23502bc.html",
+  "prettify_html_file": "https://serpapi.com/searches/_bslftoUAQBAzpZgAWe1TKS5HxAiUWkORqHRV_1EOQs/6ad2b47cd6c08942b23502bc.prettify",
+  "total_time_taken": 6.97
+ },
+ "search_parameters": {
+  "engine": "google_trends",
+  "q": "lula,flávio bolsonaro,bolsonaro,bolsa família",
+  "hl": "pt-BR",
+  "geo": "BR-SP",
+  "date": "now 7-d",
+  "tz": "180",
+  "data_type": "GEO_MAP",
+  "region": "CITY",
+  "include_low_search_volume": "true"
+ },
+ "compared_breakdown_by_region": [
+  {
+   "coordinates": {
+    "lat": -24.5257598,
+    "lng": -48.1076478
+   },
+   "location": "Eldorado",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "59%",
+     "extracted_value": 59
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "29%",
+     "extracted_value": 29
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.639742,
+    "lng": -48.8417538
+   },
+   "location": "Itaóca",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "53%",
+     "extracted_value": 53
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "bolsonaro",
+     "value": "30%",
+     "extracted_value": 30
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.6573468,
+    "lng": -49.0072464
+   },
+   "location": "Ribeira",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "52%",
+     "extracted_value": 52
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.997607,
+    "lng": -48.3902551
+   },
+   "location": "Boa Esperança do Sul",
+   "max_value_index": 2,
+   "values": [
+    {
+     "query": "lula",
+     "value": "32%",
+     "extracted_value": 32
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "bolsonaro",
+     "value": "53%",
+     "extracted_value": 53
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.4726918,
+    "lng": -49.0242537
+   },
+   "location": "Barra do Chapéu",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "40%",
+     "extracted_value": 40
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "bolsonaro",
+     "value": "35%",
+     "extracted_value": 35
+    },
+    {
+     "query": "bolsa família",
+     "value": "10%",
+     "extracted_value": 10
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.5571711,
+    "lng": -52.5896735
+   },
+   "location": "Euclides da Cunha Paulista",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "51%",
+     "extracted_value": 51
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "bolsonaro",
+     "value": "28%",
+     "extracted_value": 28
+    },
+    {
+     "query": "bolsa família",
+     "value": "4%",
+     "extracted_value": 4
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.294824,
+    "lng": -51.9078245
+   },
+   "location": "Mirante do Paranapanema",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "50%",
+     "extracted_value": 50
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "16%",
+     "extracted_value": 16
+    },
+    {
+     "query": "bolsonaro",
+     "value": "31%",
+     "extracted_value": 31
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.8469023,
+    "lng": -45.2316652
+   },
+   "location": "Aparecida",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "56%",
+     "extracted_value": 56
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "30%",
+     "extracted_value": 30
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.2229006,
+    "lng": -45.3117239
+   },
+   "location": "São Luís do Paraitinga",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "47%",
+     "extracted_value": 47
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.2558716,
+    "lng": -45.697638
+   },
+   "location": "Jambeiro",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "49%",
+     "extracted_value": 49
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "bolsonaro",
+     "value": "36%",
+     "extracted_value": 36
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.3499887,
+    "lng": -51.7568332
+   },
+   "location": "Santa Mercedes",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "61%",
+     "extracted_value": 61
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "10%",
+     "extracted_value": 10
+    },
+    {
+     "query": "bolsonaro",
+     "value": "29%",
+     "extracted_value": 29
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.6266274,
+    "lng": -49.3104349
+   },
+   "location": "Coronel Macedo",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "52%",
+     "extracted_value": 52
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "9%",
+     "extracted_value": 9
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "5%",
+     "extracted_value": 5
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.9154753,
+    "lng": -50.3439518
+   },
+   "location": "Vicentópolis",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "49%",
+     "extracted_value": 49
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "19%",
+     "extracted_value": 19
+    },
+    {
+     "query": "bolsonaro",
+     "value": "32%",
+     "extracted_value": 32
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.1099571,
+    "lng": -48.3751185
+   },
+   "location": "Ribeirão Grande",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "51%",
+     "extracted_value": 51
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "bolsonaro",
+     "value": "30%",
+     "extracted_value": 30
+    },
+    {
+     "query": "bolsa família",
+     "value": "5%",
+     "extracted_value": 5
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.176636,
+    "lng": -48.1199217
+   },
+   "location": "Porangaba",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "57%",
+     "extracted_value": 57
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "bolsonaro",
+     "value": "28%",
+     "extracted_value": 28
+    },
+    {
+     "query": "bolsa família",
+     "value": "1%",
+     "extracted_value": 1
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.8718154,
+    "lng": -51.4902387
+   },
+   "location": "Castilho",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "52%",
+     "extracted_value": 52
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.4293783,
+    "lng": -50.2044448
+   },
+   "location": "Echaporã",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "58%",
+     "extracted_value": 58
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "bolsonaro",
+     "value": "24%",
+     "extracted_value": 24
+    },
+    {
+     "query": "bolsa família",
+     "value": "1%",
+     "extracted_value": 1
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.7947984,
+    "lng": -46.4433575
+   },
+   "location": "Pedra Bela",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "56%",
+     "extracted_value": 56
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "10%",
+     "extracted_value": 10
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.9216035,
+    "lng": -48.695234
+   },
+   "location": "Taquarivaí",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "50%",
+     "extracted_value": 50
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bolsonaro",
+     "value": "38%",
+     "extracted_value": 38
+    },
+    {
+     "query": "bolsa família",
+     "value": "1%",
+     "extracted_value": 1
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.2562227,
+    "lng": -47.4810384
+   },
+   "location": "Pedregulho",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "53%",
+     "extracted_value": 53
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "30%",
+     "extracted_value": 30
+    },
+    {
+     "query": "bolsa família",
+     "value": "4%",
+     "extracted_value": 4
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.1936224,
+    "lng": -47.7105454
+   },
+   "location": "Buritizal",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "45%",
+     "extracted_value": 45
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "16%",
+     "extracted_value": 16
+    },
+    {
+     "query": "bolsonaro",
+     "value": "39%",
+     "extracted_value": 39
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.1396591,
+    "lng": -47.4521053
+   },
+   "location": "Santa Cruz da Conceição",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "54%",
+     "extracted_value": 54
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.7394382,
+    "lng": -47.5422745
+   },
+   "location": "Ilha Comprida",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "52%",
+     "extracted_value": 52
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "31%",
+     "extracted_value": 31
+    },
+    {
+     "query": "bolsa família",
+     "value": "5%",
+     "extracted_value": 5
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.6286479,
+    "lng": -49.6546435
+   },
+   "location": "Tanabi",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "50%",
+     "extracted_value": 50
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.5314368,
+    "lng": -52.1733719
+   },
+   "location": "Teodoro Sampaio",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "50%",
+     "extracted_value": 50
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "10%",
+     "extracted_value": 10
+    },
+    {
+     "query": "bolsonaro",
+     "value": "35%",
+     "extracted_value": 35
+    },
+    {
+     "query": "bolsa família",
+     "value": "5%",
+     "extracted_value": 5
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.179973,
+    "lng": -48.0309631
+   },
+   "location": "Miguelópolis",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "51%",
+     "extracted_value": 51
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.1896991,
+    "lng": -48.5300136
+   },
+   "location": "Guapiara",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "53%",
+     "extracted_value": 53
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "29%",
+     "extracted_value": 29
+    },
+    {
+     "query": "bolsa família",
+     "value": "5%",
+     "extracted_value": 5
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.0651542,
+    "lng": -50.1440687
+   },
+   "location": "Buritama",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "46%",
+     "extracted_value": 46
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.0743544,
+    "lng": -44.9561012
+   },
+   "location": "Cunha",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "48%",
+     "extracted_value": 48
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bolsonaro",
+     "value": "36%",
+     "extracted_value": 36
+    },
+    {
+     "query": "bolsa família",
+     "value": "5%",
+     "extracted_value": 5
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.69004,
+    "lng": -46.6826067
+   },
+   "location": "Monte Alegre do Sul",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "58%",
+     "extracted_value": 58
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bolsonaro",
+     "value": "31%",
+     "extracted_value": 31
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.6606401,
+    "lng": -51.0783604
+   },
+   "location": "Iepê",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "47%",
+     "extracted_value": 47
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5361909,
+    "lng": -45.8493349
+   },
+   "location": "Salesópolis",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "51%",
+     "extracted_value": 51
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "28%",
+     "extracted_value": 28
+    },
+    {
+     "query": "bolsa família",
+     "value": "8%",
+     "extracted_value": 8
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.6154961,
+    "lng": -50.6682701
+   },
+   "location": "Maracaí",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "47%",
+     "extracted_value": 47
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "bolsonaro",
+     "value": "36%",
+     "extracted_value": 36
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.9469493,
+    "lng": -46.7185796
+   },
+   "location": "Águas da Prata",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "51%",
+     "extracted_value": 51
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "bolsonaro",
+     "value": "35%",
+     "extracted_value": 35
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.0810552,
+    "lng": -49.9135463
+   },
+   "location": "Cardoso",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "43%",
+     "extracted_value": 43
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "16%",
+     "extracted_value": 16
+    },
+    {
+     "query": "bolsonaro",
+     "value": "38%",
+     "extracted_value": 38
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.1351459,
+    "lng": -49.0551964
+   },
+   "location": "Arandu",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "55%",
+     "extracted_value": 55
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "28%",
+     "extracted_value": 28
+    },
+    {
+     "query": "bolsa família",
+     "value": "4%",
+     "extracted_value": 4
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.4065592,
+    "lng": -47.4225715
+   },
+   "location": "Cristais Paulista",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "57%",
+     "extracted_value": 57
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "31%",
+     "extracted_value": 31
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.7069748,
+    "lng": -47.557453
+   },
+   "location": "Iguape",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "50%",
+     "extracted_value": 50
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "30%",
+     "extracted_value": 30
+    },
+    {
+     "query": "bolsa família",
+     "value": "8%",
+     "extracted_value": 8
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.080856,
+    "lng": -47.9724612
+   },
+   "location": "Pereiras",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "61%",
+     "extracted_value": 61
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "bolsonaro",
+     "value": "25%",
+     "extracted_value": 25
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.9292618,
+    "lng": -46.2753862
+   },
+   "location": "Joanópolis",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "61%",
+     "extracted_value": 61
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "8%",
+     "extracted_value": 8
+    },
+    {
+     "query": "bolsonaro",
+     "value": "30%",
+     "extracted_value": 30
+    },
+    {
+     "query": "bolsa família",
+     "value": "1%",
+     "extracted_value": 1
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.4573223,
+    "lng": -47.5325941
+   },
+   "location": "Santa Gertrudes",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "48%",
+     "extracted_value": 48
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "4%",
+     "extracted_value": 4
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.563131,
+    "lng": -51.2658432
+   },
+   "location": "Pacaembu",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "55%",
+     "extracted_value": 55
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "8%",
+     "extracted_value": 8
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.4536421,
+    "lng": -49.4072136
+   },
+   "location": "Taguaí",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "49%",
+     "extracted_value": 49
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "4%",
+     "extracted_value": 4
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.6874246,
+    "lng": -45.7319876
+   },
+   "location": "São Bento do Sapucaí",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "57%",
+     "extracted_value": 57
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "8%",
+     "extracted_value": 8
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "1%",
+     "extracted_value": 1
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.6129585,
+    "lng": -45.1790441
+   },
+   "location": "Piquete",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "49%",
+     "extracted_value": 49
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "6%",
+     "extracted_value": 6
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.6616122,
+    "lng": -46.7395488
+   },
+   "location": "Divinolândia",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "50%",
+     "extracted_value": 50
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.8294879,
+    "lng": -49.4294356
+   },
+   "location": "Riversul",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "45%",
+     "extracted_value": 45
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bolsonaro",
+     "value": "35%",
+     "extracted_value": 35
+    },
+    {
+     "query": "bolsa família",
+     "value": "9%",
+     "extracted_value": 9
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.0010887,
+    "lng": -50.3741963
+   },
+   "location": "Ouroeste",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "50%",
+     "extracted_value": 50
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "36%",
+     "extracted_value": 36
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.29856,
+    "lng": -51.5683676
+   },
+   "location": "Monte Castelo",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "48%",
+     "extracted_value": 48
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "bolsonaro",
+     "value": "37%",
+     "extracted_value": 37
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.4322981,
+    "lng": -51.3487635
+   },
+   "location": "Ilha Solteira",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "52%",
+     "extracted_value": 52
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "1%",
+     "extracted_value": 1
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.5786418,
+    "lng": -53.0607901
+   },
+   "location": "Rosana",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "48%",
+     "extracted_value": 48
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "37%",
+     "extracted_value": 37
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.8143876,
+    "lng": -50.7908562
+   },
+   "location": "Pedrinhas Paulista",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "65%",
+     "extracted_value": 65
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "8%",
+     "extracted_value": 8
+    },
+    {
+     "query": "bolsonaro",
+     "value": "27%",
+     "extracted_value": 27
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.3124682,
+    "lng": -47.0016524
+   },
+   "location": "Peruíbe",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "51%",
+     "extracted_value": 51
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "4%",
+     "extracted_value": 4
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.1434728,
+    "lng": -48.5115329
+   },
+   "location": "Taiaçu",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "57%",
+     "extracted_value": 57
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "24%",
+     "extracted_value": 24
+    },
+    {
+     "query": "bolsa família",
+     "value": "6%",
+     "extracted_value": 6
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.875481,
+    "lng": -49.1562756
+   },
+   "location": "Iaras",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "47%",
+     "extracted_value": 47
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "18%",
+     "extracted_value": 18
+    },
+    {
+     "query": "bolsonaro",
+     "value": "25%",
+     "extracted_value": 25
+    },
+    {
+     "query": "bolsa família",
+     "value": "10%",
+     "extracted_value": 10
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.5288756,
+    "lng": -46.6436425
+   },
+   "location": "Caconde",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "52%",
+     "extracted_value": 52
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.2753516,
+    "lng": -49.473297
+   },
+   "location": "Sarutaiá",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "49%",
+     "extracted_value": 49
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "38%",
+     "extracted_value": 38
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.8888654,
+    "lng": -49.2241724
+   },
+   "location": "Reginópolis",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "65%",
+     "extracted_value": 65
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsonaro",
+     "value": "35%",
+     "extracted_value": 35
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.9121423,
+    "lng": -45.9596224
+   },
+   "location": "São Francisco Xavier",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "45%",
+     "extracted_value": 45
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "bolsonaro",
+     "value": "38%",
+     "extracted_value": 38
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.2819164,
+    "lng": -49.2030593
+   },
+   "location": "Fronteira",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "47%",
+     "extracted_value": 47
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "35%",
+     "extracted_value": 35
+    },
+    {
+     "query": "bolsa família",
+     "value": "5%",
+     "extracted_value": 5
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.1942185,
+    "lng": -48.1594295
+   },
+   "location": "Barrinha",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "49%",
+     "extracted_value": 49
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "4%",
+     "extracted_value": 4
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.2998188,
+    "lng": -48.0551146
+   },
+   "location": "Quadra",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "56%",
+     "extracted_value": 56
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "bolsonaro",
+     "value": "29%",
+     "extracted_value": 29
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.4002204,
+    "lng": -49.3462162
+   },
+   "location": "Tejupá",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "54%",
+     "extracted_value": 54
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "19%",
+     "extracted_value": 19
+    },
+    {
+     "query": "bolsonaro",
+     "value": "27%",
+     "extracted_value": 27
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.0677812,
+    "lng": -48.177368
+   },
+   "location": "Ribeirão Bonito",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "57%",
+     "extracted_value": 57
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "16%",
+     "extracted_value": 16
+    },
+    {
+     "query": "bolsonaro",
+     "value": "24%",
+     "extracted_value": 24
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.9289154,
+    "lng": -47.0714922
+   },
+   "location": "Juquitiba",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "48%",
+     "extracted_value": 48
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "6%",
+     "extracted_value": 6
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.0060508,
+    "lng": -49.3206308
+   },
+   "location": "Manduri",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "49%",
+     "extracted_value": 49
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "6%",
+     "extracted_value": 6
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.319196,
+    "lng": -47.6350613
+   },
+   "location": "Juquiá",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "46%",
+     "extracted_value": 46
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "bolsonaro",
+     "value": "35%",
+     "extracted_value": 35
+    },
+    {
+     "query": "bolsa família",
+     "value": "4%",
+     "extracted_value": 4
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.0848112,
+    "lng": -48.8034566
+   },
+   "location": "Palmares Paulista",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "52%",
+     "extracted_value": 52
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "bolsonaro",
+     "value": "32%",
+     "extracted_value": 32
+    },
+    {
+     "query": "bolsa família",
+     "value": "1%",
+     "extracted_value": 1
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.8063468,
+    "lng": -45.4016534
+   },
+   "location": "São Sebastião",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "53%",
+     "extracted_value": 53
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.7339708,
+    "lng": -48.1110248
+   },
+   "location": "Américo Brasiliense",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "46%",
+     "extracted_value": 46
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "bolsonaro",
+     "value": "36%",
+     "extracted_value": 36
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.6131815,
+    "lng": -51.1729216
+   },
+   "location": "Flórida Paulista",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "49%",
+     "extracted_value": 49
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "bolsonaro",
+     "value": "31%",
+     "extracted_value": 31
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.2210685,
+    "lng": -48.7640116
+   },
+   "location": "Ribeirão Branco",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "42%",
+     "extracted_value": 42
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "19%",
+     "extracted_value": 19
+    },
+    {
+     "query": "bolsonaro",
+     "value": "29%",
+     "extracted_value": 29
+    },
+    {
+     "query": "bolsa família",
+     "value": "10%",
+     "extracted_value": 10
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.086061,
+    "lng": -46.9488168
+   },
+   "location": "Louveira",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "54%",
+     "extracted_value": 54
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "32%",
+     "extracted_value": 32
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.3152009,
+    "lng": -49.0553083
+   },
+   "location": "Itajobi",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "48%",
+     "extracted_value": 48
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "bolsonaro",
+     "value": "29%",
+     "extracted_value": 29
+    },
+    {
+     "query": "bolsa família",
+     "value": "6%",
+     "extracted_value": 6
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.1292695,
+    "lng": -47.6626925
+   },
+   "location": "Analândia",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "54%",
+     "extracted_value": 54
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.6650996,
+    "lng": -45.0116583
+   },
+   "location": "Cachoeira Paulista",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "54%",
+     "extracted_value": 54
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bolsonaro",
+     "value": "30%",
+     "extracted_value": 30
+    },
+    {
+     "query": "bolsa família",
+     "value": "5%",
+     "extracted_value": 5
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.4217742,
+    "lng": -49.0924714
+   },
+   "location": "Itaí",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "55%",
+     "extracted_value": 55
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "10%",
+     "extracted_value": 10
+    },
+    {
+     "query": "bolsonaro",
+     "value": "28%",
+     "extracted_value": 28
+    },
+    {
+     "query": "bolsa família",
+     "value": "7%",
+     "extracted_value": 7
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.8848233,
+    "lng": -49.5708721
+   },
+   "location": "Jaci",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "53%",
+     "extracted_value": 53
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "32%",
+     "extracted_value": 32
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.5229818,
+    "lng": -46.6502354
+   },
+   "location": "Lindóia",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "52%",
+     "extracted_value": 52
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "32%",
+     "extracted_value": 32
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5508263,
+    "lng": -47.8984282
+   },
+   "location": "Alambari",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "51%",
+     "extracted_value": 51
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "bolsonaro",
+     "value": "32%",
+     "extracted_value": 32
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.6289027,
+    "lng": -49.563837
+   },
+   "location": "Barão de Antonina",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "38%",
+     "extracted_value": 38
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "22%",
+     "extracted_value": 22
+    },
+    {
+     "query": "bolsonaro",
+     "value": "31%",
+     "extracted_value": 31
+    },
+    {
+     "query": "bolsa família",
+     "value": "9%",
+     "extracted_value": 9
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.9518639,
+    "lng": -49.1733743
+   },
+   "location": "Uchoa",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "56%",
+     "extracted_value": 56
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "10%",
+     "extracted_value": 10
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.5688598,
+    "lng": -51.3476488
+   },
+   "location": "Irapuru",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "42%",
+     "extracted_value": 42
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "22%",
+     "extracted_value": 22
+    },
+    {
+     "query": "bolsonaro",
+     "value": "36%",
+     "extracted_value": 36
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.8496264,
+    "lng": -46.9436103
+   },
+   "location": "São Lourenço da Serra",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "49%",
+     "extracted_value": 49
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "bolsonaro",
+     "value": "28%",
+     "extracted_value": 28
+    },
+    {
+     "query": "bolsa família",
+     "value": "6%",
+     "extracted_value": 6
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.8062535,
+    "lng": -48.8090572
+   },
+   "location": "Severínia",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "49%",
+     "extracted_value": 49
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.7940132,
+    "lng": -49.2211274
+   },
+   "location": "Guapiaçu",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "45%",
+     "extracted_value": 45
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "bolsonaro",
+     "value": "35%",
+     "extracted_value": 35
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.6898429,
+    "lng": -46.5648481
+   },
+   "location": "São Bernardo do Campo",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "54%",
+     "extracted_value": 54
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "10%",
+     "extracted_value": 10
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.8252668,
+    "lng": -45.6671
+   },
+   "location": "Santo Antônio do Pinhal",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "54%",
+     "extracted_value": 54
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.4313642,
+    "lng": -47.827858
+   },
+   "location": "Guará",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "47%",
+     "extracted_value": 47
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.7047572,
+    "lng": -49.4823246
+   },
+   "location": "Itaporanga",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "45%",
+     "extracted_value": 45
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "32%",
+     "extracted_value": 32
+    },
+    {
+     "query": "bolsa família",
+     "value": "10%",
+     "extracted_value": 10
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.7300224,
+    "lng": -48.108265
+   },
+   "location": "Cajati",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "45%",
+     "extracted_value": 45
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "bolsonaro",
+     "value": "35%",
+     "extracted_value": 35
+    },
+    {
+     "query": "bolsa família",
+     "value": "6%",
+     "extracted_value": 6
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.0375691,
+    "lng": -49.7114397
+   },
+   "location": "Chavantes",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "52%",
+     "extracted_value": 52
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "31%",
+     "extracted_value": 31
+    },
+    {
+     "query": "bolsa família",
+     "value": "4%",
+     "extracted_value": 4
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5328814,
+    "lng": -46.7920029
+   },
+   "location": "Osasco",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "54%",
+     "extracted_value": 54
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "10%",
+     "extracted_value": 10
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.8323034,
+    "lng": -46.1218268
+   },
+   "location": "Bertioga",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "52%",
+     "extracted_value": 52
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.7442175,
+    "lng": -46.3975293
+   },
+   "location": "Rio Grande da Serra",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "53%",
+     "extracted_value": 53
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "31%",
+     "extracted_value": 31
+    },
+    {
+     "query": "bolsa família",
+     "value": "4%",
+     "extracted_value": 4
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.3879944,
+    "lng": -49.5076524
+   },
+   "location": "Fartura",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "48%",
+     "extracted_value": 48
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "4%",
+     "extracted_value": 4
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.2294354,
+    "lng": -50.8593077
+   },
+   "location": "Valparaíso",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "48%",
+     "extracted_value": 48
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "bolsonaro",
+     "value": "35%",
+     "extracted_value": 35
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.2528671,
+    "lng": -50.6458503
+   },
+   "location": "Guararapes",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "51%",
+     "extracted_value": 51
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.7071623,
+    "lng": -46.4062503
+   },
+   "location": "Ribeirão Pires",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "52%",
+     "extracted_value": 52
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bolsonaro",
+     "value": "35%",
+     "extracted_value": 35
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.6515085,
+    "lng": -46.8521864
+   },
+   "location": "Embu das Artes",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "53%",
+     "extracted_value": 53
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "31%",
+     "extracted_value": 31
+    },
+    {
+     "query": "bolsa família",
+     "value": "4%",
+     "extracted_value": 4
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.4948382,
+    "lng": -48.4137924
+   },
+   "location": "Angatuba",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "54%",
+     "extracted_value": 54
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "31%",
+     "extracted_value": 31
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.3555044,
+    "lng": -46.8785941
+   },
+   "location": "Cajamar",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "51%",
+     "extracted_value": 51
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bolsonaro",
+     "value": "35%",
+     "extracted_value": 35
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.6024167,
+    "lng": -49.9991926
+   },
+   "location": "Campos Novos Paulista",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "57%",
+     "extracted_value": 57
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "bolsonaro",
+     "value": "28%",
+     "extracted_value": 28
+    },
+    {
+     "query": "bolsa família",
+     "value": "10%",
+     "extracted_value": 10
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.4876185,
+    "lng": -51.7028782
+   },
+   "location": "Ouro Verde",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "48%",
+     "extracted_value": 48
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "bolsonaro",
+     "value": "27%",
+     "extracted_value": 27
+    },
+    {
+     "query": "bolsa família",
+     "value": "10%",
+     "extracted_value": 10
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.9637379,
+    "lng": -49.0262903
+   },
+   "location": "Tabapuã",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "49%",
+     "extracted_value": 49
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "bolsonaro",
+     "value": "35%",
+     "extracted_value": 35
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.2076722,
+    "lng": -47.6048899
+   },
+   "location": "Serrana",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "52%",
+     "extracted_value": 52
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "4%",
+     "extracted_value": 4
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.4152317,
+    "lng": -50.7631572
+   },
+   "location": "Palmeira D'Oeste",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "52%",
+     "extracted_value": 52
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "16%",
+     "extracted_value": 16
+    },
+    {
+     "query": "bolsonaro",
+     "value": "32%",
+     "extracted_value": 32
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.7981763,
+    "lng": -48.5962748
+   },
+   "location": "Buri",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "52%",
+     "extracted_value": 52
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bolsonaro",
+     "value": "30%",
+     "extracted_value": 30
+    },
+    {
+     "query": "bolsa família",
+     "value": "7%",
+     "extracted_value": 7
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.2756953,
+    "lng": -51.5002318
+   },
+   "location": "Pirapozinho",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "51%",
+     "extracted_value": 51
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "bolsonaro",
+     "value": "32%",
+     "extracted_value": 32
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.1867409,
+    "lng": -48.9081184
+   },
+   "location": "Pindorama",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "48%",
+     "extracted_value": 48
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "bolsonaro",
+     "value": "37%",
+     "extracted_value": 37
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.573256,
+    "lng": -44.9693894
+   },
+   "location": "Cruzeiro",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "50%",
+     "extracted_value": 50
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "5%",
+     "extracted_value": 5
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.5113085,
+    "lng": -48.8447394
+   },
+   "location": "Apiaí",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "51%",
+     "extracted_value": 51
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "8%",
+     "extracted_value": 8
+    },
+    {
+     "query": "bolsonaro",
+     "value": "36%",
+     "extracted_value": 36
+    },
+    {
+     "query": "bolsa família",
+     "value": "5%",
+     "extracted_value": 5
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.4079699,
+    "lng": -45.8874147
+   },
+   "location": "Santa Branca",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "62%",
+     "extracted_value": 62
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "9%",
+     "extracted_value": 9
+    },
+    {
+     "query": "bolsonaro",
+     "value": "29%",
+     "extracted_value": 29
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5033899,
+    "lng": -47.6170597
+   },
+   "location": "Araçoiaba da Serra",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "49%",
+     "extracted_value": 49
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "35%",
+     "extracted_value": 35
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.8302097,
+    "lng": -46.8140421
+   },
+   "location": "Embu-Guaçu",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "49%",
+     "extracted_value": 49
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "5%",
+     "extracted_value": 5
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.8643129,
+    "lng": -49.1404554
+   },
+   "location": "Itaberá",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "45%",
+     "extracted_value": 45
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "bolsonaro",
+     "value": "40%",
+     "extracted_value": 40
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5465581,
+    "lng": -47.1906632
+   },
+   "location": "Mairinque",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "52%",
+     "extracted_value": 52
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "32%",
+     "extracted_value": 32
+    },
+    {
+     "query": "bolsa família",
+     "value": "4%",
+     "extracted_value": 4
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.8401139,
+    "lng": -45.2554893
+   },
+   "location": "Potim",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "50%",
+     "extracted_value": 50
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "9%",
+     "extracted_value": 9
+    },
+    {
+     "query": "bolsonaro",
+     "value": "41%",
+     "extracted_value": 41
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.9678823,
+    "lng": -46.3288865
+   },
+   "location": "Santos",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "52%",
+     "extracted_value": 52
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "10%",
+     "extracted_value": 10
+    },
+    {
+     "query": "bolsonaro",
+     "value": "37%",
+     "extracted_value": 37
+    },
+    {
+     "query": "bolsa família",
+     "value": "1%",
+     "extracted_value": 1
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.0088727,
+    "lng": -46.4125034
+   },
+   "location": "Praia Grande",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "53%",
+     "extracted_value": 53
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.4893927,
+    "lng": -47.2130215
+   },
+   "location": "Engenheiro Coelho",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "50%",
+     "extracted_value": 50
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "4%",
+     "extracted_value": 4
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.3544405,
+    "lng": -51.856666
+   },
+   "location": "Panorama",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "49%",
+     "extracted_value": 49
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "6%",
+     "extracted_value": 6
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.1817994,
+    "lng": -46.7850334
+   },
+   "location": "Itanhaém",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "49%",
+     "extracted_value": 49
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "5%",
+     "extracted_value": 5
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.8062432,
+    "lng": -49.9636465
+   },
+   "location": "Macaubal",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "50%",
+     "extracted_value": 50
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "31%",
+     "extracted_value": 31
+    },
+    {
+     "query": "bolsa família",
+     "value": "6%",
+     "extracted_value": 6
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.4718061,
+    "lng": -46.745266
+   },
+   "location": "Tapiratiba",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "50%",
+     "extracted_value": 50
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "37%",
+     "extracted_value": 37
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.4336578,
+    "lng": -45.0838481
+   },
+   "location": "Ubatuba",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "50%",
+     "extracted_value": 50
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "35%",
+     "extracted_value": 35
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.4616744,
+    "lng": -49.9481578
+   },
+   "location": "Avanhandava",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "43%",
+     "extracted_value": 43
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "16%",
+     "extracted_value": 16
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "8%",
+     "extracted_value": 8
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.7712926,
+    "lng": -47.0856897
+   },
+   "location": "Casa Branca",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "52%",
+     "extracted_value": 52
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "4%",
+     "extracted_value": 4
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.7154583,
+    "lng": -47.875829
+   },
+   "location": "Pariquera-Açu",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "48%",
+     "extracted_value": 48
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "6%",
+     "extracted_value": 6
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.0272962,
+    "lng": -48.0352471
+   },
+   "location": "Pontal",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "48%",
+     "extracted_value": 48
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "4%",
+     "extracted_value": 4
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.9455303,
+    "lng": -47.3126323
+   },
+   "location": "Monte Mor",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "49%",
+     "extracted_value": 49
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "32%",
+     "extracted_value": 32
+    },
+    {
+     "query": "bolsa família",
+     "value": "6%",
+     "extracted_value": 6
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.1508954,
+    "lng": -47.3203623
+   },
+   "location": "Santa Rita do Ribeira",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "50%",
+     "extracted_value": 50
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "32%",
+     "extracted_value": 32
+    },
+    {
+     "query": "bolsa família",
+     "value": "6%",
+     "extracted_value": 6
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5505199,
+    "lng": -46.6333094
+   },
+   "location": "São Paulo",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "53%",
+     "extracted_value": 53
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "10%",
+     "extracted_value": 10
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.6818396,
+    "lng": -46.620967
+   },
+   "location": "Diadema",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "54%",
+     "extracted_value": 54
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.243953,
+    "lng": -48.8045943
+   },
+   "location": "Santa Adélia",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "47%",
+     "extracted_value": 47
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "5%",
+     "extracted_value": 5
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.6742228,
+    "lng": -46.5436003
+   },
+   "location": "Santo André",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "54%",
+     "extracted_value": 54
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.4689594,
+    "lng": -47.7392896
+   },
+   "location": "Capela do Alto",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "50%",
+     "extracted_value": 50
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "32%",
+     "extracted_value": 32
+    },
+    {
+     "query": "bolsa família",
+     "value": "5%",
+     "extracted_value": 5
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.8786864,
+    "lng": -47.9940081
+   },
+   "location": "Sao Miguel Arcanjo",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "45%",
+     "extracted_value": 45
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "bolsonaro",
+     "value": "35%",
+     "extracted_value": 35
+    },
+    {
+     "query": "bolsa família",
+     "value": "5%",
+     "extracted_value": 5
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5899668,
+    "lng": -48.476262
+   },
+   "location": "Campina do Monte Alegre",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "49%",
+     "extracted_value": 49
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.7497183,
+    "lng": -50.5792608
+   },
+   "location": "Tarumã",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "55%",
+     "extracted_value": 55
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "bolsonaro",
+     "value": "30%",
+     "extracted_value": 30
+    },
+    {
+     "query": "bolsa família",
+     "value": "1%",
+     "extracted_value": 1
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.9099384,
+    "lng": -47.0626332
+   },
+   "location": "Campinas",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "53%",
+     "extracted_value": 53
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5310431,
+    "lng": -47.2550228
+   },
+   "location": "Alumínio",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "54%",
+     "extracted_value": 54
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "32%",
+     "extracted_value": 32
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.8158392,
+    "lng": -45.3664809
+   },
+   "location": "Ilhabela",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "52%",
+     "extracted_value": 52
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "10%",
+     "extracted_value": 10
+    },
+    {
+     "query": "bolsonaro",
+     "value": "36%",
+     "extracted_value": 36
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.7338724,
+    "lng": -45.1201112
+   },
+   "location": "Lorena",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "51%",
+     "extracted_value": 51
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.7166271,
+    "lng": -46.8576421
+   },
+   "location": "Itapecerica da Serra",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "49%",
+     "extracted_value": 49
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "5%",
+     "extracted_value": 5
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.8916151,
+    "lng": -46.4244141
+   },
+   "location": "Cubatão",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "49%",
+     "extracted_value": 49
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "35%",
+     "extracted_value": 35
+    },
+    {
+     "query": "bolsa família",
+     "value": "4%",
+     "extracted_value": 4
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.6144285,
+    "lng": -46.7037152
+   },
+   "location": "Serra Negra",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "53%",
+     "extracted_value": 53
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "1%",
+     "extracted_value": 1
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.6221584,
+    "lng": -49.0786259
+   },
+   "location": "Borborema",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "42%",
+     "extracted_value": 42
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "bolsonaro",
+     "value": "40%",
+     "extracted_value": 40
+    },
+    {
+     "query": "bolsa família",
+     "value": "1%",
+     "extracted_value": 1
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.0482479,
+    "lng": -49.6879727
+   },
+   "location": "José Bonifácio",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "50%",
+     "extracted_value": 50
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "35%",
+     "extracted_value": 35
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.2114344,
+    "lng": -50.9271748
+   },
+   "location": "Santa Fé do Sul",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "49%",
+     "extracted_value": 49
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "bolsonaro",
+     "value": "35%",
+     "extracted_value": 35
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.3176861,
+    "lng": -46.2241105
+   },
+   "location": "Santa Isabel",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "50%",
+     "extracted_value": 50
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "4%",
+     "extracted_value": 4
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.4795713,
+    "lng": -47.5547739
+   },
+   "location": "São Simão",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "51%",
+     "extracted_value": 51
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "bolsonaro",
+     "value": "32%",
+     "extracted_value": 32
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.0800859,
+    "lng": -48.3755621
+   },
+   "location": "Pardinho",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "50%",
+     "extracted_value": 50
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "bolsonaro",
+     "value": "32%",
+     "extracted_value": 32
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.9576323,
+    "lng": -45.5479616
+   },
+   "location": "Tremembé",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "52%",
+     "extracted_value": 52
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.3969772,
+    "lng": -46.9995522
+   },
+   "location": "Pirapora do Bom Jesus",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "50%",
+     "extracted_value": 50
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "30%",
+     "extracted_value": 30
+    },
+    {
+     "query": "bolsa família",
+     "value": "8%",
+     "extracted_value": 8
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.3612198,
+    "lng": -46.7401869
+   },
+   "location": "Caieiras",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "50%",
+     "extracted_value": 50
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "35%",
+     "extracted_value": 35
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.668163,
+    "lng": -46.4617086
+   },
+   "location": "Mauá",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "51%",
+     "extracted_value": 51
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.2755425,
+    "lng": -47.3013532
+   },
+   "location": "Cajuru",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "46%",
+     "extracted_value": 46
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "bolsonaro",
+     "value": "35%",
+     "extracted_value": 35
+    },
+    {
+     "query": "bolsa família",
+     "value": "5%",
+     "extracted_value": 5
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.2737724,
+    "lng": -46.9554553
+   },
+   "location": "Estiva Gerbi",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "47%",
+     "extracted_value": 47
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "bolsonaro",
+     "value": "35%",
+     "extracted_value": 35
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.9607656,
+    "lng": -46.3960797
+   },
+   "location": "São Vicente",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "48%",
+     "extracted_value": 48
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "35%",
+     "extracted_value": 35
+    },
+    {
+     "query": "bolsa família",
+     "value": "4%",
+     "extracted_value": 4
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.6841832,
+    "lng": -50.5484648
+   },
+   "location": "Auriflama",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "50%",
+     "extracted_value": 50
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "bolsonaro",
+     "value": "32%",
+     "extracted_value": 32
+    },
+    {
+     "query": "bolsa família",
+     "value": "4%",
+     "extracted_value": 4
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.695301,
+    "lng": -50.0415929
+   },
+   "location": "Nhandeara",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "52%",
+     "extracted_value": 52
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bolsonaro",
+     "value": "37%",
+     "extracted_value": 37
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.0421785,
+    "lng": -47.7563994
+   },
+   "location": "Igarapava",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "47%",
+     "extracted_value": 47
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "16%",
+     "extracted_value": 16
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.7414439,
+    "lng": -48.6891129
+   },
+   "location": "Tabatinga",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "55%",
+     "extracted_value": 55
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.5131732,
+    "lng": -47.773567
+   },
+   "location": "Charqueada",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "57%",
+     "extracted_value": 57
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "29%",
+     "extracted_value": 29
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.1067087,
+    "lng": -48.6123867
+   },
+   "location": "Itatinga",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "48%",
+     "extracted_value": 48
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "4%",
+     "extracted_value": 4
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.787936,
+    "lng": -50.2199938
+   },
+   "location": "Palmital",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "51%",
+     "extracted_value": 51
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "10%",
+     "extracted_value": 10
+    },
+    {
+     "query": "bolsonaro",
+     "value": "35%",
+     "extracted_value": 35
+    },
+    {
+     "query": "bolsa família",
+     "value": "4%",
+     "extracted_value": 4
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.6053393,
+    "lng": -46.914966
+   },
+   "location": "Santo Antônio de Posse",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "51%",
+     "extracted_value": 51
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "32%",
+     "extracted_value": 32
+    },
+    {
+     "query": "bolsa família",
+     "value": "4%",
+     "extracted_value": 4
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.1075246,
+    "lng": -46.6801919
+   },
+   "location": "Mongaguá",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "50%",
+     "extracted_value": 50
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "32%",
+     "extracted_value": 32
+    },
+    {
+     "query": "bolsa família",
+     "value": "5%",
+     "extracted_value": 5
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.5852816,
+    "lng": -47.8643745
+   },
+   "location": "São Joaquim da Barra",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "51%",
+     "extracted_value": 51
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.5487399,
+    "lng": -47.9100329
+   },
+   "location": "São Pedro",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "51%",
+     "extracted_value": 51
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.7650153,
+    "lng": -47.1500274
+   },
+   "location": "Paulínia",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "52%",
+     "extracted_value": 52
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.9929318,
+    "lng": -49.4547036
+   },
+   "location": "Pirajuí",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "44%",
+     "extracted_value": 44
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "16%",
+     "extracted_value": 16
+    },
+    {
+     "query": "bolsonaro",
+     "value": "35%",
+     "extracted_value": 35
+    },
+    {
+     "query": "bolsa família",
+     "value": "5%",
+     "extracted_value": 5
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.7186744,
+    "lng": -51.0219868
+   },
+   "location": "Lucélia",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "46%",
+     "extracted_value": 46
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "bolsonaro",
+     "value": "37%",
+     "extracted_value": 37
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.0424305,
+    "lng": -49.3766298
+   },
+   "location": "Potirendaba",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "46%",
+     "extracted_value": 46
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "bolsonaro",
+     "value": "35%",
+     "extracted_value": 35
+    },
+    {
+     "query": "bolsa família",
+     "value": "4%",
+     "extracted_value": 4
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.0996965,
+    "lng": -45.7080824
+   },
+   "location": "Caçapava",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "48%",
+     "extracted_value": 48
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "36%",
+     "extracted_value": 36
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.2866742,
+    "lng": -50.400972
+   },
+   "location": "Estrela D'Oeste",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "42%",
+     "extracted_value": 42
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "16%",
+     "extracted_value": 16
+    },
+    {
+     "query": "bolsonaro",
+     "value": "37%",
+     "extracted_value": 37
+    },
+    {
+     "query": "bolsa família",
+     "value": "5%",
+     "extracted_value": 5
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.6423923,
+    "lng": -47.1930263
+   },
+   "location": "Cosmópolis",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "49%",
+     "extracted_value": 49
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.6436652,
+    "lng": -51.1110523
+   },
+   "location": "Pereira Barreto",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "47%",
+     "extracted_value": 47
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "bolsonaro",
+     "value": "36%",
+     "extracted_value": 36
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5998291,
+    "lng": -47.0224881
+   },
+   "location": "Vargem Grande Paulista",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "54%",
+     "extracted_value": 54
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.5002295,
+    "lng": -47.8448116
+   },
+   "location": "Registro",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "48%",
+     "extracted_value": 48
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bolsonaro",
+     "value": "35%",
+     "extracted_value": 35
+    },
+    {
+     "query": "bolsa família",
+     "value": "6%",
+     "extracted_value": 6
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5239623,
+    "lng": -46.8411243
+   },
+   "location": "Carapicuíba",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "51%",
+     "extracted_value": 51
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "4%",
+     "extracted_value": 4
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.7836726,
+    "lng": -47.2945086
+   },
+   "location": "Nova Odessa",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "51%",
+     "extracted_value": 51
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.9163728,
+    "lng": -49.4487934
+   },
+   "location": "Bady Bassitt",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "52%",
+     "extracted_value": 52
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "31%",
+     "extracted_value": 31
+    },
+    {
+     "query": "bolsa família",
+     "value": "5%",
+     "extracted_value": 5
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.1742516,
+    "lng": -51.2559461
+   },
+   "location": "Indiana",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "48%",
+     "extracted_value": 48
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "bolsonaro",
+     "value": "37%",
+     "extracted_value": 37
+    },
+    {
+     "query": "bolsa família",
+     "value": "1%",
+     "extracted_value": 1
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.223701,
+    "lng": -45.9009074
+   },
+   "location": "São José dos Campos",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "49%",
+     "extracted_value": 49
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bolsonaro",
+     "value": "38%",
+     "extracted_value": 38
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.4128636,
+    "lng": -46.03502
+   },
+   "location": "Guararema",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "51%",
+     "extracted_value": 51
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "35%",
+     "extracted_value": 35
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.0432476,
+    "lng": -47.368765
+   },
+   "location": "Elias Fausto",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "49%",
+     "extracted_value": 49
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "6%",
+     "extracted_value": 6
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.504198,
+    "lng": -48.71221
+   },
+   "location": "Macatuba",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "46%",
+     "extracted_value": 46
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "bolsonaro",
+     "value": "37%",
+     "extracted_value": 37
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.7683013,
+    "lng": -49.7103963
+   },
+   "location": "Monte Aprazível",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "49%",
+     "extracted_value": 49
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.0204559,
+    "lng": -45.5563555
+   },
+   "location": "Taubaté",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "52%",
+     "extracted_value": 52
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "2%",
+     "extracted_value": 2
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.0306726,
+    "lng": -46.9837599
+   },
+   "location": "Vinhedo",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "55%",
+     "extracted_value": 55
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "1%",
+     "extracted_value": 1
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5453209,
+    "lng": -46.311625
+   },
+   "location": "Suzano",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "52%",
+     "extracted_value": 52
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bolsonaro",
+     "value": "32%",
+     "extracted_value": 32
+    },
+    {
+     "query": "bolsa família",
+     "value": "5%",
+     "extracted_value": 5
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.51256,
+    "lng": -48.5539871
+   },
+   "location": "Igaraçu do Tietê",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "51%",
+     "extracted_value": 51
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bolsonaro",
+     "value": "31%",
+     "extracted_value": 31
+    },
+    {
+     "query": "bolsa família",
+     "value": "7%",
+     "extracted_value": 7
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.3593144,
+    "lng": -48.0724748
+   },
+   "location": "Pradópolis",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "50%",
+     "extracted_value": 50
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "9%",
+     "extracted_value": 9
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "8%",
+     "extracted_value": 8
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.0159156,
+    "lng": -48.0138473
+   },
+   "location": "Conchas",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "48%",
+     "extracted_value": 48
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "bolsonaro",
+     "value": "35%",
+     "extracted_value": 35
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.8423893,
+    "lng": -49.6313976
+   },
+   "location": "Neves Paulista",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "51%",
+     "extracted_value": 51
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "10%",
+     "extracted_value": 10
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "6%",
+     "extracted_value": 6
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.6601008,
+    "lng": -47.223489
+   },
+   "location": "Ibiúna",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "50%",
+     "extracted_value": 50
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsonaro",
+     "value": "34%",
+     "extracted_value": 34
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5263865,
+    "lng": -49.2460182
+   },
+   "location": "Taquarituba",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "48%",
+     "extracted_value": 48
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "bolsonaro",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "bolsa família",
+     "value": "4%",
+     "extracted_value": 4
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.6228759,
+    "lng": -46.7816647
+   },
+   "location": "Taboão da Serra",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "lula",
+     "value": "52%",
+     "extracted_value": 52
+    },
+    {
+     "query": "flávio bolsonaro",
+     "value": "10%",
+     "extracted_value": 10
+    },
+    {
+     "query": "bolsonaro",
+     "value": "35%",
+     "extracted_value": 35
+    },
+    {
+     "query": "bolsa família",
+     "value": "3%",
+     "extracted_value": 3
+    }
+   ]
+  }
+ ]
+}

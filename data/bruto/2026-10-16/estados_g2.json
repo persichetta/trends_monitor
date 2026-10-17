@@ -1,0 +1,890 @@
+{
+ "search_metadata": {
+  "id": "6ad2b451e8e13a9977bd68b0",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/zV6_szkLo4RQgo99-Dkn02aQ0ASMDyz5KL3goFauWLg/6ad2b451e8e13a9977bd68b0.json",
+  "markdown_endpoint": "https://serpapi.com/searches/zV6_szkLo4RQgo99-Dkn02aQ0ASMDyz5KL3goFauWLg/6ad2b451e8e13a9977bd68b0.md",
+  "created_at": "2026-10-16 23:33:37 UTC",
+  "processed_at": "2026-10-16 23:33:37 UTC",
+  "google_trends_url": "https://trends.google.com/trends/embed/explore/GEO_MAP?hl=pt-BR&tz=180&req=%7B%22comparisonItem%22%3A%5B%7B%22keyword%22%3A%22ubs%22%2C%22geo%22%3A%22BR%22%2C%22time%22%3A%22now+7-d%22%7D%2C%7B%22keyword%22%3A%22escola+p%C3%BAblica%22%2C%22geo%22%3A%22BR%22%2C%22time%22%3A%22now+7-d%22%7D%2C%7B%22keyword%22%3A%22bpc+loas%22%2C%22geo%22%3A%22BR%22%2C%22time%22%3A%22now+7-d%22%7D%2C%7B%22keyword%22%3A%22merenda+escolar%22%2C%22geo%22%3A%22BR%22%2C%22time%22%3A%22now+7-d%22%7D%2C%7B%22keyword%22%3A%22bolsa+fam%C3%ADlia%22%2C%22geo%22%3A%22BR%22%2C%22time%22%3A%22now+7-d%22%7D%5D%2C%22category%22%3A0%2C%22property%22%3A%22%22%7D",
+  "raw_html_file": "https://serpapi.com/searches/zV6_szkLo4RQgo99-Dkn02aQ0ASMDyz5KL3goFauWLg/6ad2b451e8e13a9977bd68b0.html",
+  "prettify_html_file": "https://serpapi.com/searches/zV6_szkLo4RQgo99-Dkn02aQ0ASMDyz5KL3goFauWLg/6ad2b451e8e13a9977bd68b0.prettify",
+  "total_time_taken": 1.1
+ },
+ "search_parameters": {
+  "engine": "google_trends",
+  "q": "ubs,escola pública,bpc loas,merenda escolar,bolsa família",
+  "hl": "pt-BR",
+  "geo": "BR",
+  "date": "now 7-d",
+  "tz": "180",
+  "data_type": "GEO_MAP",
+  "region": "REGION"
+ },
+ "compared_breakdown_by_region": [
+  {
+   "geo": "BR-RR",
+   "location": "Roraima",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "ubs",
+     "value": "23%",
+     "extracted_value": 23
+    },
+    {
+     "query": "escola pública",
+     "value": "1%",
+     "extracted_value": 1
+    },
+    {
+     "query": "bpc loas",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "merenda escolar",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "74%",
+     "extracted_value": 74
+    }
+   ]
+  },
+  {
+   "geo": "BR-AP",
+   "location": "Amapá",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "ubs",
+     "value": "19%",
+     "extracted_value": 19
+    },
+    {
+     "query": "escola pública",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bpc loas",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "merenda escolar",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "66%",
+     "extracted_value": 66
+    }
+   ]
+  },
+  {
+   "geo": "BR-SP",
+   "location": "São Paulo",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "ubs",
+     "value": "39%",
+     "extracted_value": 39
+    },
+    {
+     "query": "escola pública",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "bpc loas",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "merenda escolar",
+     "value": "<1%",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "55%",
+     "extracted_value": 55
+    }
+   ]
+  },
+  {
+   "geo": "BR-AM",
+   "location": "Amazonas",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "ubs",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "escola pública",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "bpc loas",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "merenda escolar",
+     "value": "<1%",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "80%",
+     "extracted_value": 80
+    }
+   ]
+  },
+  {
+   "geo": "BR-DF",
+   "location": "Distrito Federal",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "ubs",
+     "value": "33%",
+     "extracted_value": 33
+    },
+    {
+     "query": "escola pública",
+     "value": "7%",
+     "extracted_value": 7
+    },
+    {
+     "query": "bpc loas",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "merenda escolar",
+     "value": "<1%",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "56%",
+     "extracted_value": 56
+    }
+   ]
+  },
+  {
+   "geo": "BR-TO",
+   "location": "Tocantins",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "ubs",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "escola pública",
+     "value": "1%",
+     "extracted_value": 1
+    },
+    {
+     "query": "bpc loas",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "merenda escolar",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "76%",
+     "extracted_value": 76
+    }
+   ]
+  },
+  {
+   "geo": "BR-RO",
+   "location": "Rondônia",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "ubs",
+     "value": "19%",
+     "extracted_value": 19
+    },
+    {
+     "query": "escola pública",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "bpc loas",
+     "value": "7%",
+     "extracted_value": 7
+    },
+    {
+     "query": "merenda escolar",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "72%",
+     "extracted_value": 72
+    }
+   ]
+  },
+  {
+   "geo": "BR-RN",
+   "location": "Rio Grande do Norte",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "ubs",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "escola pública",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "bpc loas",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "merenda escolar",
+     "value": "<1%",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "82%",
+     "extracted_value": 82
+    }
+   ]
+  },
+  {
+   "geo": "BR-PI",
+   "location": "Piauí",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "ubs",
+     "value": "9%",
+     "extracted_value": 9
+    },
+    {
+     "query": "escola pública",
+     "value": "1%",
+     "extracted_value": 1
+    },
+    {
+     "query": "bpc loas",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "merenda escolar",
+     "value": "<1%",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "85%",
+     "extracted_value": 85
+    }
+   ]
+  },
+  {
+   "geo": "BR-SE",
+   "location": "Sergipe",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "ubs",
+     "value": "9%",
+     "extracted_value": 9
+    },
+    {
+     "query": "escola pública",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "bpc loas",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "merenda escolar",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "84%",
+     "extracted_value": 84
+    }
+   ]
+  },
+  {
+   "geo": "BR-PR",
+   "location": "Paraná",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "ubs",
+     "value": "27%",
+     "extracted_value": 27
+    },
+    {
+     "query": "escola pública",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "bpc loas",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "merenda escolar",
+     "value": "1%",
+     "extracted_value": 1
+    },
+    {
+     "query": "bolsa família",
+     "value": "65%",
+     "extracted_value": 65
+    }
+   ]
+  },
+  {
+   "geo": "BR-RS",
+   "location": "Rio Grande do Sul",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "ubs",
+     "value": "20%",
+     "extracted_value": 20
+    },
+    {
+     "query": "escola pública",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "bpc loas",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "merenda escolar",
+     "value": "<1%",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "72%",
+     "extracted_value": 72
+    }
+   ]
+  },
+  {
+   "geo": "BR-GO",
+   "location": "Goiás",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "ubs",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "escola pública",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "bpc loas",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "merenda escolar",
+     "value": "<1%",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "75%",
+     "extracted_value": 75
+    }
+   ]
+  },
+  {
+   "geo": "BR-SC",
+   "location": "Santa Catarina",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "ubs",
+     "value": "28%",
+     "extracted_value": 28
+    },
+    {
+     "query": "escola pública",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "bpc loas",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "merenda escolar",
+     "value": "<1%",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "63%",
+     "extracted_value": 63
+    }
+   ]
+  },
+  {
+   "geo": "BR-MG",
+   "location": "Minas Gerais",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "ubs",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "escola pública",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "bpc loas",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "merenda escolar",
+     "value": "<1%",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "78%",
+     "extracted_value": 78
+    }
+   ]
+  },
+  {
+   "geo": "BR-AL",
+   "location": "Alagoas",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "ubs",
+     "value": "7%",
+     "extracted_value": 7
+    },
+    {
+     "query": "escola pública",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "bpc loas",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "merenda escolar",
+     "value": "<1%",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "86%",
+     "extracted_value": 86
+    }
+   ]
+  },
+  {
+   "geo": "BR-PA",
+   "location": "Pará",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "ubs",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "escola pública",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "bpc loas",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "merenda escolar",
+     "value": "<1%",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "87%",
+     "extracted_value": 87
+    }
+   ]
+  },
+  {
+   "geo": "BR-MA",
+   "location": "Maranhão",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "ubs",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "escola pública",
+     "value": "1%",
+     "extracted_value": 1
+    },
+    {
+     "query": "bpc loas",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "merenda escolar",
+     "value": "<1%",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "89%",
+     "extracted_value": 89
+    }
+   ]
+  },
+  {
+   "geo": "BR-MS",
+   "location": "Mato Grosso do Sul",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "ubs",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "escola pública",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "bpc loas",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "merenda escolar",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "77%",
+     "extracted_value": 77
+    }
+   ]
+  },
+  {
+   "geo": "BR-ES",
+   "location": "Espírito Santo",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "ubs",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "escola pública",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "bpc loas",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "merenda escolar",
+     "value": "<1%",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "79%",
+     "extracted_value": 79
+    }
+   ]
+  },
+  {
+   "geo": "BR-PB",
+   "location": "Paraíba",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "ubs",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "escola pública",
+     "value": "1%",
+     "extracted_value": 1
+    },
+    {
+     "query": "bpc loas",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "merenda escolar",
+     "value": "<1%",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "88%",
+     "extracted_value": 88
+    }
+   ]
+  },
+  {
+   "geo": "BR-AC",
+   "location": "Acre",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "ubs",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "escola pública",
+     "value": "1%",
+     "extracted_value": 1
+    },
+    {
+     "query": "bpc loas",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "merenda escolar",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "89%",
+     "extracted_value": 89
+    }
+   ]
+  },
+  {
+   "geo": "BR-MT",
+   "location": "Mato Grosso",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "ubs",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "escola pública",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "bpc loas",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "merenda escolar",
+     "value": "<1%",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "77%",
+     "extracted_value": 77
+    }
+   ]
+  },
+  {
+   "geo": "BR-PE",
+   "location": "Pernambuco",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "ubs",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "escola pública",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "bpc loas",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "merenda escolar",
+     "value": "<1%",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "88%",
+     "extracted_value": 88
+    }
+   ]
+  },
+  {
+   "geo": "BR-BA",
+   "location": "Bahia",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "ubs",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "escola pública",
+     "value": "1%",
+     "extracted_value": 1
+    },
+    {
+     "query": "bpc loas",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "merenda escolar",
+     "value": "<1%",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "89%",
+     "extracted_value": 89
+    }
+   ]
+  },
+  {
+   "geo": "BR-CE",
+   "location": "Ceará",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "ubs",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "escola pública",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "bpc loas",
+     "value": "8%",
+     "extracted_value": 8
+    },
+    {
+     "query": "merenda escolar",
+     "value": "<1%",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "86%",
+     "extracted_value": 86
+    }
+   ]
+  },
+  {
+   "geo": "BR-RJ",
+   "location": "Rio de Janeiro",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "ubs",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "escola pública",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "bpc loas",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "merenda escolar",
+     "value": "<1%",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "87%",
+     "extracted_value": 87
+    }
+   ]
+  }
+ ]
+}

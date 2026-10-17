@@ -1,0 +1,5662 @@
+{
+ "search_metadata": {
+  "id": "6ad2b471739fd7b81a5bf831",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/fjNFbxJcC7n8lFBqQ5SQZVTsZQBjZGZ2MV310f1tqi0/6ad2b471739fd7b81a5bf831.json",
+  "markdown_endpoint": "https://serpapi.com/searches/fjNFbxJcC7n8lFBqQ5SQZVTsZQBjZGZ2MV310f1tqi0/6ad2b471739fd7b81a5bf831.md",
+  "created_at": "2026-10-16 23:34:09 UTC",
+  "processed_at": "2026-10-16 23:34:09 UTC",
+  "google_trends_url": "https://trends.google.com/trends/embed/explore/GEO_MAP?hl=pt-BR&tz=180&req=%7B%22comparisonItem%22%3A%5B%7B%22keyword%22%3A%22mais+m%C3%A9dicos%22%2C%22geo%22%3A%22BR-SP%22%2C%22time%22%3A%22now+7-d%22%7D%2C%7B%22keyword%22%3A%22sa%C3%BAde+da+fam%C3%ADlia%22%2C%22geo%22%3A%22BR-SP%22%2C%22time%22%3A%22now+7-d%22%7D%2C%7B%22keyword%22%3A%22escola+em+tempo+integral%22%2C%22geo%22%3A%22BR-SP%22%2C%22time%22%3A%22now+7-d%22%7D%2C%7B%22keyword%22%3A%22dinheiro+direto+na+escola%22%2C%22geo%22%3A%22BR-SP%22%2C%22time%22%3A%22now+7-d%22%7D%2C%7B%22keyword%22%3A%22bolsa+fam%C3%ADlia%22%2C%22geo%22%3A%22BR-SP%22%2C%22time%22%3A%22now+7-d%22%7D%5D%2C%22category%22%3A0%2C%22property%22%3A%22%22%7D",
+  "raw_html_file": "https://serpapi.com/searches/fjNFbxJcC7n8lFBqQ5SQZVTsZQBjZGZ2MV310f1tqi0/6ad2b471739fd7b81a5bf831.html",
+  "prettify_html_file": "https://serpapi.com/searches/fjNFbxJcC7n8lFBqQ5SQZVTsZQBjZGZ2MV310f1tqi0/6ad2b471739fd7b81a5bf831.prettify",
+  "total_time_taken": 1.94
+ },
+ "search_parameters": {
+  "engine": "google_trends",
+  "q": "mais médicos,saúde da família,escola em tempo integral,dinheiro direto na escola,bolsa família",
+  "hl": "pt-BR",
+  "geo": "BR-SP",
+  "date": "now 7-d",
+  "tz": "180",
+  "data_type": "GEO_MAP",
+  "region": "CITY",
+  "include_low_search_volume": "true"
+ },
+ "compared_breakdown_by_region": [
+  {
+   "coordinates": {
+    "lat": -24.7069748,
+    "lng": -47.557453
+   },
+   "location": "Iguape",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.319196,
+    "lng": -47.6350613
+   },
+   "location": "Juquiá",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -25.012621,
+    "lng": -47.9338687
+   },
+   "location": "Cananéia",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.1896991,
+    "lng": -48.5300136
+   },
+   "location": "Guapiara",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.8302097,
+    "lng": -46.8140421
+   },
+   "location": "Embu-Guaçu",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.2454935,
+    "lng": -50.7031569
+   },
+   "location": "Quatá",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.2755425,
+    "lng": -47.3013532
+   },
+   "location": "Cajuru",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5361909,
+    "lng": -45.8493349
+   },
+   "location": "Salesópolis",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.5002295,
+    "lng": -47.8448116
+   },
+   "location": "Registro",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.7154583,
+    "lng": -47.875829
+   },
+   "location": "Pariquera-Açu",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.1817994,
+    "lng": -46.7850334
+   },
+   "location": "Itanhaém",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.4139537,
+    "lng": -50.5761151
+   },
+   "location": "Paraguaçu Paulista",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.4849456,
+    "lng": -46.3494828
+   },
+   "location": "Itaquaquecetuba",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.0432476,
+    "lng": -47.368765
+   },
+   "location": "Elias Fausto",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.1331045,
+    "lng": -51.1023381
+   },
+   "location": "Mirandópolis",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.1099571,
+    "lng": -48.3751185
+   },
+   "location": "Ribeirão Grande",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5899668,
+    "lng": -48.476262
+   },
+   "location": "Campina do Monte Alegre",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.7096088,
+    "lng": -48.5318251
+   },
+   "location": "Colina",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.573256,
+    "lng": -44.9693894
+   },
+   "location": "Cruzeiro",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.3124682,
+    "lng": -47.0016524
+   },
+   "location": "Peruíbe",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.7166271,
+    "lng": -46.8576421
+   },
+   "location": "Itapecerica da Serra",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.2797384,
+    "lng": -46.7452277
+   },
+   "location": "Francisco Morato",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.0375691,
+    "lng": -49.7114397
+   },
+   "location": "Chavantes",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.0810552,
+    "lng": -49.9135463
+   },
+   "location": "Cardoso",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.7394382,
+    "lng": -47.5422745
+   },
+   "location": "Ilha Comprida",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.7442175,
+    "lng": -46.3975293
+   },
+   "location": "Rio Grande da Serra",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.4909206,
+    "lng": -47.37045
+   },
+   "location": "Santa Rosa de Viterbo",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.7940132,
+    "lng": -49.2211274
+   },
+   "location": "Guapiaçu",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.3233727,
+    "lng": -46.7294577
+   },
+   "location": "Franco da Rocha",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5453209,
+    "lng": -46.311625
+   },
+   "location": "Suzano",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.0421785,
+    "lng": -47.7563994
+   },
+   "location": "Igarapava",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.1075246,
+    "lng": -46.6801919
+   },
+   "location": "Mongaguá",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.5288756,
+    "lng": -46.6436425
+   },
+   "location": "Caconde",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.3179561,
+    "lng": -46.5885175
+   },
+   "location": "Mairiporã",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5337777,
+    "lng": -46.3477362
+   },
+   "location": "Poá",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5492651,
+    "lng": -46.9331962
+   },
+   "location": "Itapevi",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.787936,
+    "lng": -50.2199938
+   },
+   "location": "Palmital",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.6515085,
+    "lng": -46.8521864
+   },
+   "location": "Embu das Artes",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.6443472,
+    "lng": -47.5720968
+   },
+   "location": "Salto de Pirapora",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.3601809,
+    "lng": -48.2282659
+   },
+   "location": "Guariba",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5239623,
+    "lng": -46.8411243
+   },
+   "location": "Carapicuíba",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.9607656,
+    "lng": -46.3960797
+   },
+   "location": "São Vicente",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.8916151,
+    "lng": -46.4244141
+   },
+   "location": "Cubatão",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.8080266,
+    "lng": -45.1942201
+   },
+   "location": "Guaratinguetá",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.6601008,
+    "lng": -47.223489
+   },
+   "location": "Ibiúna",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.7668575,
+    "lng": -52.1096427
+   },
+   "location": "Presidente Epitácio",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.3555044,
+    "lng": -46.8785941
+   },
+   "location": "Cajamar",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.8239574,
+    "lng": -47.2484692
+   },
+   "location": "Santa Cruz das Palmeiras",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.3058194,
+    "lng": -47.1367011
+   },
+   "location": "Cabreúva",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.2140719,
+    "lng": -46.8238911
+   },
+   "location": "Várzea Paulista",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.2567218,
+    "lng": -47.8170462
+   },
+   "location": "Itirapina",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.668163,
+    "lng": -46.4617086
+   },
+   "location": "Mauá",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.8933441,
+    "lng": -47.5925952
+   },
+   "location": "Batatais",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.8326774,
+    "lng": -46.8917293
+   },
+   "location": "Vargem Grande do Sul",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.0996965,
+    "lng": -45.7080824
+   },
+   "location": "Caçapava",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.9251224,
+    "lng": -45.4616987
+   },
+   "location": "Pindamonhangaba",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.589095,
+    "lng": -48.0487846
+   },
+   "location": "Itapetininga",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.7071623,
+    "lng": -46.4062503
+   },
+   "location": "Ribeirão Pires",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.208281,
+    "lng": -46.7893658
+   },
+   "location": "Campo Limpo Paulista",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.6221584,
+    "lng": -49.0786259
+   },
+   "location": "Borborema",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.9948444,
+    "lng": -46.2568678
+   },
+   "location": "Guarujá",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.3612198,
+    "lng": -46.7401869
+   },
+   "location": "Caieiras",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.075317,
+    "lng": -48.7417603
+   },
+   "location": "Bariri",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.8173456,
+    "lng": -49.5210713
+   },
+   "location": "Mirassol",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.7567077,
+    "lng": -48.8323618
+   },
+   "location": "Ibitinga",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.7324847,
+    "lng": -48.5724499
+   },
+   "location": "São Manuel",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.4714626,
+    "lng": -48.9790314
+   },
+   "location": "Agudos",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.6255903,
+    "lng": -45.4241453
+   },
+   "location": "Caraguatatuba",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.6228759,
+    "lng": -46.7816647
+   },
+   "location": "Taboão da Serra",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.540286,
+    "lng": -47.4445978
+   },
+   "location": "Votorantim",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.8533412,
+    "lng": -47.2147082
+   },
+   "location": "Hortolândia",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.4336578,
+    "lng": -45.0838481
+   },
+   "location": "Ubatuba",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.3492186,
+    "lng": -47.8465761
+   },
+   "location": "Tatuí",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.7836726,
+    "lng": -47.2945086
+   },
+   "location": "Nova Odessa",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5213131,
+    "lng": -46.1858528
+   },
+   "location": "Mogi das Cruzes",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.8841808,
+    "lng": -48.4441654
+   },
+   "location": "Botucatu",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.0482479,
+    "lng": -49.6879727
+   },
+   "location": "José Bonifácio",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.9798796,
+    "lng": -49.8699377
+   },
+   "location": "Ourinhos",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.8063468,
+    "lng": -45.4016534
+   },
+   "location": "São Sebastião",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.1379949,
+    "lng": -47.990137
+   },
+   "location": "Sertãozinho",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.1318555,
+    "lng": -48.977473
+   },
+   "location": "Catanduva",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.8209029,
+    "lng": -47.2732726
+   },
+   "location": "Sumaré",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5328814,
+    "lng": -46.7920029
+   },
+   "location": "Osasco",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "1%",
+     "extracted_value": 1
+    },
+    {
+     "query": "saúde da família",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "97%",
+     "extracted_value": 97
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.2103852,
+    "lng": -47.5247679
+   },
+   "location": "Porto Feliz",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.3969682,
+    "lng": -46.3204265
+   },
+   "location": "Arujá",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.0088727,
+    "lng": -46.4125034
+   },
+   "location": "Praia Grande",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "1%",
+     "extracted_value": 1
+    },
+    {
+     "query": "saúde da família",
+     "value": "1%",
+     "extracted_value": 1
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "98%",
+     "extracted_value": 98
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5307554,
+    "lng": -47.1353998
+   },
+   "location": "São Roque",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5505199,
+    "lng": -46.6333094
+   },
+   "location": "São Paulo",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "1%",
+     "extracted_value": 1
+    },
+    {
+     "query": "saúde da família",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "<1%",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "97%",
+     "extracted_value": 97
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.8737026,
+    "lng": -51.8452266
+   },
+   "location": "Presidente Venceslau",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.9340017,
+    "lng": -50.5195856
+   },
+   "location": "Tupã",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.6423923,
+    "lng": -47.1930263
+   },
+   "location": "Cosmópolis",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.0972163,
+    "lng": -47.7144578
+   },
+   "location": "Tietê",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.6898429,
+    "lng": -46.5648481
+   },
+   "location": "São Bernardo do Campo",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "saúde da família",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "96%",
+     "extracted_value": 96
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.6029893,
+    "lng": -48.3644226
+   },
+   "location": "Matão",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.4649238,
+    "lng": -47.0145295
+   },
+   "location": "Mococa",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.4149023,
+    "lng": -47.5651394
+   },
+   "location": "Rio Claro",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.5905906,
+    "lng": -46.5282973
+   },
+   "location": "Socorro",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.6604341,
+    "lng": -50.4187813
+   },
+   "location": "Assis",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.4173291,
+    "lng": -49.9702752
+   },
+   "location": "Votuporanga",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.8158392,
+    "lng": -45.3664809
+   },
+   "location": "Ilhabela",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.6026684,
+    "lng": -46.9194693
+   },
+   "location": "Cotia",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.7650153,
+    "lng": -47.1500274
+   },
+   "location": "Paulínia",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.9964647,
+    "lng": -47.4261942
+   },
+   "location": "Pirassununga",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.5536189,
+    "lng": -48.570285
+   },
+   "location": "Barretos",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.7080593,
+    "lng": -46.7726654
+   },
+   "location": "Amparo",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.5665354,
+    "lng": -47.3974368
+   },
+   "location": "Limeira",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5015299,
+    "lng": -47.4525603
+   },
+   "location": "Sorocaba",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "saúde da família",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "94%",
+     "extracted_value": 94
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.223701,
+    "lng": -45.9009074
+   },
+   "location": "São José dos Campos",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "saúde da família",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "95%",
+     "extracted_value": 95
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.6818396,
+    "lng": -46.620967
+   },
+   "location": "Diadema",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "saúde da família",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "<1%",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "95%",
+     "extracted_value": 95
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.7557422,
+    "lng": -47.4147585
+   },
+   "location": "Santa Bárbara D'Oeste",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.1072154,
+    "lng": -48.925516
+   },
+   "location": "Avaré",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.0204559,
+    "lng": -45.5563555
+   },
+   "location": "Taubaté",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.121126,
+    "lng": -51.393006
+   },
+   "location": "Presidente Prudente",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5113691,
+    "lng": -46.872942
+   },
+   "location": "Barueri",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.5837191,
+    "lng": -47.5234139
+   },
+   "location": "Iracemápolis",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.9531705,
+    "lng": -46.5423239
+   },
+   "location": "Bragança Paulista",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.314459,
+    "lng": -49.0586951
+   },
+   "location": "Bauru",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "98%",
+     "extracted_value": 98
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.2915055,
+    "lng": -50.3436312
+   },
+   "location": "Birigui",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.6742228,
+    "lng": -46.5436003
+   },
+   "location": "Santo André",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "1%",
+     "extracted_value": 1
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "99%",
+     "extracted_value": 99
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.7371116,
+    "lng": -48.9110606
+   },
+   "location": "Olímpia",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.4362174,
+    "lng": -46.8228786
+   },
+   "location": "Itapira",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.2175846,
+    "lng": -49.9505291
+   },
+   "location": "Marília",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.7848272,
+    "lng": -48.1786486
+   },
+   "location": "Araraquara",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.949552,
+    "lng": -48.4795365
+   },
+   "location": "Bebedouro",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.811761,
+    "lng": -49.3762272
+   },
+   "location": "São José do Rio Preto",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "saúde da família",
+     "value": "<1%",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "98%",
+     "extracted_value": 98
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.573223,
+    "lng": -47.1731269
+   },
+   "location": "Artur Nogueira",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.9099384,
+    "lng": -47.0626332
+   },
+   "location": "Campinas",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "1%",
+     "extracted_value": 1
+    },
+    {
+     "query": "saúde da família",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "96%",
+     "extracted_value": 96
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.2987827,
+    "lng": -45.9662542
+   },
+   "location": "Jacareí",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.4322981,
+    "lng": -51.3487635
+   },
+   "location": "Ilha Solteira",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.4430047,
+    "lng": -46.9226637
+   },
+   "location": "Santana de Parnaíba",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.5393288,
+    "lng": -47.4013437
+   },
+   "location": "Franca",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.2114344,
+    "lng": -50.9271748
+   },
+   "location": "Santa Fé do Sul",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.30275,
+    "lng": -48.5755491
+   },
+   "location": "Jaú",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.086061,
+    "lng": -46.9488168
+   },
+   "location": "Louveira",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.8990077,
+    "lng": -51.3797039
+   },
+   "location": "Andradina",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.2028539,
+    "lng": -50.4536793
+   },
+   "location": "Araçatuba",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.0087082,
+    "lng": -47.8909263
+   },
+   "location": "São Carlos",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.3679387,
+    "lng": -46.9432454
+   },
+   "location": "Mogi-Guaçu",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.1577081,
+    "lng": -47.043707
+   },
+   "location": "Itupeva",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.3604911,
+    "lng": -47.3798391
+   },
+   "location": "Araras",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.472994,
+    "lng": -48.5637543
+   },
+   "location": "Barra Bonita",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.7042272,
+    "lng": -46.9855088
+   },
+   "location": "Jaguariúna",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.7186744,
+    "lng": -51.0219868
+   },
+   "location": "Lucélia",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.1704008,
+    "lng": -47.8103238
+   },
+   "location": "Ribeirão Preto",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "saúde da família",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "96%",
+     "extracted_value": 96
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.7428673,
+    "lng": -45.5963557
+   },
+   "location": "Campos do Jordão",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.5852816,
+    "lng": -47.8643745
+   },
+   "location": "São Joaquim da Barra",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.2000805,
+    "lng": -47.293538
+   },
+   "location": "Salto",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.7378463,
+    "lng": -47.3335688
+   },
+   "location": "Americana",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.1175492,
+    "lng": -46.5567066
+   },
+   "location": "Atibaia",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.7305771,
+    "lng": -48.0540652
+   },
+   "location": "Morro Agudo",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.0039859,
+    "lng": -46.8467996
+   },
+   "location": "Itatiba",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.9712313,
+    "lng": -46.7947989
+   },
+   "location": "São João da Boa Vista",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.7342864,
+    "lng": -47.6480644
+   },
+   "location": "Piracicaba",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "96%",
+     "extracted_value": 96
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.9678823,
+    "lng": -46.3288865
+   },
+   "location": "Santos",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "saúde da família",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "94%",
+     "extracted_value": 94
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.0306726,
+    "lng": -46.9837599
+   },
+   "location": "Vinhedo",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.432364,
+    "lng": -46.9509597
+   },
+   "location": "Mogi Mirim",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.1857076,
+    "lng": -46.8978057
+   },
+   "location": "Jundiaí",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "1%",
+     "extracted_value": 1
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "99%",
+     "extracted_value": 99
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.5487399,
+    "lng": -47.9100329
+   },
+   "location": "São Pedro",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.9702933,
+    "lng": -46.9978148
+   },
+   "location": "Valinhos",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.0886774,
+    "lng": -47.2089544
+   },
+   "location": "Indaiatuba",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.6436652,
+    "lng": -51.1110523
+   },
+   "location": "Pereira Barreto",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "mais médicos",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "saúde da família",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "escola em tempo integral",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "dinheiro direto na escola",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "100%",
+     "extracted_value": 100
+    }
+   ]
+  }
+ ]
+}

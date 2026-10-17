@@ -1,0 +1,6852 @@
+{
+ "search_metadata": {
+  "id": "6ad2b4644188d596bc2602f5",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/AmMk5yFaraqZjgaVHTLQ3N7w2c97443awsxEcBHuzv4/6ad2b4644188d596bc2602f5.json",
+  "markdown_endpoint": "https://serpapi.com/searches/AmMk5yFaraqZjgaVHTLQ3N7w2c97443awsxEcBHuzv4/6ad2b4644188d596bc2602f5.md",
+  "created_at": "2026-10-16 23:33:56 UTC",
+  "processed_at": "2026-10-16 23:33:56 UTC",
+  "google_trends_url": "https://trends.google.com/trends/embed/explore/GEO_MAP?hl=pt-BR&tz=180&req=%7B%22comparisonItem%22%3A%5B%7B%22keyword%22%3A%22inss%22%2C%22geo%22%3A%22BR-SP%22%2C%22time%22%3A%22now+7-d%22%7D%2C%7B%22keyword%22%3A%22aposentadoria%22%2C%22geo%22%3A%22BR-SP%22%2C%22time%22%3A%22now+7-d%22%7D%2C%7B%22keyword%22%3A%22posto+de+sa%C3%BAde%22%2C%22geo%22%3A%22BR-SP%22%2C%22time%22%3A%22now+7-d%22%7D%2C%7B%22keyword%22%3A%22creche%22%2C%22geo%22%3A%22BR-SP%22%2C%22time%22%3A%22now+7-d%22%7D%2C%7B%22keyword%22%3A%22bolsa+fam%C3%ADlia%22%2C%22geo%22%3A%22BR-SP%22%2C%22time%22%3A%22now+7-d%22%7D%5D%2C%22category%22%3A0%2C%22property%22%3A%22%22%7D",
+  "raw_html_file": "https://serpapi.com/searches/AmMk5yFaraqZjgaVHTLQ3N7w2c97443awsxEcBHuzv4/6ad2b4644188d596bc2602f5.html",
+  "prettify_html_file": "https://serpapi.com/searches/AmMk5yFaraqZjgaVHTLQ3N7w2c97443awsxEcBHuzv4/6ad2b4644188d596bc2602f5.prettify",
+  "total_time_taken": 3.52
+ },
+ "search_parameters": {
+  "engine": "google_trends",
+  "q": "inss,aposentadoria,posto de saúde,creche,bolsa família",
+  "hl": "pt-BR",
+  "geo": "BR-SP",
+  "date": "now 7-d",
+  "tz": "180",
+  "data_type": "GEO_MAP",
+  "region": "CITY",
+  "include_low_search_volume": "true"
+ },
+ "compared_breakdown_by_region": [
+  {
+   "coordinates": {
+    "lat": -22.8401139,
+    "lng": -45.2554893
+   },
+   "location": "Potim",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "100%",
+     "extracted_value": 100
+    },
+    {
+     "query": "aposentadoria",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.0810552,
+    "lng": -49.9135463
+   },
+   "location": "Cardoso",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "66%",
+     "extracted_value": 66
+    },
+    {
+     "query": "aposentadoria",
+     "value": "21%",
+     "extracted_value": 21
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "13%",
+     "extracted_value": 13
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.0651542,
+    "lng": -50.1440687
+   },
+   "location": "Buritama",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "68%",
+     "extracted_value": 68
+    },
+    {
+     "query": "aposentadoria",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "9%",
+     "extracted_value": 9
+    },
+    {
+     "query": "bolsa família",
+     "value": "12%",
+     "extracted_value": 12
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.639742,
+    "lng": -48.8417538
+   },
+   "location": "Itaóca",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "100%",
+     "extracted_value": 100
+    },
+    {
+     "query": "aposentadoria",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.5688598,
+    "lng": -51.3476488
+   },
+   "location": "Irapuru",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "100%",
+     "extracted_value": 100
+    },
+    {
+     "query": "aposentadoria",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.7972251,
+    "lng": -50.879763
+   },
+   "location": "Osvaldo Cruz",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "80%",
+     "extracted_value": 80
+    },
+    {
+     "query": "aposentadoria",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "bolsa família",
+     "value": "4%",
+     "extracted_value": 4
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.7047572,
+    "lng": -49.4823246
+   },
+   "location": "Itaporanga",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "69%",
+     "extracted_value": 69
+    },
+    {
+     "query": "aposentadoria",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "16%",
+     "extracted_value": 16
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.6024167,
+    "lng": -49.9991926
+   },
+   "location": "Campos Novos Paulista",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "100%",
+     "extracted_value": 100
+    },
+    {
+     "query": "aposentadoria",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5508263,
+    "lng": -47.8984282
+   },
+   "location": "Alambari",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "100%",
+     "extracted_value": 100
+    },
+    {
+     "query": "aposentadoria",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.2229006,
+    "lng": -45.3117239
+   },
+   "location": "São Luís do Paraitinga",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "66%",
+     "extracted_value": 66
+    },
+    {
+     "query": "aposentadoria",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "7%",
+     "extracted_value": 7
+    },
+    {
+     "query": "bolsa família",
+     "value": "16%",
+     "extracted_value": 16
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.4948382,
+    "lng": -48.4137924
+   },
+   "location": "Angatuba",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "63%",
+     "extracted_value": 63
+    },
+    {
+     "query": "aposentadoria",
+     "value": "21%",
+     "extracted_value": 21
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "bolsa família",
+     "value": "12%",
+     "extracted_value": 12
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.0159156,
+    "lng": -48.0138473
+   },
+   "location": "Conchas",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "72%",
+     "extracted_value": 72
+    },
+    {
+     "query": "aposentadoria",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "15%",
+     "extracted_value": 15
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.5786418,
+    "lng": -53.0607901
+   },
+   "location": "Rosana",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "75%",
+     "extracted_value": 75
+    },
+    {
+     "query": "aposentadoria",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "10%",
+     "extracted_value": 10
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.5108173,
+    "lng": -51.4346653
+   },
+   "location": "Junqueirópolis",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "70%",
+     "extracted_value": 70
+    },
+    {
+     "query": "aposentadoria",
+     "value": "23%",
+     "extracted_value": 23
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "7%",
+     "extracted_value": 7
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.0421785,
+    "lng": -47.7563994
+   },
+   "location": "Igarapava",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "63%",
+     "extracted_value": 63
+    },
+    {
+     "query": "aposentadoria",
+     "value": "16%",
+     "extracted_value": 16
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "bolsa família",
+     "value": "16%",
+     "extracted_value": 16
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.4152317,
+    "lng": -50.7631572
+   },
+   "location": "Palmeira D'Oeste",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "63%",
+     "extracted_value": 63
+    },
+    {
+     "query": "aposentadoria",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "22%",
+     "extracted_value": 22
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.294824,
+    "lng": -51.9078245
+   },
+   "location": "Mirante do Paranapanema",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "65%",
+     "extracted_value": 65
+    },
+    {
+     "query": "aposentadoria",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "18%",
+     "extracted_value": 18
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.7849852,
+    "lng": -49.9312702
+   },
+   "location": "Ribeirão do Sul",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "100%",
+     "extracted_value": 100
+    },
+    {
+     "query": "aposentadoria",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.7186744,
+    "lng": -51.0219868
+   },
+   "location": "Lucélia",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "66%",
+     "extracted_value": 66
+    },
+    {
+     "query": "aposentadoria",
+     "value": "24%",
+     "extracted_value": 24
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "10%",
+     "extracted_value": 10
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.5571711,
+    "lng": -52.5896735
+   },
+   "location": "Euclides da Cunha Paulista",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "63%",
+     "extracted_value": 63
+    },
+    {
+     "query": "aposentadoria",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "22%",
+     "extracted_value": 22
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.3544405,
+    "lng": -51.856666
+   },
+   "location": "Panorama",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "70%",
+     "extracted_value": 70
+    },
+    {
+     "query": "aposentadoria",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "bolsa família",
+     "value": "22%",
+     "extracted_value": 22
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.4909206,
+    "lng": -47.37045
+   },
+   "location": "Santa Rosa de Viterbo",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "67%",
+     "extracted_value": 67
+    },
+    {
+     "query": "aposentadoria",
+     "value": "25%",
+     "extracted_value": 25
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "8%",
+     "extracted_value": 8
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.695301,
+    "lng": -50.0415929
+   },
+   "location": "Nhandeara",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "75%",
+     "extracted_value": 75
+    },
+    {
+     "query": "aposentadoria",
+     "value": "25%",
+     "extracted_value": 25
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.7077248,
+    "lng": -47.4791239
+   },
+   "location": "Santa Rita do Passa Quatro",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "66%",
+     "extracted_value": 66
+    },
+    {
+     "query": "aposentadoria",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "bolsa família",
+     "value": "12%",
+     "extracted_value": 12
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.1867409,
+    "lng": -48.9081184
+   },
+   "location": "Pindorama",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "68%",
+     "extracted_value": 68
+    },
+    {
+     "query": "aposentadoria",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "20%",
+     "extracted_value": 20
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.7981763,
+    "lng": -48.5962748
+   },
+   "location": "Buri",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "52%",
+     "extracted_value": 52
+    },
+    {
+     "query": "aposentadoria",
+     "value": "19%",
+     "extracted_value": 19
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "bolsa família",
+     "value": "27%",
+     "extracted_value": 27
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.1012119,
+    "lng": -48.2616994
+   },
+   "location": "Bofete",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "59%",
+     "extracted_value": 59
+    },
+    {
+     "query": "aposentadoria",
+     "value": "25%",
+     "extracted_value": 25
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "16%",
+     "extracted_value": 16
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.3829234,
+    "lng": -51.5754829
+   },
+   "location": "Tupi Paulista",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "67%",
+     "extracted_value": 67
+    },
+    {
+     "query": "aposentadoria",
+     "value": "23%",
+     "extracted_value": 23
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "10%",
+     "extracted_value": 10
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.2866742,
+    "lng": -50.400972
+   },
+   "location": "Estrela D'Oeste",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "100%",
+     "extracted_value": 100
+    },
+    {
+     "query": "aposentadoria",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.787936,
+    "lng": -50.2199938
+   },
+   "location": "Palmital",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "65%",
+     "extracted_value": 65
+    },
+    {
+     "query": "aposentadoria",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "bolsa família",
+     "value": "14%",
+     "extracted_value": 14
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.6436652,
+    "lng": -51.1110523
+   },
+   "location": "Pereira Barreto",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "68%",
+     "extracted_value": 68
+    },
+    {
+     "query": "aposentadoria",
+     "value": "20%",
+     "extracted_value": 20
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "12%",
+     "extracted_value": 12
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.5852816,
+    "lng": -47.8643745
+   },
+   "location": "São Joaquim da Barra",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "63%",
+     "extracted_value": 63
+    },
+    {
+     "query": "aposentadoria",
+     "value": "24%",
+     "extracted_value": 24
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "bolsa família",
+     "value": "8%",
+     "extracted_value": 8
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.4908289,
+    "lng": -51.5384258
+   },
+   "location": "Dracena",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "68%",
+     "extracted_value": 68
+    },
+    {
+     "query": "aposentadoria",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "posto de saúde",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "creche",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "bolsa família",
+     "value": "7%",
+     "extracted_value": 7
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.6289027,
+    "lng": -49.563837
+   },
+   "location": "Barão de Antonina",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "76%",
+     "extracted_value": 76
+    },
+    {
+     "query": "aposentadoria",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "24%",
+     "extracted_value": 24
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.6131815,
+    "lng": -51.1729216
+   },
+   "location": "Flórida Paulista",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "76%",
+     "extracted_value": 76
+    },
+    {
+     "query": "aposentadoria",
+     "value": "18%",
+     "extracted_value": 18
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "6%",
+     "extracted_value": 6
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.4242036,
+    "lng": -48.1735956
+   },
+   "location": "Torrinha",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "100%",
+     "extracted_value": 100
+    },
+    {
+     "query": "aposentadoria",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.2302991,
+    "lng": -50.8950739
+   },
+   "location": "Rancharia",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "76%",
+     "extracted_value": 76
+    },
+    {
+     "query": "aposentadoria",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "posto de saúde",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "creche",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "bolsa família",
+     "value": "5%",
+     "extracted_value": 5
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.6606401,
+    "lng": -51.0783604
+   },
+   "location": "Iepê",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "100%",
+     "extracted_value": 100
+    },
+    {
+     "query": "aposentadoria",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.3115279,
+    "lng": -47.5642608
+   },
+   "location": "Serra Azul",
+   "max_value_index": 1,
+   "values": [
+    {
+     "query": "inss",
+     "value": "39%",
+     "extracted_value": 39
+    },
+    {
+     "query": "aposentadoria",
+     "value": "41%",
+     "extracted_value": 41
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "20%",
+     "extracted_value": 20
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5361909,
+    "lng": -45.8493349
+   },
+   "location": "Salesópolis",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "61%",
+     "extracted_value": 61
+    },
+    {
+     "query": "aposentadoria",
+     "value": "16%",
+     "extracted_value": 16
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "23%",
+     "extracted_value": 23
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.4189485,
+    "lng": -48.4508003
+   },
+   "location": "Mineiros do Tietê",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "77%",
+     "extracted_value": 77
+    },
+    {
+     "query": "aposentadoria",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "10%",
+     "extracted_value": 10
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.7668575,
+    "lng": -52.1096427
+   },
+   "location": "Presidente Epitácio",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "64%",
+     "extracted_value": 64
+    },
+    {
+     "query": "aposentadoria",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "posto de saúde",
+     "value": "1%",
+     "extracted_value": 1
+    },
+    {
+     "query": "creche",
+     "value": "9%",
+     "extracted_value": 9
+    },
+    {
+     "query": "bolsa família",
+     "value": "12%",
+     "extracted_value": 12
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.4605143,
+    "lng": -49.3378145
+   },
+   "location": "Cabrália Paulista",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "100%",
+     "extracted_value": 100
+    },
+    {
+     "query": "aposentadoria",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.7175404,
+    "lng": -47.8858187
+   },
+   "location": "Orlândia",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "63%",
+     "extracted_value": 63
+    },
+    {
+     "query": "aposentadoria",
+     "value": "19%",
+     "extracted_value": 19
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "8%",
+     "extracted_value": 8
+    },
+    {
+     "query": "bolsa família",
+     "value": "10%",
+     "extracted_value": 10
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.351784,
+    "lng": -47.6931718
+   },
+   "location": "Iperó",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "59%",
+     "extracted_value": 59
+    },
+    {
+     "query": "aposentadoria",
+     "value": "20%",
+     "extracted_value": 20
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "21%",
+     "extracted_value": 21
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.3345205,
+    "lng": -47.7921348
+   },
+   "location": "Ituverava",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "63%",
+     "extracted_value": 63
+    },
+    {
+     "query": "aposentadoria",
+     "value": "18%",
+     "extracted_value": 18
+    },
+    {
+     "query": "posto de saúde",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "creche",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "bolsa família",
+     "value": "9%",
+     "extracted_value": 9
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.2895753,
+    "lng": -47.174264
+   },
+   "location": "Itariri",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "76%",
+     "extracted_value": 76
+    },
+    {
+     "query": "aposentadoria",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "24%",
+     "extracted_value": 24
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.3253713,
+    "lng": -48.310855
+   },
+   "location": "Guaíra",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "64%",
+     "extracted_value": 64
+    },
+    {
+     "query": "aposentadoria",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "7%",
+     "extracted_value": 7
+    },
+    {
+     "query": "bolsa família",
+     "value": "17%",
+     "extracted_value": 17
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.9870761,
+    "lng": -47.6531065
+   },
+   "location": "Brodowski",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "77%",
+     "extracted_value": 77
+    },
+    {
+     "query": "aposentadoria",
+     "value": "10%",
+     "extracted_value": 10
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "bolsa família",
+     "value": "7%",
+     "extracted_value": 7
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.3718457,
+    "lng": -48.1841739
+   },
+   "location": "Guareí",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "64%",
+     "extracted_value": 64
+    },
+    {
+     "query": "aposentadoria",
+     "value": "21%",
+     "extracted_value": 21
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "bolsa família",
+     "value": "9%",
+     "extracted_value": 9
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.4893174,
+    "lng": -47.9898825
+   },
+   "location": "Capelinha",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "73%",
+     "extracted_value": 73
+    },
+    {
+     "query": "aposentadoria",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "10%",
+     "extracted_value": 10
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.563131,
+    "lng": -51.2658432
+   },
+   "location": "Pacaembu",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "61%",
+     "extracted_value": 61
+    },
+    {
+     "query": "aposentadoria",
+     "value": "18%",
+     "extracted_value": 18
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "21%",
+     "extracted_value": 21
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.4152377,
+    "lng": -50.0773225
+   },
+   "location": "Penápolis",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "65%",
+     "extracted_value": 65
+    },
+    {
+     "query": "aposentadoria",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "posto de saúde",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "creche",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "bolsa família",
+     "value": "12%",
+     "extracted_value": 12
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.7096088,
+    "lng": -48.5318251
+   },
+   "location": "Colina",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "69%",
+     "extracted_value": 69
+    },
+    {
+     "query": "aposentadoria",
+     "value": "9%",
+     "extracted_value": 9
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "22%",
+     "extracted_value": 22
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.9637379,
+    "lng": -49.0262903
+   },
+   "location": "Tabapuã",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "79%",
+     "extracted_value": 79
+    },
+    {
+     "query": "aposentadoria",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "21%",
+     "extracted_value": 21
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.573256,
+    "lng": -44.9693894
+   },
+   "location": "Cruzeiro",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "61%",
+     "extracted_value": 61
+    },
+    {
+     "query": "aposentadoria",
+     "value": "19%",
+     "extracted_value": 19
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "bolsa família",
+     "value": "18%",
+     "extracted_value": 18
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.2686874,
+    "lng": -50.5490441
+   },
+   "location": "Jales",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "64%",
+     "extracted_value": 64
+    },
+    {
+     "query": "aposentadoria",
+     "value": "23%",
+     "extracted_value": 23
+    },
+    {
+     "query": "posto de saúde",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "creche",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "bolsa família",
+     "value": "9%",
+     "extracted_value": 9
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.7797682,
+    "lng": -50.7917923
+   },
+   "location": "Parapuã",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "51%",
+     "extracted_value": 51
+    },
+    {
+     "query": "aposentadoria",
+     "value": "27%",
+     "extracted_value": 27
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "9%",
+     "extracted_value": 9
+    },
+    {
+     "query": "bolsa família",
+     "value": "13%",
+     "extracted_value": 13
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.2294354,
+    "lng": -50.8593077
+   },
+   "location": "Valparaíso",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "60%",
+     "extracted_value": 60
+    },
+    {
+     "query": "aposentadoria",
+     "value": "26%",
+     "extracted_value": 26
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "bolsa família",
+     "value": "12%",
+     "extracted_value": 12
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.4313642,
+    "lng": -47.827858
+   },
+   "location": "Guará",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "57%",
+     "extracted_value": 57
+    },
+    {
+     "query": "aposentadoria",
+     "value": "23%",
+     "extracted_value": 23
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "20%",
+     "extracted_value": 20
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.8933441,
+    "lng": -47.5925952
+   },
+   "location": "Batatais",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "60%",
+     "extracted_value": 60
+    },
+    {
+     "query": "aposentadoria",
+     "value": "18%",
+     "extracted_value": 18
+    },
+    {
+     "query": "posto de saúde",
+     "value": "1%",
+     "extracted_value": 1
+    },
+    {
+     "query": "creche",
+     "value": "7%",
+     "extracted_value": 7
+    },
+    {
+     "query": "bolsa família",
+     "value": "14%",
+     "extracted_value": 14
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.6456819,
+    "lng": -47.2753293
+   },
+   "location": "Patrocínio Paulista",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "67%",
+     "extracted_value": 67
+    },
+    {
+     "query": "aposentadoria",
+     "value": "25%",
+     "extracted_value": 25
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "8%",
+     "extracted_value": 8
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.2819164,
+    "lng": -49.2030593
+   },
+   "location": "Fronteira",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "57%",
+     "extracted_value": 57
+    },
+    {
+     "query": "aposentadoria",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "bolsa família",
+     "value": "25%",
+     "extracted_value": 25
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5465581,
+    "lng": -47.1906632
+   },
+   "location": "Mairinque",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "59%",
+     "extracted_value": 59
+    },
+    {
+     "query": "aposentadoria",
+     "value": "26%",
+     "extracted_value": 26
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "7%",
+     "extracted_value": 7
+    },
+    {
+     "query": "bolsa família",
+     "value": "8%",
+     "extracted_value": 8
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.0375691,
+    "lng": -49.7114397
+   },
+   "location": "Chavantes",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "56%",
+     "extracted_value": 56
+    },
+    {
+     "query": "aposentadoria",
+     "value": "28%",
+     "extracted_value": 28
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "16%",
+     "extracted_value": 16
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.8723727,
+    "lng": -48.2971044
+   },
+   "location": "Viradouro",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "51%",
+     "extracted_value": 51
+    },
+    {
+     "query": "aposentadoria",
+     "value": "26%",
+     "extracted_value": 26
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "23%",
+     "extracted_value": 23
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -25.012621,
+    "lng": -47.9338687
+   },
+   "location": "Cananéia",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "65%",
+     "extracted_value": 65
+    },
+    {
+     "query": "aposentadoria",
+     "value": "8%",
+     "extracted_value": 8
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "27%",
+     "extracted_value": 27
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.1089373,
+    "lng": -49.3356859
+   },
+   "location": "Itararé",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "49%",
+     "extracted_value": 49
+    },
+    {
+     "query": "aposentadoria",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "bolsa família",
+     "value": "33%",
+     "extracted_value": 33
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.3601809,
+    "lng": -48.2282659
+   },
+   "location": "Guariba",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "55%",
+     "extracted_value": 55
+    },
+    {
+     "query": "aposentadoria",
+     "value": "20%",
+     "extracted_value": 20
+    },
+    {
+     "query": "posto de saúde",
+     "value": "7%",
+     "extracted_value": 7
+    },
+    {
+     "query": "creche",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "bolsa família",
+     "value": "15%",
+     "extracted_value": 15
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.6616122,
+    "lng": -46.7395488
+   },
+   "location": "Divinolândia",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "64%",
+     "extracted_value": 64
+    },
+    {
+     "query": "aposentadoria",
+     "value": "26%",
+     "extracted_value": 26
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "10%",
+     "extracted_value": 10
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.4795713,
+    "lng": -47.5547739
+   },
+   "location": "São Simão",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "62%",
+     "extracted_value": 62
+    },
+    {
+     "query": "aposentadoria",
+     "value": "28%",
+     "extracted_value": 28
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "10%",
+     "extracted_value": 10
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.6423923,
+    "lng": -47.1930263
+   },
+   "location": "Cosmópolis",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "58%",
+     "extracted_value": 58
+    },
+    {
+     "query": "aposentadoria",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "posto de saúde",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "creche",
+     "value": "8%",
+     "extracted_value": 8
+    },
+    {
+     "query": "bolsa família",
+     "value": "13%",
+     "extracted_value": 13
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.8062432,
+    "lng": -49.9636465
+   },
+   "location": "Macaubal",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "62%",
+     "extracted_value": 62
+    },
+    {
+     "query": "aposentadoria",
+     "value": "30%",
+     "extracted_value": 30
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "8%",
+     "extracted_value": 8
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.8993818,
+    "lng": -49.6251185
+   },
+   "location": "Santa Cruz do Rio Pardo",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "60%",
+     "extracted_value": 60
+    },
+    {
+     "query": "aposentadoria",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "posto de saúde",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "creche",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "bolsa família",
+     "value": "14%",
+     "extracted_value": 14
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.9292618,
+    "lng": -46.2753862
+   },
+   "location": "Joanópolis",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "69%",
+     "extracted_value": 69
+    },
+    {
+     "query": "aposentadoria",
+     "value": "26%",
+     "extracted_value": 26
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "5%",
+     "extracted_value": 5
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.4065592,
+    "lng": -47.4225715
+   },
+   "location": "Cristais Paulista",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "100%",
+     "extracted_value": 100
+    },
+    {
+     "query": "aposentadoria",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.3734081,
+    "lng": -48.3860575
+   },
+   "location": "Dois Córregos",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "69%",
+     "extracted_value": 69
+    },
+    {
+     "query": "aposentadoria",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "bolsa família",
+     "value": "10%",
+     "extracted_value": 10
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.6154961,
+    "lng": -50.6682701
+   },
+   "location": "Maracaí",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "64%",
+     "extracted_value": 64
+    },
+    {
+     "query": "aposentadoria",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "19%",
+     "extracted_value": 19
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.9469493,
+    "lng": -46.7185796
+   },
+   "location": "Águas da Prata",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "100%",
+     "extracted_value": 100
+    },
+    {
+     "query": "aposentadoria",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.7313357,
+    "lng": -46.9747437
+   },
+   "location": "Itobi",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "100%",
+     "extracted_value": 100
+    },
+    {
+     "query": "aposentadoria",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.472994,
+    "lng": -48.5637543
+   },
+   "location": "Barra Bonita",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "57%",
+     "extracted_value": 57
+    },
+    {
+     "query": "aposentadoria",
+     "value": "20%",
+     "extracted_value": 20
+    },
+    {
+     "query": "posto de saúde",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "creche",
+     "value": "10%",
+     "extracted_value": 10
+    },
+    {
+     "query": "bolsa família",
+     "value": "8%",
+     "extracted_value": 8
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.69004,
+    "lng": -46.6826067
+   },
+   "location": "Monte Alegre do Sul",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "78%",
+     "extracted_value": 78
+    },
+    {
+     "query": "aposentadoria",
+     "value": "22%",
+     "extracted_value": 22
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.0510503,
+    "lng": -47.838004
+   },
+   "location": "Laranjal Paulista",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "59%",
+     "extracted_value": 59
+    },
+    {
+     "query": "aposentadoria",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "posto de saúde",
+     "value": "7%",
+     "extracted_value": 7
+    },
+    {
+     "query": "creche",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "bolsa família",
+     "value": "14%",
+     "extracted_value": 14
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.1934287,
+    "lng": -49.3842308
+   },
+   "location": "Piraju",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "64%",
+     "extracted_value": 64
+    },
+    {
+     "query": "aposentadoria",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "posto de saúde",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "creche",
+     "value": "7%",
+     "extracted_value": 7
+    },
+    {
+     "query": "bolsa família",
+     "value": "13%",
+     "extracted_value": 13
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.5950536,
+    "lng": -48.8163705
+   },
+   "location": "Itápolis",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "67%",
+     "extracted_value": 67
+    },
+    {
+     "query": "aposentadoria",
+     "value": "20%",
+     "extracted_value": 20
+    },
+    {
+     "query": "posto de saúde",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "10%",
+     "extracted_value": 10
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.1318555,
+    "lng": -48.977473
+   },
+   "location": "Catanduva",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "59%",
+     "extracted_value": 59
+    },
+    {
+     "query": "aposentadoria",
+     "value": "22%",
+     "extracted_value": 22
+    },
+    {
+     "query": "posto de saúde",
+     "value": "1%",
+     "extracted_value": 1
+    },
+    {
+     "query": "creche",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "bolsa família",
+     "value": "13%",
+     "extracted_value": 13
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.1434728,
+    "lng": -48.5115329
+   },
+   "location": "Taiaçu",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "57%",
+     "extracted_value": 57
+    },
+    {
+     "query": "aposentadoria",
+     "value": "37%",
+     "extracted_value": 37
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "6%",
+     "extracted_value": 6
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.4649748,
+    "lng": -49.2246518
+   },
+   "location": "Novo Horizonte",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "66%",
+     "extracted_value": 66
+    },
+    {
+     "query": "aposentadoria",
+     "value": "25%",
+     "extracted_value": 25
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "9%",
+     "extracted_value": 9
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.1669741,
+    "lng": -47.7463166
+   },
+   "location": "Cerquilho",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "62%",
+     "extracted_value": 62
+    },
+    {
+     "query": "aposentadoria",
+     "value": "19%",
+     "extracted_value": 19
+    },
+    {
+     "query": "posto de saúde",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "creche",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "bolsa família",
+     "value": "8%",
+     "extracted_value": 8
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.8990077,
+    "lng": -51.3797039
+   },
+   "location": "Andradina",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "63%",
+     "extracted_value": 63
+    },
+    {
+     "query": "aposentadoria",
+     "value": "19%",
+     "extracted_value": 19
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "9%",
+     "extracted_value": 9
+    },
+    {
+     "query": "bolsa família",
+     "value": "9%",
+     "extracted_value": 9
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.5957703,
+    "lng": -46.8877455
+   },
+   "location": "São José do Rio Pardo",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "66%",
+     "extracted_value": 66
+    },
+    {
+     "query": "aposentadoria",
+     "value": "19%",
+     "extracted_value": 19
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "bolsa família",
+     "value": "11%",
+     "extracted_value": 11
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.1942185,
+    "lng": -48.1594295
+   },
+   "location": "Barrinha",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "50%",
+     "extracted_value": 50
+    },
+    {
+     "query": "aposentadoria",
+     "value": "21%",
+     "extracted_value": 21
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "bolsa família",
+     "value": "25%",
+     "extracted_value": 25
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.7305771,
+    "lng": -48.0540652
+   },
+   "location": "Morro Agudo",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "60%",
+     "extracted_value": 60
+    },
+    {
+     "query": "aposentadoria",
+     "value": "27%",
+     "extracted_value": 27
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "bolsa família",
+     "value": "9%",
+     "extracted_value": 9
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.9964647,
+    "lng": -47.4261942
+   },
+   "location": "Pirassununga",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "62%",
+     "extracted_value": 62
+    },
+    {
+     "query": "aposentadoria",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "posto de saúde",
+     "value": "1%",
+     "extracted_value": 1
+    },
+    {
+     "query": "creche",
+     "value": "8%",
+     "extracted_value": 8
+    },
+    {
+     "query": "bolsa família",
+     "value": "12%",
+     "extracted_value": 12
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.3593144,
+    "lng": -48.0724748
+   },
+   "location": "Pradópolis",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "49%",
+     "extracted_value": 49
+    },
+    {
+     "query": "aposentadoria",
+     "value": "18%",
+     "extracted_value": 18
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "bolsa família",
+     "value": "18%",
+     "extracted_value": 18
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.9221397,
+    "lng": -50.7317774
+   },
+   "location": "Bastos",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "58%",
+     "extracted_value": 58
+    },
+    {
+     "query": "aposentadoria",
+     "value": "25%",
+     "extracted_value": 25
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "17%",
+     "extracted_value": 17
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.00216,
+    "lng": -48.3502638
+   },
+   "location": "Capão Bonito",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "54%",
+     "extracted_value": 54
+    },
+    {
+     "query": "aposentadoria",
+     "value": "21%",
+     "extracted_value": 21
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "bolsa família",
+     "value": "20%",
+     "extracted_value": 20
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.3879944,
+    "lng": -49.5076524
+   },
+   "location": "Fartura",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "57%",
+     "extracted_value": 57
+    },
+    {
+     "query": "aposentadoria",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "12%",
+     "extracted_value": 12
+    },
+    {
+     "query": "bolsa família",
+     "value": "17%",
+     "extracted_value": 17
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.0848112,
+    "lng": -48.8034566
+   },
+   "location": "Palmares Paulista",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "64%",
+     "extracted_value": 64
+    },
+    {
+     "query": "aposentadoria",
+     "value": "18%",
+     "extracted_value": 18
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "18%",
+     "extracted_value": 18
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.7338724,
+    "lng": -45.1201112
+   },
+   "location": "Lorena",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "60%",
+     "extracted_value": 60
+    },
+    {
+     "query": "aposentadoria",
+     "value": "20%",
+     "extracted_value": 20
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "bolsa família",
+     "value": "16%",
+     "extracted_value": 16
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.0106742,
+    "lng": -48.2176007
+   },
+   "location": "Pitangueiras",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "65%",
+     "extracted_value": 65
+    },
+    {
+     "query": "aposentadoria",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "bolsa família",
+     "value": "18%",
+     "extracted_value": 18
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.6841832,
+    "lng": -50.5484648
+   },
+   "location": "Auriflama",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "60%",
+     "extracted_value": 60
+    },
+    {
+     "query": "aposentadoria",
+     "value": "27%",
+     "extracted_value": 27
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "13%",
+     "extracted_value": 13
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.2737724,
+    "lng": -46.9554553
+   },
+   "location": "Estiva Gerbi",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "61%",
+     "extracted_value": 61
+    },
+    {
+     "query": "aposentadoria",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "28%",
+     "extracted_value": 28
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.4616744,
+    "lng": -49.9481578
+   },
+   "location": "Avanhandava",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "60%",
+     "extracted_value": 60
+    },
+    {
+     "query": "aposentadoria",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "40%",
+     "extracted_value": 40
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.7324847,
+    "lng": -48.5724499
+   },
+   "location": "São Manuel",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "57%",
+     "extracted_value": 57
+    },
+    {
+     "query": "aposentadoria",
+     "value": "21%",
+     "extracted_value": 21
+    },
+    {
+     "query": "posto de saúde",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "creche",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "bolsa família",
+     "value": "14%",
+     "extracted_value": 14
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.3605675,
+    "lng": -49.5221497
+   },
+   "location": "Fernão",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "74%",
+     "extracted_value": 74
+    },
+    {
+     "query": "aposentadoria",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "26%",
+     "extracted_value": 26
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.7034017,
+    "lng": -47.27079
+   },
+   "location": "Tambaú",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "63%",
+     "extracted_value": 63
+    },
+    {
+     "query": "aposentadoria",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "bolsa família",
+     "value": "16%",
+     "extracted_value": 16
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.29856,
+    "lng": -51.5683676
+   },
+   "location": "Monte Castelo",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "59%",
+     "extracted_value": 59
+    },
+    {
+     "query": "aposentadoria",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "41%",
+     "extracted_value": 41
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.7339708,
+    "lng": -48.1110248
+   },
+   "location": "Américo Brasiliense",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "64%",
+     "extracted_value": 64
+    },
+    {
+     "query": "aposentadoria",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "19%",
+     "extracted_value": 19
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.6650996,
+    "lng": -45.0116583
+   },
+   "location": "Cachoeira Paulista",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "62%",
+     "extracted_value": 62
+    },
+    {
+     "query": "aposentadoria",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "24%",
+     "extracted_value": 24
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.5354088,
+    "lng": -49.8569266
+   },
+   "location": "Promissão",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "56%",
+     "extracted_value": 56
+    },
+    {
+     "query": "aposentadoria",
+     "value": "29%",
+     "extracted_value": 29
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "bolsa família",
+     "value": "12%",
+     "extracted_value": 12
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.4718061,
+    "lng": -46.745266
+   },
+   "location": "Tapiratiba",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "77%",
+     "extracted_value": 77
+    },
+    {
+     "query": "aposentadoria",
+     "value": "10%",
+     "extracted_value": 10
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "13%",
+     "extracted_value": 13
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.8173456,
+    "lng": -49.5210713
+   },
+   "location": "Mirassol",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "60%",
+     "extracted_value": 60
+    },
+    {
+     "query": "aposentadoria",
+     "value": "18%",
+     "extracted_value": 18
+    },
+    {
+     "query": "posto de saúde",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "creche",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "bolsa família",
+     "value": "15%",
+     "extracted_value": 15
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.7154583,
+    "lng": -47.875829
+   },
+   "location": "Pariquera-Açu",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "48%",
+     "extracted_value": 48
+    },
+    {
+     "query": "aposentadoria",
+     "value": "19%",
+     "extracted_value": 19
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsa família",
+     "value": "20%",
+     "extracted_value": 20
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.6129585,
+    "lng": -45.1790441
+   },
+   "location": "Piquete",
+   "max_value_index": 4,
+   "values": [
+    {
+     "query": "inss",
+     "value": "41%",
+     "extracted_value": 41
+    },
+    {
+     "query": "aposentadoria",
+     "value": "16%",
+     "extracted_value": 16
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "43%",
+     "extracted_value": 43
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.0699763,
+    "lng": -46.5728156
+   },
+   "location": "Andradas",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "66%",
+     "extracted_value": 66
+    },
+    {
+     "query": "aposentadoria",
+     "value": "23%",
+     "extracted_value": 23
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "11%",
+     "extracted_value": 11
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.0147985,
+    "lng": -49.4731864
+   },
+   "location": "Bernardino de Campos",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "51%",
+     "extracted_value": 51
+    },
+    {
+     "query": "aposentadoria",
+     "value": "23%",
+     "extracted_value": 23
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "26%",
+     "extracted_value": 26
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.2810232,
+    "lng": -50.2475804
+   },
+   "location": "Fernandópolis",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "58%",
+     "extracted_value": 58
+    },
+    {
+     "query": "aposentadoria",
+     "value": "19%",
+     "extracted_value": 19
+    },
+    {
+     "query": "posto de saúde",
+     "value": "1%",
+     "extracted_value": 1
+    },
+    {
+     "query": "creche",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "bolsa família",
+     "value": "16%",
+     "extracted_value": 16
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.7567077,
+    "lng": -48.8323618
+   },
+   "location": "Ibitinga",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "64%",
+     "extracted_value": 64
+    },
+    {
+     "query": "aposentadoria",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "posto de saúde",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "creche",
+     "value": "1%",
+     "extracted_value": 1
+    },
+    {
+     "query": "bolsa família",
+     "value": "16%",
+     "extracted_value": 16
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.4139537,
+    "lng": -50.5761151
+   },
+   "location": "Paraguaçu Paulista",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "58%",
+     "extracted_value": 58
+    },
+    {
+     "query": "aposentadoria",
+     "value": "16%",
+     "extracted_value": 16
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "26%",
+     "extracted_value": 26
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.0277616,
+    "lng": -47.7772049
+   },
+   "location": "Jardinópolis",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "55%",
+     "extracted_value": 55
+    },
+    {
+     "query": "aposentadoria",
+     "value": "16%",
+     "extracted_value": 16
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "bolsa família",
+     "value": "15%",
+     "extracted_value": 15
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.8423893,
+    "lng": -49.6313976
+   },
+   "location": "Neves Paulista",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "100%",
+     "extracted_value": 100
+    },
+    {
+     "query": "aposentadoria",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.4649238,
+    "lng": -47.0145295
+   },
+   "location": "Mococa",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "59%",
+     "extracted_value": 59
+    },
+    {
+     "query": "aposentadoria",
+     "value": "27%",
+     "extracted_value": 27
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "1%",
+     "extracted_value": 1
+    },
+    {
+     "query": "bolsa família",
+     "value": "13%",
+     "extracted_value": 13
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.1075246,
+    "lng": -46.6801919
+   },
+   "location": "Mongaguá",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "50%",
+     "extracted_value": 50
+    },
+    {
+     "query": "aposentadoria",
+     "value": "16%",
+     "extracted_value": 16
+    },
+    {
+     "query": "posto de saúde",
+     "value": "<1%",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "16%",
+     "extracted_value": 16
+    },
+    {
+     "query": "bolsa família",
+     "value": "18%",
+     "extracted_value": 18
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.8786864,
+    "lng": -47.9940081
+   },
+   "location": "Sao Miguel Arcanjo",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "50%",
+     "extracted_value": 50
+    },
+    {
+     "query": "aposentadoria",
+     "value": "16%",
+     "extracted_value": 16
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "bolsa família",
+     "value": "20%",
+     "extracted_value": 20
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.4322981,
+    "lng": -51.3487635
+   },
+   "location": "Ilha Solteira",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "58%",
+     "extracted_value": 58
+    },
+    {
+     "query": "aposentadoria",
+     "value": "21%",
+     "extracted_value": 21
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "10%",
+     "extracted_value": 10
+    },
+    {
+     "query": "bolsa família",
+     "value": "11%",
+     "extracted_value": 11
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.2567218,
+    "lng": -47.8170462
+   },
+   "location": "Itirapina",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "65%",
+     "extracted_value": 65
+    },
+    {
+     "query": "aposentadoria",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "18%",
+     "extracted_value": 18
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.9929318,
+    "lng": -49.4547036
+   },
+   "location": "Pirajuí",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "67%",
+     "extracted_value": 67
+    },
+    {
+     "query": "aposentadoria",
+     "value": "10%",
+     "extracted_value": 10
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "23%",
+     "extracted_value": 23
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.6031745,
+    "lng": -48.8041443
+   },
+   "location": "Lençóis Paulista",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "57%",
+     "extracted_value": 57
+    },
+    {
+     "query": "aposentadoria",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "posto de saúde",
+     "value": "10%",
+     "extracted_value": 10
+    },
+    {
+     "query": "creche",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bolsa família",
+     "value": "7%",
+     "extracted_value": 7
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5899668,
+    "lng": -48.476262
+   },
+   "location": "Campina do Monte Alegre",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "59%",
+     "extracted_value": 59
+    },
+    {
+     "query": "aposentadoria",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "26%",
+     "extracted_value": 26
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.8427785,
+    "lng": -47.6048717
+   },
+   "location": "Rio das Pedras",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "56%",
+     "extracted_value": 56
+    },
+    {
+     "query": "aposentadoria",
+     "value": "27%",
+     "extracted_value": 27
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "9%",
+     "extracted_value": 9
+    },
+    {
+     "query": "bolsa família",
+     "value": "8%",
+     "extracted_value": 8
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.8643129,
+    "lng": -49.1404554
+   },
+   "location": "Itaberá",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "67%",
+     "extracted_value": 67
+    },
+    {
+     "query": "aposentadoria",
+     "value": "20%",
+     "extracted_value": 20
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "13%",
+     "extracted_value": 13
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.4079699,
+    "lng": -45.8874147
+   },
+   "location": "Santa Branca",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "100%",
+     "extracted_value": 100
+    },
+    {
+     "query": "aposentadoria",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "",
+     "extracted_value": 0
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.075317,
+    "lng": -48.7417603
+   },
+   "location": "Bariri",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "53%",
+     "extracted_value": 53
+    },
+    {
+     "query": "aposentadoria",
+     "value": "21%",
+     "extracted_value": 21
+    },
+    {
+     "query": "posto de saúde",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "creche",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "bolsa família",
+     "value": "15%",
+     "extracted_value": 15
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.2028539,
+    "lng": -50.4536793
+   },
+   "location": "Araçatuba",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "65%",
+     "extracted_value": 65
+    },
+    {
+     "query": "aposentadoria",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "posto de saúde",
+     "value": "1%",
+     "extracted_value": 1
+    },
+    {
+     "query": "creche",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "bolsa família",
+     "value": "11%",
+     "extracted_value": 11
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.2188934,
+    "lng": -51.3064462
+   },
+   "location": "Regente Feijó",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "61%",
+     "extracted_value": 61
+    },
+    {
+     "query": "aposentadoria",
+     "value": "16%",
+     "extracted_value": 16
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "bolsa família",
+     "value": "18%",
+     "extracted_value": 18
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.9340017,
+    "lng": -50.5195856
+   },
+   "location": "Tupã",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "61%",
+     "extracted_value": 61
+    },
+    {
+     "query": "aposentadoria",
+     "value": "16%",
+     "extracted_value": 16
+    },
+    {
+     "query": "posto de saúde",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "creche",
+     "value": "8%",
+     "extracted_value": 8
+    },
+    {
+     "query": "bolsa família",
+     "value": "12%",
+     "extracted_value": 12
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.0972163,
+    "lng": -47.7144578
+   },
+   "location": "Tietê",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "54%",
+     "extracted_value": 54
+    },
+    {
+     "query": "aposentadoria",
+     "value": "18%",
+     "extracted_value": 18
+    },
+    {
+     "query": "posto de saúde",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "creche",
+     "value": "10%",
+     "extracted_value": 10
+    },
+    {
+     "query": "bolsa família",
+     "value": "12%",
+     "extracted_value": 12
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.6286479,
+    "lng": -49.6546435
+   },
+   "location": "Tanabi",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "52%",
+     "extracted_value": 52
+    },
+    {
+     "query": "aposentadoria",
+     "value": "21%",
+     "extracted_value": 21
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "27%",
+     "extracted_value": 27
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.0010887,
+    "lng": -50.3741963
+   },
+   "location": "Ouroeste",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "56%",
+     "extracted_value": 56
+    },
+    {
+     "query": "aposentadoria",
+     "value": "30%",
+     "extracted_value": 30
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "14%",
+     "extracted_value": 14
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.1913564,
+    "lng": -46.7481132
+   },
+   "location": "Espírito Santo do Pinhal",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "66%",
+     "extracted_value": 66
+    },
+    {
+     "query": "aposentadoria",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "posto de saúde",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "creche",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "bolsa família",
+     "value": "11%",
+     "extracted_value": 11
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.9793102,
+    "lng": -48.8768997
+   },
+   "location": "Itapeva",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "55%",
+     "extracted_value": 55
+    },
+    {
+     "query": "aposentadoria",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "7%",
+     "extracted_value": 7
+    },
+    {
+     "query": "bolsa família",
+     "value": "24%",
+     "extracted_value": 24
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.0530355,
+    "lng": -46.3598167
+   },
+   "location": "Piracaia",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "71%",
+     "extracted_value": 71
+    },
+    {
+     "query": "aposentadoria",
+     "value": "18%",
+     "extracted_value": 18
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "bolsa família",
+     "value": "8%",
+     "extracted_value": 8
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5307554,
+    "lng": -47.1353998
+   },
+   "location": "São Roque",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "60%",
+     "extracted_value": 60
+    },
+    {
+     "query": "aposentadoria",
+     "value": "19%",
+     "extracted_value": 19
+    },
+    {
+     "query": "posto de saúde",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "creche",
+     "value": "7%",
+     "extracted_value": 7
+    },
+    {
+     "query": "bolsa família",
+     "value": "12%",
+     "extracted_value": 12
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5704516,
+    "lng": -46.0409059
+   },
+   "location": "Biritiba-Mirim",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "47%",
+     "extracted_value": 47
+    },
+    {
+     "query": "aposentadoria",
+     "value": "18%",
+     "extracted_value": 18
+    },
+    {
+     "query": "posto de saúde",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "creche",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "bolsa família",
+     "value": "26%",
+     "extracted_value": 26
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.279958,
+    "lng": -48.1255698
+   },
+   "location": "Brotas",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "68%",
+     "extracted_value": 68
+    },
+    {
+     "query": "aposentadoria",
+     "value": "19%",
+     "extracted_value": 19
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "bolsa família",
+     "value": "10%",
+     "extracted_value": 10
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.1067087,
+    "lng": -48.6123867
+   },
+   "location": "Itatinga",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "62%",
+     "extracted_value": 62
+    },
+    {
+     "query": "aposentadoria",
+     "value": "18%",
+     "extracted_value": 18
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "20%",
+     "extracted_value": 20
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5337777,
+    "lng": -46.3477362
+   },
+   "location": "Poá",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "53%",
+     "extracted_value": 53
+    },
+    {
+     "query": "aposentadoria",
+     "value": "16%",
+     "extracted_value": 16
+    },
+    {
+     "query": "posto de saúde",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "creche",
+     "value": "7%",
+     "extracted_value": 7
+    },
+    {
+     "query": "bolsa família",
+     "value": "19%",
+     "extracted_value": 19
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.2525138,
+    "lng": -48.3256762
+   },
+   "location": "Jaboticabal",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "59%",
+     "extracted_value": 59
+    },
+    {
+     "query": "aposentadoria",
+     "value": "19%",
+     "extracted_value": 19
+    },
+    {
+     "query": "posto de saúde",
+     "value": "1%",
+     "extracted_value": 1
+    },
+    {
+     "query": "creche",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "bolsa família",
+     "value": "15%",
+     "extracted_value": 15
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.8239574,
+    "lng": -47.2484692
+   },
+   "location": "Santa Cruz das Palmeiras",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "76%",
+     "extracted_value": 76
+    },
+    {
+     "query": "aposentadoria",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "19%",
+     "extracted_value": 19
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.9576323,
+    "lng": -45.5479616
+   },
+   "location": "Tremembé",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "60%",
+     "extracted_value": 60
+    },
+    {
+     "query": "aposentadoria",
+     "value": "19%",
+     "extracted_value": 19
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "9%",
+     "extracted_value": 9
+    },
+    {
+     "query": "bolsa família",
+     "value": "12%",
+     "extracted_value": 12
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.6732766,
+    "lng": -49.7471452
+   },
+   "location": "Lins",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "54%",
+     "extracted_value": 54
+    },
+    {
+     "query": "aposentadoria",
+     "value": "20%",
+     "extracted_value": 20
+    },
+    {
+     "query": "posto de saúde",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "creche",
+     "value": "7%",
+     "extracted_value": 7
+    },
+    {
+     "query": "bolsa família",
+     "value": "14%",
+     "extracted_value": 14
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.6824831,
+    "lng": -51.0741711
+   },
+   "location": "Adamantina",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "64%",
+     "extracted_value": 64
+    },
+    {
+     "query": "aposentadoria",
+     "value": "19%",
+     "extracted_value": 19
+    },
+    {
+     "query": "posto de saúde",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "creche",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "bolsa família",
+     "value": "10%",
+     "extracted_value": 10
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.7557422,
+    "lng": -47.4147585
+   },
+   "location": "Santa Bárbara D'Oeste",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "60%",
+     "extracted_value": 60
+    },
+    {
+     "query": "aposentadoria",
+     "value": "20%",
+     "extracted_value": 20
+    },
+    {
+     "query": "posto de saúde",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "creche",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "bolsa família",
+     "value": "12%",
+     "extracted_value": 12
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.2562227,
+    "lng": -47.4810384
+   },
+   "location": "Pedregulho",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "49%",
+     "extracted_value": 49
+    },
+    {
+     "query": "aposentadoria",
+     "value": "30%",
+     "extracted_value": 30
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "14%",
+     "extracted_value": 14
+    },
+    {
+     "query": "bolsa família",
+     "value": "7%",
+     "extracted_value": 7
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.589095,
+    "lng": -48.0487846
+   },
+   "location": "Itapetininga",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "54%",
+     "extracted_value": 54
+    },
+    {
+     "query": "aposentadoria",
+     "value": "20%",
+     "extracted_value": 20
+    },
+    {
+     "query": "posto de saúde",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "creche",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "bolsa família",
+     "value": "15%",
+     "extracted_value": 15
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.9972026,
+    "lng": -47.512814
+   },
+   "location": "Capivari",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "57%",
+     "extracted_value": 57
+    },
+    {
+     "query": "aposentadoria",
+     "value": "20%",
+     "extracted_value": 20
+    },
+    {
+     "query": "posto de saúde",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "creche",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "bolsa família",
+     "value": "16%",
+     "extracted_value": 16
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.7497183,
+    "lng": -50.5792608
+   },
+   "location": "Tarumã",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "75%",
+     "extracted_value": 75
+    },
+    {
+     "query": "aposentadoria",
+     "value": "20%",
+     "extracted_value": 20
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "5%",
+     "extracted_value": 5
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.243953,
+    "lng": -48.8045943
+   },
+   "location": "Santa Adélia",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "58%",
+     "extracted_value": 58
+    },
+    {
+     "query": "aposentadoria",
+     "value": "17%",
+     "extracted_value": 17
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "25%",
+     "extracted_value": 25
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.3435182,
+    "lng": -48.7743842
+   },
+   "location": "Pederneiras",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "56%",
+     "extracted_value": 56
+    },
+    {
+     "query": "aposentadoria",
+     "value": "21%",
+     "extracted_value": 21
+    },
+    {
+     "query": "posto de saúde",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "creche",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "bolsa família",
+     "value": "19%",
+     "extracted_value": 19
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.4173291,
+    "lng": -49.9702752
+   },
+   "location": "Votuporanga",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "60%",
+     "extracted_value": 60
+    },
+    {
+     "query": "aposentadoria",
+     "value": "19%",
+     "extracted_value": 19
+    },
+    {
+     "query": "posto de saúde",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "creche",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "bolsa família",
+     "value": "13%",
+     "extracted_value": 13
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.208281,
+    "lng": -46.7893658
+   },
+   "location": "Campo Limpo Paulista",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "57%",
+     "extracted_value": 57
+    },
+    {
+     "query": "aposentadoria",
+     "value": "19%",
+     "extracted_value": 19
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "7%",
+     "extracted_value": 7
+    },
+    {
+     "query": "bolsa família",
+     "value": "17%",
+     "extracted_value": 17
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.5033899,
+    "lng": -47.6170597
+   },
+   "location": "Araçoiaba da Serra",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "58%",
+     "extracted_value": 58
+    },
+    {
+     "query": "aposentadoria",
+     "value": "20%",
+     "extracted_value": 20
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "bolsa família",
+     "value": "19%",
+     "extracted_value": 19
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.5113085,
+    "lng": -48.8447394
+   },
+   "location": "Apiaí",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "46%",
+     "extracted_value": 46
+    },
+    {
+     "query": "aposentadoria",
+     "value": "22%",
+     "extracted_value": 22
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "32%",
+     "extracted_value": 32
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.7712926,
+    "lng": -47.0856897
+   },
+   "location": "Casa Branca",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "58%",
+     "extracted_value": 58
+    },
+    {
+     "query": "aposentadoria",
+     "value": "18%",
+     "extracted_value": 18
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "24%",
+     "extracted_value": 24
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -24.5002295,
+    "lng": -47.8448116
+   },
+   "location": "Registro",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "47%",
+     "extracted_value": 47
+    },
+    {
+     "query": "aposentadoria",
+     "value": "20%",
+     "extracted_value": 20
+    },
+    {
+     "query": "posto de saúde",
+     "value": "1%",
+     "extracted_value": 1
+    },
+    {
+     "query": "creche",
+     "value": "9%",
+     "extracted_value": 9
+    },
+    {
+     "query": "bolsa família",
+     "value": "23%",
+     "extracted_value": 23
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.2915055,
+    "lng": -50.3436312
+   },
+   "location": "Birigui",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "58%",
+     "extracted_value": 58
+    },
+    {
+     "query": "aposentadoria",
+     "value": "19%",
+     "extracted_value": 19
+    },
+    {
+     "query": "posto de saúde",
+     "value": "1%",
+     "extracted_value": 1
+    },
+    {
+     "query": "creche",
+     "value": "11%",
+     "extracted_value": 11
+    },
+    {
+     "query": "bolsa família",
+     "value": "11%",
+     "extracted_value": 11
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.504198,
+    "lng": -48.71221
+   },
+   "location": "Macatuba",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "51%",
+     "extracted_value": 51
+    },
+    {
+     "query": "aposentadoria",
+     "value": "20%",
+     "extracted_value": 20
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsa família",
+     "value": "16%",
+     "extracted_value": 16
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.9607656,
+    "lng": -46.3960797
+   },
+   "location": "São Vicente",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "57%",
+     "extracted_value": 57
+    },
+    {
+     "query": "aposentadoria",
+     "value": "18%",
+     "extracted_value": 18
+    },
+    {
+     "query": "posto de saúde",
+     "value": "<1%",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "bolsa família",
+     "value": "19%",
+     "extracted_value": 19
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.1331045,
+    "lng": -51.1023381
+   },
+   "location": "Mirandópolis",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "62%",
+     "extracted_value": 62
+    },
+    {
+     "query": "aposentadoria",
+     "value": "20%",
+     "extracted_value": 20
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "bolsa família",
+     "value": "15%",
+     "extracted_value": 15
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.2860188,
+    "lng": -47.6790285
+   },
+   "location": "Boituva",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "58%",
+     "extracted_value": 58
+    },
+    {
+     "query": "aposentadoria",
+     "value": "19%",
+     "extracted_value": 19
+    },
+    {
+     "query": "posto de saúde",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "creche",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "bolsa família",
+     "value": "15%",
+     "extracted_value": 15
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.6266274,
+    "lng": -49.3104349
+   },
+   "location": "Coronel Macedo",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "70%",
+     "extracted_value": 70
+    },
+    {
+     "query": "aposentadoria",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "30%",
+     "extracted_value": 30
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.8795818,
+    "lng": -46.7938194
+   },
+   "location": "Morungaba",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "79%",
+     "extracted_value": 79
+    },
+    {
+     "query": "aposentadoria",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "21%",
+     "extracted_value": 21
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.9798796,
+    "lng": -49.8699377
+   },
+   "location": "Ourinhos",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "59%",
+     "extracted_value": 59
+    },
+    {
+     "query": "aposentadoria",
+     "value": "20%",
+     "extracted_value": 20
+    },
+    {
+     "query": "posto de saúde",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "creche",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "bolsa família",
+     "value": "15%",
+     "extracted_value": 15
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.7071623,
+    "lng": -46.4062503
+   },
+   "location": "Ribeirão Pires",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "56%",
+     "extracted_value": 56
+    },
+    {
+     "query": "aposentadoria",
+     "value": "18%",
+     "extracted_value": 18
+    },
+    {
+     "query": "posto de saúde",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "creche",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "bolsa família",
+     "value": "18%",
+     "extracted_value": 18
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.1813407,
+    "lng": -47.3845574
+   },
+   "location": "Leme",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "59%",
+     "extracted_value": 59
+    },
+    {
+     "query": "aposentadoria",
+     "value": "19%",
+     "extracted_value": 19
+    },
+    {
+     "query": "posto de saúde",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "creche",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "bolsa família",
+     "value": "13%",
+     "extracted_value": 13
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.1007393,
+    "lng": -50.1858252
+   },
+   "location": "Pompéia",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "57%",
+     "extracted_value": 57
+    },
+    {
+     "query": "aposentadoria",
+     "value": "29%",
+     "extracted_value": 29
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "14%",
+     "extracted_value": 14
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.0204559,
+    "lng": -45.5563555
+   },
+   "location": "Taubaté",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "59%",
+     "extracted_value": 59
+    },
+    {
+     "query": "aposentadoria",
+     "value": "19%",
+     "extracted_value": 19
+    },
+    {
+     "query": "posto de saúde",
+     "value": "1%",
+     "extracted_value": 1
+    },
+    {
+     "query": "creche",
+     "value": "8%",
+     "extracted_value": 8
+    },
+    {
+     "query": "bolsa família",
+     "value": "13%",
+     "extracted_value": 13
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.1742516,
+    "lng": -51.2559461
+   },
+   "location": "Indiana",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "46%",
+     "extracted_value": 46
+    },
+    {
+     "query": "aposentadoria",
+     "value": "10%",
+     "extracted_value": 10
+    },
+    {
+     "query": "posto de saúde",
+     "value": "19%",
+     "extracted_value": 19
+    },
+    {
+     "query": "creche",
+     "value": "13%",
+     "extracted_value": 13
+    },
+    {
+     "query": "bolsa família",
+     "value": "12%",
+     "extracted_value": 12
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.3179561,
+    "lng": -46.5885175
+   },
+   "location": "Mairiporã",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "54%",
+     "extracted_value": 54
+    },
+    {
+     "query": "aposentadoria",
+     "value": "19%",
+     "extracted_value": 19
+    },
+    {
+     "query": "posto de saúde",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "creche",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "bolsa família",
+     "value": "20%",
+     "extracted_value": 20
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.0996965,
+    "lng": -45.7080824
+   },
+   "location": "Caçapava",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "56%",
+     "extracted_value": 56
+    },
+    {
+     "query": "aposentadoria",
+     "value": "19%",
+     "extracted_value": 19
+    },
+    {
+     "query": "posto de saúde",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "creche",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "bolsa família",
+     "value": "17%",
+     "extracted_value": 17
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.5393288,
+    "lng": -47.4013437
+   },
+   "location": "Franca",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "61%",
+     "extracted_value": 61
+    },
+    {
+     "query": "aposentadoria",
+     "value": "16%",
+     "extracted_value": 16
+    },
+    {
+     "query": "posto de saúde",
+     "value": "1%",
+     "extracted_value": 1
+    },
+    {
+     "query": "creche",
+     "value": "10%",
+     "extracted_value": 10
+    },
+    {
+     "query": "bolsa família",
+     "value": "12%",
+     "extracted_value": 12
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.0060508,
+    "lng": -49.3206308
+   },
+   "location": "Manduri",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "50%",
+     "extracted_value": 50
+    },
+    {
+     "query": "aposentadoria",
+     "value": "29%",
+     "extracted_value": 29
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "21%",
+     "extracted_value": 21
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.30275,
+    "lng": -48.5755491
+   },
+   "location": "Jaú",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "58%",
+     "extracted_value": 58
+    },
+    {
+     "query": "aposentadoria",
+     "value": "20%",
+     "extracted_value": 20
+    },
+    {
+     "query": "posto de saúde",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "creche",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "bolsa família",
+     "value": "14%",
+     "extracted_value": 14
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.3679387,
+    "lng": -46.9432454
+   },
+   "location": "Mogi-Guaçu",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "61%",
+     "extracted_value": 61
+    },
+    {
+     "query": "aposentadoria",
+     "value": "20%",
+     "extracted_value": 20
+    },
+    {
+     "query": "posto de saúde",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "creche",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "bolsa família",
+     "value": "11%",
+     "extracted_value": 11
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.7836726,
+    "lng": -47.2945086
+   },
+   "location": "Nova Odessa",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "61%",
+     "extracted_value": 61
+    },
+    {
+     "query": "aposentadoria",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "posto de saúde",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "creche",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "bolsa família",
+     "value": "16%",
+     "extracted_value": 16
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.8302097,
+    "lng": -46.8140421
+   },
+   "location": "Embu-Guaçu",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "51%",
+     "extracted_value": 51
+    },
+    {
+     "query": "aposentadoria",
+     "value": "18%",
+     "extracted_value": 18
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "bolsa família",
+     "value": "27%",
+     "extracted_value": 27
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.5536189,
+    "lng": -48.570285
+   },
+   "location": "Barretos",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "59%",
+     "extracted_value": 59
+    },
+    {
+     "query": "aposentadoria",
+     "value": "21%",
+     "extracted_value": 21
+    },
+    {
+     "query": "posto de saúde",
+     "value": "3%",
+     "extracted_value": 3
+    },
+    {
+     "query": "creche",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "bolsa família",
+     "value": "13%",
+     "extracted_value": 13
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.949552,
+    "lng": -48.4795365
+   },
+   "location": "Bebedouro",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "58%",
+     "extracted_value": 58
+    },
+    {
+     "query": "aposentadoria",
+     "value": "23%",
+     "extracted_value": 23
+    },
+    {
+     "query": "posto de saúde",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "creche",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "bolsa família",
+     "value": "13%",
+     "extracted_value": 13
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -21.9712313,
+    "lng": -46.7947989
+   },
+   "location": "São João da Boa Vista",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "62%",
+     "extracted_value": 62
+    },
+    {
+     "query": "aposentadoria",
+     "value": "21%",
+     "extracted_value": 21
+    },
+    {
+     "query": "posto de saúde",
+     "value": "2%",
+     "extracted_value": 2
+    },
+    {
+     "query": "creche",
+     "value": "4%",
+     "extracted_value": 4
+    },
+    {
+     "query": "bolsa família",
+     "value": "11%",
+     "extracted_value": 11
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.9678823,
+    "lng": -46.3288865
+   },
+   "location": "Santos",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "62%",
+     "extracted_value": 62
+    },
+    {
+     "query": "aposentadoria",
+     "value": "22%",
+     "extracted_value": 22
+    },
+    {
+     "query": "posto de saúde",
+     "value": "<1%",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "6%",
+     "extracted_value": 6
+    },
+    {
+     "query": "bolsa família",
+     "value": "10%",
+     "extracted_value": 10
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -20.8718154,
+    "lng": -51.4902387
+   },
+   "location": "Castilho",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "63%",
+     "extracted_value": 63
+    },
+    {
+     "query": "aposentadoria",
+     "value": "15%",
+     "extracted_value": 15
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "22%",
+     "extracted_value": 22
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.7466667,
+    "lng": -50.3880476
+   },
+   "location": "Cândido Mota",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "56%",
+     "extracted_value": 56
+    },
+    {
+     "query": "aposentadoria",
+     "value": "25%",
+     "extracted_value": 25
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "5%",
+     "extracted_value": 5
+    },
+    {
+     "query": "bolsa família",
+     "value": "14%",
+     "extracted_value": 14
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -22.6676982,
+    "lng": -48.6685125
+   },
+   "location": "Areiópolis",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "91%",
+     "extracted_value": 91
+    },
+    {
+     "query": "aposentadoria",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "9%",
+     "extracted_value": 9
+    }
+   ]
+  },
+  {
+   "coordinates": {
+    "lat": -23.6402289,
+    "lng": -47.8253199
+   },
+   "location": "Sarapuí",
+   "max_value_index": 0,
+   "values": [
+    {
+     "query": "inss",
+     "value": "46%",
+     "extracted_value": 46
+    },
+    {
+     "query": "aposentadoria",
+     "value": "39%",
+     "extracted_value": 39
+    },
+    {
+     "query": "posto de saúde",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "creche",
+     "value": "",
+     "extracted_value": 0
+    },
+    {
+     "query": "bolsa família",
+     "value": "15%",
+     "extracted_value": 15
+    }
+   ]
+  }
+ ]
+}

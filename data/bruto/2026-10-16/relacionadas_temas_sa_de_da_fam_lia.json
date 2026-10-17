@@ -1,0 +1,78 @@
+{
+ "search_metadata": {
+  "id": "6ad2b4ab93a73fe8339b588f",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/IoUrERZihoaYAY5sJ834cWwL4O2YxAOq0jBcWlORVL0/6ad2b4ab93a73fe8339b588f.json",
+  "markdown_endpoint": "https://serpapi.com/searches/IoUrERZihoaYAY5sJ834cWwL4O2YxAOq0jBcWlORVL0/6ad2b4ab93a73fe8339b588f.md",
+  "created_at": "2026-10-16 23:35:07 UTC",
+  "processed_at": "2026-10-16 23:35:07 UTC",
+  "google_trends_url": "https://trends.google.com/trends/embed/explore/RELATED_QUERIES?hl=pt-BR&tz=180&req=%7B%22comparisonItem%22%3A%5B%7B%22keyword%22%3A%22sa%C3%BAde+da+fam%C3%ADlia%22%2C%22geo%22%3A%22BR%22%2C%22time%22%3A%22now+7-d%22%7D%5D%2C%22category%22%3A0%2C%22property%22%3A%22%22%7D",
+  "raw_html_file": "https://serpapi.com/searches/IoUrERZihoaYAY5sJ834cWwL4O2YxAOq0jBcWlORVL0/6ad2b4ab93a73fe8339b588f.html",
+  "prettify_html_file": "https://serpapi.com/searches/IoUrERZihoaYAY5sJ834cWwL4O2YxAOq0jBcWlORVL0/6ad2b4ab93a73fe8339b588f.prettify",
+  "total_time_taken": 1.15
+ },
+ "search_parameters": {
+  "engine": "google_trends",
+  "q": "saúde da família",
+  "hl": "pt-BR",
+  "geo": "BR",
+  "date": "now 7-d",
+  "tz": "180",
+  "data_type": "RELATED_QUERIES"
+ },
+ "related_queries": {
+  "rising": [
+   {
+    "query": "associação saúde da família vagas",
+    "value": "Mais 180%",
+    "extracted_value": 180,
+    "link": "https://trends.google.com/trends/explore?q=associa%C3%A7%C3%A3o+sa%C3%BAde+da+fam%C3%ADlia+vagas&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=associa%C3%A7%C3%A3o+sa%C3%BAde+da+fam%C3%ADlia+vagas&tz=180"
+   }
+  ],
+  "top": [
+   {
+    "query": "estratégia saúde da família",
+    "value": "100",
+    "extracted_value": 100,
+    "link": "https://trends.google.com/trends/explore?q=estrat%C3%A9gia+sa%C3%BAde+da+fam%C3%ADlia&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=estrat%C3%A9gia+sa%C3%BAde+da+fam%C3%ADlia&tz=180"
+   },
+   {
+    "query": "unidade de saúde da família",
+    "value": "90",
+    "extracted_value": 90,
+    "link": "https://trends.google.com/trends/explore?q=unidade+de+sa%C3%BAde+da+fam%C3%ADlia&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=unidade+de+sa%C3%BAde+da+fam%C3%ADlia&tz=180"
+   },
+   {
+    "query": "estratégia de saúde da família",
+    "value": "82",
+    "extracted_value": 82,
+    "link": "https://trends.google.com/trends/explore?q=estrat%C3%A9gia+de+sa%C3%BAde+da+fam%C3%ADlia&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=estrat%C3%A9gia+de+sa%C3%BAde+da+fam%C3%ADlia&tz=180"
+   },
+   {
+    "query": "associação saúde da família",
+    "value": "20",
+    "extracted_value": 20,
+    "link": "https://trends.google.com/trends/explore?q=associa%C3%A7%C3%A3o+sa%C3%BAde+da+fam%C3%ADlia&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=associa%C3%A7%C3%A3o+sa%C3%BAde+da+fam%C3%ADlia&tz=180"
+   },
+   {
+    "query": "especialização em saúde da família",
+    "value": "7",
+    "extracted_value": 7,
+    "link": "https://trends.google.com/trends/explore?q=especializa%C3%A7%C3%A3o+em+sa%C3%BAde+da+fam%C3%ADlia&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=especializa%C3%A7%C3%A3o+em+sa%C3%BAde+da+fam%C3%ADlia&tz=180"
+   },
+   {
+    "query": "associação saúde da família vagas",
+    "value": "4",
+    "extracted_value": 4,
+    "link": "https://trends.google.com/trends/explore?q=associa%C3%A7%C3%A3o+sa%C3%BAde+da+fam%C3%ADlia+vagas&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=associa%C3%A7%C3%A3o+sa%C3%BAde+da+fam%C3%ADlia+vagas&tz=180"
+   }
+  ]
+ }
+}

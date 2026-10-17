@@ -1,0 +1,379 @@
+{
+ "search_metadata": {
+  "id": "6ad2b49273d2240d12f3cdcf",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/7yJl3UHxkpQR2-JyO-PTQcKqcBi6b-SRHrM2kOivzRY/6ad2b49273d2240d12f3cdcf.json",
+  "markdown_endpoint": "https://serpapi.com/searches/7yJl3UHxkpQR2-JyO-PTQcKqcBi6b-SRHrM2kOivzRY/6ad2b49273d2240d12f3cdcf.md",
+  "created_at": "2026-10-16 23:34:42 UTC",
+  "processed_at": "2026-10-16 23:34:42 UTC",
+  "google_trends_url": "https://trends.google.com/trends/embed/explore/RELATED_QUERIES?hl=pt-BR&tz=180&req=%7B%22comparisonItem%22%3A%5B%7B%22keyword%22%3A%22bolsonaro%22%2C%22geo%22%3A%22BR%22%2C%22time%22%3A%22now+1-d%22%7D%5D%2C%22category%22%3A0%2C%22property%22%3A%22%22%7D",
+  "raw_html_file": "https://serpapi.com/searches/7yJl3UHxkpQR2-JyO-PTQcKqcBi6b-SRHrM2kOivzRY/6ad2b49273d2240d12f3cdcf.html",
+  "prettify_html_file": "https://serpapi.com/searches/7yJl3UHxkpQR2-JyO-PTQcKqcBi6b-SRHrM2kOivzRY/6ad2b49273d2240d12f3cdcf.prettify",
+  "total_time_taken": 3.82
+ },
+ "search_parameters": {
+  "engine": "google_trends",
+  "q": "bolsonaro",
+  "hl": "pt-BR",
+  "geo": "BR",
+  "date": "now 1-d",
+  "tz": "180",
+  "data_type": "RELATED_QUERIES"
+ },
+ "related_queries": {
+  "rising": [
+   {
+    "query": "que horas é a entrevista do flávio bolsonaro",
+    "value": "Aumento repentino",
+    "extracted_value": 5750,
+    "link": "https://trends.google.com/trends/explore?q=que+horas+%C3%A9+a+entrevista+do+fl%C3%A1vio+bolsonaro&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=que+horas+%C3%A9+a+entrevista+do+fl%C3%A1vio+bolsonaro&tz=180"
+   },
+   {
+    "query": "flavio bolsonaro almoço globo",
+    "value": "Aumento repentino",
+    "extracted_value": 5600,
+    "link": "https://trends.google.com/trends/explore?q=flavio+bolsonaro+almo%C3%A7o+globo&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=flavio+bolsonaro+almo%C3%A7o+globo&tz=180"
+   },
+   {
+    "query": "horario entrevista flavio bolsonaro globo",
+    "value": "Mais 4.950%",
+    "extracted_value": 4950,
+    "link": "https://trends.google.com/trends/explore?q=horario+entrevista+flavio+bolsonaro+globo&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=horario+entrevista+flavio+bolsonaro+globo&tz=180"
+   },
+   {
+    "query": "horario flavio bolsonaro globo",
+    "value": "Mais 3.900%",
+    "extracted_value": 3900,
+    "link": "https://trends.google.com/trends/explore?q=horario+flavio+bolsonaro+globo&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=horario+flavio+bolsonaro+globo&tz=180"
+   },
+   {
+    "query": "bmw f 450 rr",
+    "value": "Mais 3.400%",
+    "extracted_value": 3400,
+    "link": "https://trends.google.com/trends/explore?q=bmw+f+450+rr&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=bmw+f+450+rr&tz=180"
+   },
+   {
+    "query": "flavio bolsonaro 600 mil",
+    "value": "Mais 3.400%",
+    "extracted_value": 3400,
+    "link": "https://trends.google.com/trends/explore?q=flavio+bolsonaro+600+mil&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=flavio+bolsonaro+600+mil&tz=180"
+   },
+   {
+    "query": "que horas será a entrevista do flávio bolsonaro na globo",
+    "value": "Mais 3.000%",
+    "extracted_value": 3000,
+    "link": "https://trends.google.com/trends/explore?q=que+horas+ser%C3%A1+a+entrevista+do+fl%C3%A1vio+bolsonaro+na+globo&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=que+horas+ser%C3%A1+a+entrevista+do+fl%C3%A1vio+bolsonaro+na+globo&tz=180"
+   },
+   {
+    "query": "que horas é a entrevista de flávio bolsonaro na globo",
+    "value": "Mais 2.700%",
+    "extracted_value": 2700,
+    "link": "https://trends.google.com/trends/explore?q=que+horas+%C3%A9+a+entrevista+de+fl%C3%A1vio+bolsonaro+na+globo&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=que+horas+%C3%A9+a+entrevista+de+fl%C3%A1vio+bolsonaro+na+globo&tz=180"
+   },
+   {
+    "query": "que horas entrevista flavio bolsonaro",
+    "value": "Mais 2.500%",
+    "extracted_value": 2500,
+    "link": "https://trends.google.com/trends/explore?q=que+horas+entrevista+flavio+bolsonaro&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=que+horas+entrevista+flavio+bolsonaro&tz=180"
+   },
+   {
+    "query": "sabatina flávio bolsonaro globo",
+    "value": "Mais 2.400%",
+    "extracted_value": 2400,
+    "link": "https://trends.google.com/trends/explore?q=sabatina+fl%C3%A1vio+bolsonaro+globo&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=sabatina+fl%C3%A1vio+bolsonaro+globo&tz=180"
+   },
+   {
+    "query": "entrevista com flavio bolsonaro globo",
+    "value": "Mais 2.300%",
+    "extracted_value": 2300,
+    "link": "https://trends.google.com/trends/explore?q=entrevista+com+flavio+bolsonaro+globo&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=entrevista+com+flavio+bolsonaro+globo&tz=180"
+   },
+   {
+    "query": "sabatina de flávio bolsonaro na globo",
+    "value": "Mais 2.150%",
+    "extracted_value": 2150,
+    "link": "https://trends.google.com/trends/explore?q=sabatina+de+fl%C3%A1vio+bolsonaro+na+globo&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=sabatina+de+fl%C3%A1vio+bolsonaro+na+globo&tz=180"
+   },
+   {
+    "query": "sabatina flávio bolsonaro",
+    "value": "Mais 2.000%",
+    "extracted_value": 2000,
+    "link": "https://trends.google.com/trends/explore?q=sabatina+fl%C3%A1vio+bolsonaro&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=sabatina+fl%C3%A1vio+bolsonaro&tz=180"
+   },
+   {
+    "query": "sabatina bolsonaro",
+    "value": "Mais 1.900%",
+    "extracted_value": 1900,
+    "link": "https://trends.google.com/trends/explore?q=sabatina+bolsonaro&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=sabatina+bolsonaro&tz=180"
+   },
+   {
+    "query": "quando é a sabatina de flávio bolsonaro na globo",
+    "value": "Mais 1.850%",
+    "extracted_value": 1850,
+    "link": "https://trends.google.com/trends/explore?q=quando+%C3%A9+a+sabatina+de+fl%C3%A1vio+bolsonaro+na+globo&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=quando+%C3%A9+a+sabatina+de+fl%C3%A1vio+bolsonaro+na+globo&tz=180"
+   },
+   {
+    "query": "qual o horário da entrevista de flávio bolsonaro na globo",
+    "value": "Mais 1.800%",
+    "extracted_value": 1800,
+    "link": "https://trends.google.com/trends/explore?q=qual+o+hor%C3%A1rio+da+entrevista+de+fl%C3%A1vio+bolsonaro+na+globo&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=qual+o+hor%C3%A1rio+da+entrevista+de+fl%C3%A1vio+bolsonaro+na+globo&tz=180"
+   },
+   {
+    "query": "que horas vai ser a entrevista do flávio bolsonaro na globo",
+    "value": "Mais 1.750%",
+    "extracted_value": 1750,
+    "link": "https://trends.google.com/trends/explore?q=que+horas+vai+ser+a+entrevista+do+fl%C3%A1vio+bolsonaro+na+globo&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=que+horas+vai+ser+a+entrevista+do+fl%C3%A1vio+bolsonaro+na+globo&tz=180"
+   },
+   {
+    "query": "show u2 brasil ingressos",
+    "value": "Mais 1.750%",
+    "extracted_value": 1750,
+    "link": "https://trends.google.com/trends/explore?q=show+u2+brasil+ingressos&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=show+u2+brasil+ingressos&tz=180"
+   },
+   {
+    "query": "que horas é a entrevista do flávio bolsonaro na globo",
+    "value": "Mais 1.750%",
+    "extracted_value": 1750,
+    "link": "https://trends.google.com/trends/explore?q=que+horas+%C3%A9+a+entrevista+do+fl%C3%A1vio+bolsonaro+na+globo&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=que+horas+%C3%A9+a+entrevista+do+fl%C3%A1vio+bolsonaro+na+globo&tz=180"
+   },
+   {
+    "query": "sabatina flavio bolsonaro globo",
+    "value": "Mais 1.700%",
+    "extracted_value": 1700,
+    "link": "https://trends.google.com/trends/explore?q=sabatina+flavio+bolsonaro+globo&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=sabatina+flavio+bolsonaro+globo&tz=180"
+   },
+   {
+    "query": "flavio bolsonaro sabatina",
+    "value": "Mais 1.700%",
+    "extracted_value": 1700,
+    "link": "https://trends.google.com/trends/explore?q=flavio+bolsonaro+sabatina&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=flavio+bolsonaro+sabatina&tz=180"
+   },
+   {
+    "query": "sabatina flavio bolsonaro hoje",
+    "value": "Mais 1.600%",
+    "extracted_value": 1600,
+    "link": "https://trends.google.com/trends/explore?q=sabatina+flavio+bolsonaro+hoje&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=sabatina+flavio+bolsonaro+hoje&tz=180"
+   },
+   {
+    "query": "que horas vai ser a entrevista do flávio bolsonaro hoje",
+    "value": "Mais 1.600%",
+    "extracted_value": 1600,
+    "link": "https://trends.google.com/trends/explore?q=que+horas+vai+ser+a+entrevista+do+fl%C3%A1vio+bolsonaro+hoje&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=que+horas+vai+ser+a+entrevista+do+fl%C3%A1vio+bolsonaro+hoje&tz=180"
+   },
+   {
+    "query": "horário da entrevista do flávio bolsonaro na globo",
+    "value": "Mais 1.550%",
+    "extracted_value": 1550,
+    "link": "https://trends.google.com/trends/explore?q=hor%C3%A1rio+da+entrevista+do+fl%C3%A1vio+bolsonaro+na+globo&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=hor%C3%A1rio+da+entrevista+do+fl%C3%A1vio+bolsonaro+na+globo&tz=180"
+   },
+   {
+    "query": "horário da entrevista de flávio bolsonaro na globo",
+    "value": "Mais 1.500%",
+    "extracted_value": 1500,
+    "link": "https://trends.google.com/trends/explore?q=hor%C3%A1rio+da+entrevista+de+fl%C3%A1vio+bolsonaro+na+globo&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=hor%C3%A1rio+da+entrevista+de+fl%C3%A1vio+bolsonaro+na+globo&tz=180"
+   }
+  ],
+  "top": [
+   {
+    "query": "flávio bolsonaro",
+    "value": "100",
+    "extracted_value": 100,
+    "link": "https://trends.google.com/trends/explore?q=fl%C3%A1vio+bolsonaro&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=fl%C3%A1vio+bolsonaro&tz=180"
+   },
+   {
+    "query": "flavio",
+    "value": "73",
+    "extracted_value": 73,
+    "link": "https://trends.google.com/trends/explore?q=flavio&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=flavio&tz=180"
+   },
+   {
+    "query": "flavio bolsonaro",
+    "value": "72",
+    "extracted_value": 72,
+    "link": "https://trends.google.com/trends/explore?q=flavio+bolsonaro&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=flavio+bolsonaro&tz=180"
+   },
+   {
+    "query": "lula e bolsonaro",
+    "value": "35",
+    "extracted_value": 35,
+    "link": "https://trends.google.com/trends/explore?q=lula+e+bolsonaro&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=lula+e+bolsonaro&tz=180"
+   },
+   {
+    "query": "lula flávio bolsonaro",
+    "value": "28",
+    "extracted_value": 28,
+    "link": "https://trends.google.com/trends/explore?q=lula+fl%C3%A1vio+bolsonaro&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=lula+fl%C3%A1vio+bolsonaro&tz=180"
+   },
+   {
+    "query": "governo bolsonaro",
+    "value": "27",
+    "extracted_value": 27,
+    "link": "https://trends.google.com/trends/explore?q=governo+bolsonaro&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=governo+bolsonaro&tz=180"
+   },
+   {
+    "query": "bolsonaro globo",
+    "value": "21",
+    "extracted_value": 21,
+    "link": "https://trends.google.com/trends/explore?q=bolsonaro+globo&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=bolsonaro+globo&tz=180"
+   },
+   {
+    "query": "bolsonaro hoje",
+    "value": "14",
+    "extracted_value": 14,
+    "link": "https://trends.google.com/trends/explore?q=bolsonaro+hoje&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=bolsonaro+hoje&tz=180"
+   },
+   {
+    "query": "jair bolsonaro",
+    "value": "14",
+    "extracted_value": 14,
+    "link": "https://trends.google.com/trends/explore?q=jair+bolsonaro&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=jair+bolsonaro&tz=180"
+   },
+   {
+    "query": "bolsonaro na globo",
+    "value": "13",
+    "extracted_value": 13,
+    "link": "https://trends.google.com/trends/explore?q=bolsonaro+na+globo&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=bolsonaro+na+globo&tz=180"
+   },
+   {
+    "query": "entrevista bolsonaro",
+    "value": "12",
+    "extracted_value": 12,
+    "link": "https://trends.google.com/trends/explore?q=entrevista+bolsonaro&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=entrevista+bolsonaro&tz=180"
+   },
+   {
+    "query": "flávio bolsonaro globo",
+    "value": "11",
+    "extracted_value": 11,
+    "link": "https://trends.google.com/trends/explore?q=fl%C3%A1vio+bolsonaro+globo&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=fl%C3%A1vio+bolsonaro+globo&tz=180"
+   },
+   {
+    "query": "flávio bolsonaro hoje",
+    "value": "7",
+    "extracted_value": 7,
+    "link": "https://trends.google.com/trends/explore?q=fl%C3%A1vio+bolsonaro+hoje&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=fl%C3%A1vio+bolsonaro+hoje&tz=180"
+   },
+   {
+    "query": "flávio bolsonaro na globo",
+    "value": "7",
+    "extracted_value": 7,
+    "link": "https://trends.google.com/trends/explore?q=fl%C3%A1vio+bolsonaro+na+globo&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=fl%C3%A1vio+bolsonaro+na+globo&tz=180"
+   },
+   {
+    "query": "debate lula e bolsonaro",
+    "value": "7",
+    "extracted_value": 7,
+    "link": "https://trends.google.com/trends/explore?q=debate+lula+e+bolsonaro&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=debate+lula+e+bolsonaro&tz=180"
+   },
+   {
+    "query": "entrevista bolsonaro globo",
+    "value": "7",
+    "extracted_value": 7,
+    "link": "https://trends.google.com/trends/explore?q=entrevista+bolsonaro+globo&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=entrevista+bolsonaro+globo&tz=180"
+   },
+   {
+    "query": "flavio bolsonaro globo",
+    "value": "7",
+    "extracted_value": 7,
+    "link": "https://trends.google.com/trends/explore?q=flavio+bolsonaro+globo&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=flavio+bolsonaro+globo&tz=180"
+   },
+   {
+    "query": "lula flávio bolsonaro pesquisa",
+    "value": "6",
+    "extracted_value": 6,
+    "link": "https://trends.google.com/trends/explore?q=lula+fl%C3%A1vio+bolsonaro+pesquisa&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=lula+fl%C3%A1vio+bolsonaro+pesquisa&tz=180"
+   },
+   {
+    "query": "sabatina bolsonaro",
+    "value": "5",
+    "extracted_value": 5,
+    "link": "https://trends.google.com/trends/explore?q=sabatina+bolsonaro&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=sabatina+bolsonaro&tz=180"
+   },
+   {
+    "query": "debate lula e flávio bolsonaro",
+    "value": "5",
+    "extracted_value": 5,
+    "link": "https://trends.google.com/trends/explore?q=debate+lula+e+fl%C3%A1vio+bolsonaro&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=debate+lula+e+fl%C3%A1vio+bolsonaro&tz=180"
+   },
+   {
+    "query": "flávio bolsonaro segundo turno",
+    "value": "5",
+    "extracted_value": 5,
+    "link": "https://trends.google.com/trends/explore?q=fl%C3%A1vio+bolsonaro+segundo+turno&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=fl%C3%A1vio+bolsonaro+segundo+turno&tz=180"
+   },
+   {
+    "query": "entrevista flávio bolsonaro globo",
+    "value": "4",
+    "extracted_value": 4,
+    "link": "https://trends.google.com/trends/explore?q=entrevista+fl%C3%A1vio+bolsonaro+globo&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=entrevista+fl%C3%A1vio+bolsonaro+globo&tz=180"
+   },
+   {
+    "query": "bolsonaro idade",
+    "value": "4",
+    "extracted_value": 4,
+    "link": "https://trends.google.com/trends/explore?q=bolsonaro+idade&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=bolsonaro+idade&tz=180"
+   },
+   {
+    "query": "lula e flávio bolsonaro pesquisa",
+    "value": "4",
+    "extracted_value": 4,
+    "link": "https://trends.google.com/trends/explore?q=lula+e+fl%C3%A1vio+bolsonaro+pesquisa&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=lula+e+fl%C3%A1vio+bolsonaro+pesquisa&tz=180"
+   },
+   {
+    "query": "eduardo bolsonaro",
+    "value": "3",
+    "extracted_value": 3,
+    "link": "https://trends.google.com/trends/explore?q=eduardo+bolsonaro&date=now+1-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+1-d&engine=google_trends&geo=BR&hl=pt-BR&q=eduardo+bolsonaro&tz=180"
+   }
+  ]
+ }
+}

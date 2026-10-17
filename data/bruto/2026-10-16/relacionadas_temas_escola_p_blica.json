@@ -1,0 +1,204 @@
+{
+ "search_metadata": {
+  "id": "6ad2b4b647526621220bd28e",
+  "status": "Success",
+  "json_endpoint": "https://serpapi.com/searches/_OBn3HPtEWxEQALLlYJWdJeud9Mp87936f00lD_jSWs/6ad2b4b647526621220bd28e.json",
+  "markdown_endpoint": "https://serpapi.com/searches/_OBn3HPtEWxEQALLlYJWdJeud9Mp87936f00lD_jSWs/6ad2b4b647526621220bd28e.md",
+  "created_at": "2026-10-16 23:35:18 UTC",
+  "processed_at": "2026-10-16 23:35:18 UTC",
+  "google_trends_url": "https://trends.google.com/trends/embed/explore/RELATED_QUERIES?hl=pt-BR&tz=180&req=%7B%22comparisonItem%22%3A%5B%7B%22keyword%22%3A%22escola+p%C3%BAblica%22%2C%22geo%22%3A%22BR%22%2C%22time%22%3A%22now+7-d%22%7D%5D%2C%22category%22%3A0%2C%22property%22%3A%22%22%7D",
+  "raw_html_file": "https://serpapi.com/searches/_OBn3HPtEWxEQALLlYJWdJeud9Mp87936f00lD_jSWs/6ad2b4b647526621220bd28e.html",
+  "prettify_html_file": "https://serpapi.com/searches/_OBn3HPtEWxEQALLlYJWdJeud9Mp87936f00lD_jSWs/6ad2b4b647526621220bd28e.prettify",
+  "total_time_taken": 1.93
+ },
+ "search_parameters": {
+  "engine": "google_trends",
+  "q": "escola pública",
+  "hl": "pt-BR",
+  "geo": "BR",
+  "date": "now 7-d",
+  "tz": "180",
+  "data_type": "RELATED_QUERIES"
+ },
+ "related_queries": {
+  "rising": [
+   {
+    "query": "escola pública ap gov br",
+    "value": "Aumento repentino",
+    "extracted_value": 125300,
+    "link": "https://trends.google.com/trends/explore?q=escola+p%C3%BAblica+ap+gov+br&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=escola+p%C3%BAblica+ap+gov+br&tz=180"
+   },
+   {
+    "query": "www escola pública ap gov br",
+    "value": "Aumento repentino",
+    "extracted_value": 85200,
+    "link": "https://trends.google.com/trends/explore?q=www+escola+p%C3%BAblica+ap+gov+br&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=www+escola+p%C3%BAblica+ap+gov+br&tz=180"
+   },
+   {
+    "query": "escola bahiana de medicina e saúde pública cabula",
+    "value": "Mais 5.000%",
+    "extracted_value": 5000,
+    "link": "https://trends.google.com/trends/explore?q=escola+bahiana+de+medicina+e+sa%C3%BAde+p%C3%BAblica+cabula&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=escola+bahiana+de+medicina+e+sa%C3%BAde+p%C3%BAblica+cabula&tz=180"
+   },
+   {
+    "query": "escola pública ap",
+    "value": "Mais 2.450%",
+    "extracted_value": 2450,
+    "link": "https://trends.google.com/trends/explore?q=escola+p%C3%BAblica+ap&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=escola+p%C3%BAblica+ap&tz=180"
+   },
+   {
+    "query": "escola de gestão pública do estado do ceará",
+    "value": "Mais 200%",
+    "extracted_value": 200,
+    "link": "https://trends.google.com/trends/explore?q=escola+de+gest%C3%A3o+p%C3%BAblica+do+estado+do+cear%C3%A1&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=escola+de+gest%C3%A3o+p%C3%BAblica+do+estado+do+cear%C3%A1&tz=180"
+   },
+   {
+    "query": "escola virtual gov",
+    "value": "Mais 130%",
+    "extracted_value": 130,
+    "link": "https://trends.google.com/trends/explore?q=escola+virtual+gov&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=escola+virtual+gov&tz=180"
+   },
+   {
+    "query": "escola de saúde pública do ceará",
+    "value": "Mais 70%",
+    "extracted_value": 70,
+    "link": "https://trends.google.com/trends/explore?q=escola+de+sa%C3%BAde+p%C3%BAblica+do+cear%C3%A1&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=escola+de+sa%C3%BAde+p%C3%BAblica+do+cear%C3%A1&tz=180"
+   },
+   {
+    "query": "escola pública de trânsito",
+    "value": "Mais 40%",
+    "extracted_value": 40,
+    "link": "https://trends.google.com/trends/explore?q=escola+p%C3%BAblica+de+tr%C3%A2nsito&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=escola+p%C3%BAblica+de+tr%C3%A2nsito&tz=180"
+   }
+  ],
+  "top": [
+   {
+    "query": "escola de saúde pública",
+    "value": "100",
+    "extracted_value": 100,
+    "link": "https://trends.google.com/trends/explore?q=escola+de+sa%C3%BAde+p%C3%BAblica&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=escola+de+sa%C3%BAde+p%C3%BAblica&tz=180"
+   },
+   {
+    "query": "escola de administração pública",
+    "value": "60",
+    "extracted_value": 60,
+    "link": "https://trends.google.com/trends/explore?q=escola+de+administra%C3%A7%C3%A3o+p%C3%BAblica&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=escola+de+administra%C3%A7%C3%A3o+p%C3%BAblica&tz=180"
+   },
+   {
+    "query": "escola nacional de administração pública",
+    "value": "26",
+    "extracted_value": 26,
+    "link": "https://trends.google.com/trends/explore?q=escola+nacional+de+administra%C3%A7%C3%A3o+p%C3%BAblica&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=escola+nacional+de+administra%C3%A7%C3%A3o+p%C3%BAblica&tz=180"
+   },
+   {
+    "query": "escola pública ap",
+    "value": "26",
+    "extracted_value": 26,
+    "link": "https://trends.google.com/trends/explore?q=escola+p%C3%BAblica+ap&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=escola+p%C3%BAblica+ap&tz=180"
+   },
+   {
+    "query": "escola pública ap gov br",
+    "value": "24",
+    "extracted_value": 24,
+    "link": "https://trends.google.com/trends/explore?q=escola+p%C3%BAblica+ap+gov+br&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=escola+p%C3%BAblica+ap+gov+br&tz=180"
+   },
+   {
+    "query": "escola pública perto de mim",
+    "value": "19",
+    "extracted_value": 19,
+    "link": "https://trends.google.com/trends/explore?q=escola+p%C3%BAblica+perto+de+mim&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=escola+p%C3%BAblica+perto+de+mim&tz=180"
+   },
+   {
+    "query": "gestão democrática da escola pública",
+    "value": "18",
+    "extracted_value": 18,
+    "link": "https://trends.google.com/trends/explore?q=gest%C3%A3o+democr%C3%A1tica+da+escola+p%C3%BAblica&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=gest%C3%A3o+democr%C3%A1tica+da+escola+p%C3%BAblica&tz=180"
+   },
+   {
+    "query": "www escola pública ap gov br",
+    "value": "16",
+    "extracted_value": 16,
+    "link": "https://trends.google.com/trends/explore?q=www+escola+p%C3%BAblica+ap+gov+br&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=www+escola+p%C3%BAblica+ap+gov+br&tz=180"
+   },
+   {
+    "query": "enap",
+    "value": "14",
+    "extracted_value": 14,
+    "link": "https://trends.google.com/trends/explore?q=enap&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=enap&tz=180"
+   },
+   {
+    "query": "escola de saúde pública do ceará",
+    "value": "13",
+    "extracted_value": 13,
+    "link": "https://trends.google.com/trends/explore?q=escola+de+sa%C3%BAde+p%C3%BAblica+do+cear%C3%A1&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=escola+de+sa%C3%BAde+p%C3%BAblica+do+cear%C3%A1&tz=180"
+   },
+   {
+    "query": "enap escola nacional de administração pública",
+    "value": "13",
+    "extracted_value": 13,
+    "link": "https://trends.google.com/trends/explore?q=enap+escola+nacional+de+administra%C3%A7%C3%A3o+p%C3%BAblica&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=enap+escola+nacional+de+administra%C3%A7%C3%A3o+p%C3%BAblica&tz=180"
+   },
+   {
+    "query": "escola bahiana de medicina e saúde pública",
+    "value": "12",
+    "extracted_value": 12,
+    "link": "https://trends.google.com/trends/explore?q=escola+bahiana+de+medicina+e+sa%C3%BAde+p%C3%BAblica&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=escola+bahiana+de+medicina+e+sa%C3%BAde+p%C3%BAblica&tz=180"
+   },
+   {
+    "query": "escola pública de trânsito",
+    "value": "11",
+    "extracted_value": 11,
+    "link": "https://trends.google.com/trends/explore?q=escola+p%C3%BAblica+de+tr%C3%A2nsito&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=escola+p%C3%BAblica+de+tr%C3%A2nsito&tz=180"
+   },
+   {
+    "query": "matrícula escola pública df 2027",
+    "value": "9",
+    "extracted_value": 9,
+    "link": "https://trends.google.com/trends/explore?q=matr%C3%ADcula+escola+p%C3%BAblica+df+2027&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=matr%C3%ADcula+escola+p%C3%BAblica+df+2027&tz=180"
+   },
+   {
+    "query": "escola de gestão pública do estado do ceará",
+    "value": "4",
+    "extracted_value": 4,
+    "link": "https://trends.google.com/trends/explore?q=escola+de+gest%C3%A3o+p%C3%BAblica+do+estado+do+cear%C3%A1&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=escola+de+gest%C3%A3o+p%C3%BAblica+do+estado+do+cear%C3%A1&tz=180"
+   },
+   {
+    "query": "escola virtual gov",
+    "value": "1",
+    "extracted_value": 1,
+    "link": "https://trends.google.com/trends/explore?q=escola+virtual+gov&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=escola+virtual+gov&tz=180"
+   },
+   {
+    "query": "escola bahiana de medicina e saúde pública cabula",
+    "value": "1",
+    "extracted_value": 1,
+    "link": "https://trends.google.com/trends/explore?q=escola+bahiana+de+medicina+e+sa%C3%BAde+p%C3%BAblica+cabula&date=now+7-d&geo=BR",
+    "serpapi_link": "https://serpapi.com/search.json?data_type=RELATED_QUERIES&date=now+7-d&engine=google_trends&geo=BR&hl=pt-BR&q=escola+bahiana+de+medicina+e+sa%C3%BAde+p%C3%BAblica+cabula&tz=180"
+   }
+  ]
+ }
+}

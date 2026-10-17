@@ -91,6 +91,21 @@ def test_executar_idempotente_e_sem_chave(monkeypatch, pasta_dados):
     assert (pasta_dados / "geo_map.csv").exists() and (pasta_dados / "related_queries.csv").exists()
 
 
+def test_csv_zerado_recebe_cabecalho_ao_primeiro_append(pasta_dados):
+    import csv
+    from coletor import armazenamento as arm
+
+    (pasta_dados / "geo_map.csv").write_text("", encoding="utf-8")
+    arm.anexar_csv("geo_map.csv", [{"data_coleta": "2026-10-16", "termo": "inss"}])
+    with (pasta_dados / "geo_map.csv").open(encoding="utf-8") as f:
+        assert next(csv.reader(f)) == ["data_coleta", "termo"]
+
+    arm.LOG.write_text("", encoding="utf-8")
+    arm.registrar({"data_coleta": "2026-10-16", "status": "ok"})
+    with arm.LOG.open(encoding="utf-8") as f:
+        assert next(csv.reader(f)) == arm.CAMPOS_LOG
+
+
 def test_reserva_minima_interrompe(monkeypatch):
     import coletor.__main__ as m
     falso = ClienteFalso()
