@@ -23,12 +23,11 @@ def test_plano_respeita_orcamento():
     from coletor.plano import buscas_do_dia, carregar_config
     termos, coletas = carregar_config()
     d0 = dt.date(2026, 10, 16)
-    assert len(buscas_do_dia(d0, termos, coletas)) == 5 + 25 + 3 + 13
-    assert len(buscas_do_dia(d0 + dt.timedelta(1), termos, coletas)) == 33
+    assert len(buscas_do_dia(d0, termos, coletas)) == 11 + 55 + 3 + 33
+    assert len(buscas_do_dia(d0 + dt.timedelta(1), termos, coletas)) == 69
     total = sum(len(buscas_do_dia(d0 + dt.timedelta(i), termos, coletas)) for i in range(9))
-    assert total == 336          # 9 dias x 33 + 3 coletas de temas x 13
-    # nenhum dia passa do limite de 50 buscas por hora
-    assert max(len(buscas_do_dia(d0 + dt.timedelta(i), termos, coletas)) for i in range(9)) <= 50
+    assert total == 720          # 9 dias x 69 + 3 coletas de temas x 33
+    assert max(len(buscas_do_dia(d0 + dt.timedelta(i), termos, coletas)) for i in range(9)) == 102
     assert buscas_do_dia(dt.date(2026, 10, 25), termos, coletas) == []
 
 
@@ -49,13 +48,21 @@ def test_config_tem_apenas_os_termos_definidos():
         "sus", "upa", "ubs", "posto de saúde", "quem criou o sus",
         "prouni", "quem criou prouni", "fundeb", "escola pública",
         "bpc loas", "cadúnico", "aposentadoria 70 anos", "inss",
+        "roberta luchsinger", "luchsinger", "lulinha", "filho do lula",
+        "filho lula bateu", "lula lobista", "lula socio", "lula vorcaro",
+        "134 milhoes", "flavio vorcaro", "inimigo do trabalhador",
+        "privatizar o sus", "lottenberg", "flavio 6x1", "flavio miliciano",
+        "flavio ana clara", "flavio comando vermelho", "bolsonaro miliciano",
+        "armas bolsonaro", "inflacao bolsonaro",
     }
-    candidatos = {"lula", "bolsonaro", "flávio bolsonaro"}
+    candidatos = {"lula", "bolsonaro", "flavio bolsonaro"}
     assert set(termos["macrotemas"]) == temas | candidatos
     assert set(termos["candidatos"]) == candidatos
     buscas = buscas_do_dia(dt.date(2026, 10, 16), termos, coletas)
     relacionadas_temas = {b.termos[0] for b in buscas if b.job == "relacionadas_temas"}
     assert relacionadas_temas == temas
+    cand = next(b for b in buscas if b.grupo == "CAND")
+    assert cand.termos.count(termos["ancora"]) == 1
 
 
 def test_parse_geo_map_indice_ancora():
@@ -106,9 +113,9 @@ def test_executar_idempotente_e_sem_chave(monkeypatch, pasta_dados):
     monkeypatch.setattr(m.time, "sleep", lambda s: None)
     d = dt.date(2026, 10, 17)
     assert m.executar(d) == 0
-    assert falso.chamadas == 33
-    assert m.executar(d) == 0          # segunda vez: nada a coletar
-    assert falso.chamadas == 33
+    assert falso.chamadas == 50
+    assert m.executar(d) == 0          # retoma buscas pendentes após o limite horário
+    assert falso.chamadas == 69
     brutos = list((pasta_dados / "bruto" / "2026-10-17").glob("*.json"))
     assert brutos and all("NAO-DEVE-APARECER" not in p.read_text() for p in brutos)
     assert (pasta_dados / "geo_map.csv").exists() and (pasta_dados / "related_queries.csv").exists()

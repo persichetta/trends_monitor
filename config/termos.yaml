@@ -1,10 +1,9 @@
 # Termos monitorados no Google Trends
 #
 # Cada grupo vira UMA busca (o Google Trends compara até 5 termos por vez).
-# Todo grupo inclui a âncora, para que os valores de grupos diferentes
-# possam ser comparados entre si (ver docs/metodologia.md).
+# Todo grupo recebe a âncora, exceto quando ela já está listada no grupo.
 
-ancora: "bolsa família"
+ancora: "flavio bolsonaro"
 
 macrotemas:
   sus: Saúde
@@ -22,15 +21,41 @@ macrotemas:
   inss: Aposentadoria
   lula: Candidatos
   bolsonaro: Candidatos
-  flávio bolsonaro: Candidatos
+  flavio bolsonaro: Candidatos
+  roberta luchsinger: ATQ_LULA
+  luchsinger: ATQ_LULA
+  lulinha: ATQ_LULA
+  filho do lula: ATQ_LULA
+  filho lula bateu: ATQ_LULA
+  lula lobista: ATQ_LULA
+  lula socio: ATQ_LULA
+  lula vorcaro: ATQ_LULA
+  134 milhoes: ATQ_FLAVIO_ORG
+  flavio vorcaro: ATQ_FLAVIO_ORG
+  inimigo do trabalhador: ATQ_FLAVIO_ORG
+  privatizar o sus: ATQ_FLAVIO_ORG
+  lottenberg: ATQ_FLAVIO_ORG
+  flavio 6x1: ATQ_FLAVIO_ORG
+  flavio miliciano: ATQ_FLAVIO_PUSH
+  flavio ana clara: ATQ_FLAVIO_PUSH
+  flavio comando vermelho: ATQ_FLAVIO_PUSH
+  bolsonaro miliciano: ATQ_FLAVIO_PUSH
+  armas bolsonaro: ATQ_FLAVIO_PUSH
+  inflacao bolsonaro: ATQ_FLAVIO_PUSH
 
-# A âncora é adicionada automaticamente a cada grupo (não repita aqui).
+# A âncora é adicionada automaticamente quando não estiver no grupo.
 # Máximo de 4 termos por grupo (4 + âncora = 5, limite do Google Trends).
 grupos:
   G1: [sus, upa, ubs, posto de saúde]
   G2: [quem criou o sus, prouni, quem criou prouni, fundeb]
   G3: [escola pública, bpc loas, cadúnico, aposentadoria 70 anos]
   G4: [inss]
-  CAND: [lula, bolsonaro, flávio bolsonaro]
+  CAND: [lula, bolsonaro, flavio bolsonaro]
+  ATQ_LULA_1: [roberta luchsinger, luchsinger, lulinha, filho do lula]
+  ATQ_LULA_2: [filho lula bateu, lula lobista, lula socio, lula vorcaro]
+  ATQ_FLAVIO_ORG_1: [134 milhoes, flavio vorcaro, inimigo do trabalhador, privatizar o sus]
+  ATQ_FLAVIO_ORG_2: [lottenberg, flavio 6x1]
+  ATQ_FLAVIO_PUSH_1: [flavio miliciano, flavio ana clara, flavio comando vermelho, bolsonaro miliciano]
+  ATQ_FLAVIO_PUSH_2: [armas bolsonaro, inflacao bolsonaro]
 
-candidatos: [lula, flávio bolsonaro, bolsonaro]
+candidatos: [lula, flavio bolsonaro, bolsonaro]

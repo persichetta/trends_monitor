@@ -57,6 +57,38 @@ def criar_cliente(config: ConfigBigQuery):
     return bigquery.Client(project=projeto, credentials=credenciais, location=config.regiao)
 
 
+def _validar_schema_existente(tabela, destino: str, schema) -> set[str]:
+    """Valida os campos esperados, permitindo campos extras anuláveis no destino."""
+    aliases = {
+        "FLOAT": "FLOAT64",
+        "DOUBLE": "FLOAT64",
+        "BOOLEAN": "BOOL",
+        "INTEGER": "INT64",
+    }
+    campos_existentes = {campo.name: campo for campo in tabela.schema}
+    schema_esperado = dict(schema)
+    extras_nao_anulaveis = {
+        nome: (campo.field_type.upper(), campo.mode.upper())
+        for nome, campo in campos_existentes.items()
+        if nome not in schema_esperado and campo.mode.upper() != "NULLABLE"
+    }
+    tipos_incompativeis = {
+        nome: (
+            aliases.get(campos_existentes[nome].field_type.upper(), campos_existentes[nome].field_type.upper()),
+            tipo,
+        )
+        for nome, tipo in schema_esperado.items()
+        if nome in campos_existentes
+        and aliases.get(campos_existentes[nome].field_type.upper(), campos_existentes[nome].field_type.upper()) != tipo
+    }
+    if extras_nao_anulaveis or tipos_incompativeis:
+        raise ValueError(
+            f"Schema incompatível em {destino}; campos extras não anuláveis={extras_nao_anulaveis}, "
+            f"tipos incompatíveis={tipos_incompativeis}."
+        )
+    return set(campos_existentes)
+
+
 def _garantir_tabela(client, config: ConfigBigQuery, schema=SCHEMA):
     from google.api_core.exceptions import NotFound
     from google.cloud import bigquery
@@ -76,33 +108,12 @@ def _garantir_tabela(client, config: ConfigBigQuery, schema=SCHEMA):
         client.create_table(tabela)
         tabela = client.get_table(destino)
 
-    aliases = {
-        "FLOAT": "FLOAT64",
-        "DOUBLE": "FLOAT64",
-        "BOOLEAN": "BOOL",
-        "INTEGER": "INT64",
-    }
-    schema_existente = {
-        campo.name: aliases.get(campo.field_type.upper(), campo.field_type.upper())
-        for campo in tabela.schema
-    }
-    schema_esperado = dict(schema)
-    desconhecidos = set(schema_existente) - set(schema_esperado)
-    tipos_incompativeis = {
-        nome: (schema_existente[nome], tipo)
-        for nome, tipo in schema_esperado.items()
-        if nome in schema_existente and schema_existente[nome] != tipo
-    }
-    if desconhecidos or tipos_incompativeis:
-        raise ValueError(
-            f"Schema incompatível em {destino}; campos extras={sorted(desconhecidos)}, "
-            f"tipos incompatíveis={tipos_incompativeis}."
-        )
+    campos_existentes = _validar_schema_existente(tabela, destino, schema)
 
     faltantes = [
         bigquery.SchemaField(nome, tipo, mode="NULLABLE")
         for nome, tipo in schema
-        if nome not in schema_existente
+        if nome not in campos_existentes
     ]
     if faltantes:
         tabela.schema = list(tabela.schema) + faltantes

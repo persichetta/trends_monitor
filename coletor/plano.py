@@ -61,8 +61,6 @@ def carregar_segmentacao(coletas: dict) -> dict[tuple[str, str], dict]:
 def validar(termos: dict, coletas: dict) -> None:
     ancora = termos["ancora"]
     for nome, lista in termos["grupos"].items():
-        if ancora in lista:
-            raise ValueError(f"Grupo {nome}: não repita a âncora, ela é adicionada sozinha.")
         if len(lista) + 1 > 5:
             raise ValueError(f"Grupo {nome}: máximo de 4 termos + âncora.")
         for t in lista:
@@ -109,7 +107,9 @@ def buscas_do_dia(data: dt.date, termos: dict, coletas: dict) -> list[Busca]:
 
             if job["tipo"] in ("GEO_MAP", "TIMESERIES"):
                 for g in job["grupos"]:
-                    lista = termos["grupos"][g] + [termos["ancora"]]
+                    lista = list(termos["grupos"][g])
+                    if all(normalizar(t) != normalizar(termos["ancora"]) for t in lista):
+                        lista.append(termos["ancora"])
                     saida.append(Busca(job["nome"], job["tipo"], lista, {**base, "q": ",".join(lista)}, grupo=g, meta=meta))
             else:
                 for t in _termos_do_job(job, termos):

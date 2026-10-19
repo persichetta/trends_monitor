@@ -268,6 +268,33 @@ def test_schema_related_queries_tem_tipos_e_campos_proprios():
     assert schema["hora_ingestao"] == "TIMESTAMP"
 
 
+def test_bigquery_aceita_coluna_extra_anulavel():
+    from types import SimpleNamespace
+
+    from ingestao.bigquery import _validar_schema_existente
+
+    tabela = SimpleNamespace(schema=[
+        SimpleNamespace(name="data_coleta", field_type="DATE", mode="NULLABLE"),
+        SimpleNamespace(name="ingestao_id", field_type="STRING", mode="NULLABLE"),
+    ])
+    assert _validar_schema_existente(tabela, "projeto.dataset.tabela", (("data_coleta", "DATE"),)) == {
+        "data_coleta", "ingestao_id"
+    }
+
+
+def test_bigquery_rejeita_coluna_extra_obrigatoria():
+    from types import SimpleNamespace
+
+    from ingestao.bigquery import _validar_schema_existente
+
+    tabela = SimpleNamespace(schema=[
+        SimpleNamespace(name="data_coleta", field_type="DATE", mode="NULLABLE"),
+        SimpleNamespace(name="ingestao_id", field_type="STRING", mode="REQUIRED"),
+    ])
+    with pytest.raises(ValueError, match="ingestao_id.*STRING.*REQUIRED"):
+        _validar_schema_existente(tabela, "projeto.dataset.tabela", (("data_coleta", "DATE"),))
+
+
 def test_rotina_chama_coletor_antes_da_ingestao(monkeypatch):
     import datetime as dt
     import ingestao.rotina as rotina

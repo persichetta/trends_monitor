@@ -28,7 +28,7 @@
 
 - **"Chave SerpApi inválida (401)"**: confira o secret ou o `.env`, sem espaços nem aspas.
 - **"Limite por hora atingido"**: espere a próxima hora e rode de novo. O que já foi coletado não é refeito.
-- **"A reserva mínima seria atingida"**: a cota está acabando. Opções: contratar mais buscas, baixar `reserva_minima` em `config/coletas.yaml` ou tirar estados de `geos` no job `cidades` (cada estado = 5 buscas/dia).
+- **"A reserva mínima seria atingida"**: a cota está acabando. Opções: contratar mais buscas, baixar `reserva_minima` em `config/coletas.yaml` ou tirar estados de `geos` no job `cidades` (cada estado = 11 buscas/dia).
 - **Workflow não roda no horário**: o agendamento do GitHub pode atrasar até ~1h em horários de pico. Use **Run workflow** para rodar na mão.
 
 ## Mudar o plano sem estourar a cota

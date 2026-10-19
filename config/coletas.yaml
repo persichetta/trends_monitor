@@ -25,22 +25,22 @@ parametros_padrao:
   date: "now 7-d"
 
 jobs:
-  # 1) Mapa por estado: 1 busca por grupo = 5/dia
+  # 1) Mapa por estado: 1 busca por grupo = 11/dia
   - nome: estados
     tipo: GEO_MAP
     frequencia_dias: 1
     geo: BR
     region: REGION
-    grupos: [G1, G2, G3, G4, CAND]
+    grupos: [G1, G2, G3, G4, CAND, ATQ_LULA_1, ATQ_LULA_2, ATQ_FLAVIO_ORG_1, ATQ_FLAVIO_ORG_2, ATQ_FLAVIO_PUSH_1, ATQ_FLAVIO_PUSH_2]
 
-  # 2) Mapa por cidade nos 5 estados da segmentação: 5 grupos x 5 estados = 25/dia
+  # 2) Mapa por cidade nos 5 estados da segmentação: 11 grupos x 5 estados = 55/dia
   - nome: cidades
     tipo: GEO_MAP
     frequencia_dias: 1
     geos: [BR-SP, BR-MG, BR-PR, BR-SC, BR-GO]
     region: CITY
     include_low_search_volume: true
-    grupos: [G1, G2, G3, G4, CAND]
+    grupos: [G1, G2, G3, G4, CAND, ATQ_LULA_1, ATQ_LULA_2, ATQ_FLAVIO_ORG_1, ATQ_FLAVIO_ORG_2, ATQ_FLAVIO_PUSH_1, ATQ_FLAVIO_PUSH_2]
     cidades_alvo: [Campinas, Ribeirão Preto, Sorocaba, São José dos Campos, São José do Rio Preto]
 
   # 3) Buscas relacionadas aos candidatos: 1 por candidato = 3/dia
@@ -51,7 +51,7 @@ jobs:
     date: "now 1-d"
     termos: candidatos
 
-  # 4) Buscas relacionadas aos 14 termos de tema = 14 a cada 3 dias (16, 19, 22/10)
+  # 4) Buscas relacionadas aos 33 termos de tema = 33 a cada 3 dias (16, 19, 22/10)
   - nome: relacionadas_temas
     tipo: RELATED_QUERIES
     frequencia_dias: 3
